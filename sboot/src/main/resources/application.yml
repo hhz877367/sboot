@@ -1,0 +1,54 @@
+gmz:
+  # 名称
+  name: GMZ
+  # 版本
+  version: '@revision@'
+  # 版权年份
+  copyrightYear: 2020
+  # 文件路径 示例（ Windows配置E:/gerh/uploadPath，Linux配置 /home/gerh/uploadPath）
+  profile: D:/word
+  # 获取ip地址开关
+  addressEnabled: true
+  # 验证码开关
+  captchaEnabled: false
+  # 模块名称
+  module: gmz-screen
+
+
+server:
+    port: 8082
+    servlet:
+        context-path: /sboot
+
+#配置数据库的连接信息
+spring:
+  cache:
+    redis:
+      time-to-live: 3000
+      cache-null-values: true
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/stu?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    username: root
+    password: 123456
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jackson:
+    date-format: yyyy-MM-dd
+    time-zone: GMT+8
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 20000
+    database: 5
+    expireTime: 129600
+    jedis:
+      pool:
+        max-active: 8
+
+
+
+#给实体起别名，设置映射文件的路径。
+mybatis-plus:
+  type-aliases-package: com.baizhi.entity
+  mapper-locations: classpath*:com/baizhi/dao/*.xml
+

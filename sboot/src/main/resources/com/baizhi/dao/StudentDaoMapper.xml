@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!-- namespace的属性:指实现接口的全限定性名 -->
+<mapper namespace="com.baizhi.dao.StudentDao">
+	<resultMap id="Student" type="com.baizhi.entity.Student">
+			<result column="s_name"	property="sname" />
+			<result column="age"	property="age"/>
+			<result column="score"  property="score"/>
+			<result column="birth"  javaType="java.util.Date" property="birth"/>
+	</resultMap>
+
+
+	<select id="selectAll"  resultMap="Student">
+		select s_name,age,score,birth from stu
+	</select>
+	<insert id="inserCopy">
+		INSERT INTO gt_action_propose ( action_propose ) SELECT
+		action_standard AS action_propose
+		FROM
+			gt_action_standard
+
+	</insert>
+</mapper>
