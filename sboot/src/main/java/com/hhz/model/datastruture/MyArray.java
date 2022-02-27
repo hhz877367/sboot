@@ -1,7 +1,7 @@
 package com.hhz.model.datastruture;
 
 
-public class ArrayTest {
+public class MyArray {
   private int index;
   private int size;
   private int data[];
@@ -9,7 +9,7 @@ public class ArrayTest {
   public static void main(String[] args) {
 
     int[][] arr=new int[2][3];
-    ArrayTest list = new ArrayTest(10);
+    MyArray list = new MyArray(10);
     list.add(1,2);
     list.add(2,3);
     list.add(3,3);
@@ -23,7 +23,7 @@ public class ArrayTest {
   }
 
 
-  public  ArrayTest(int size){
+  public MyArray(int size){
     this.data= new int[size];
     this.size=size;
     index=0;

@@ -1,6 +1,10 @@
 package com.hhz.model.datastruture;
 
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 public class MyLinkList {
     private LikeNode head;
     private int size=0;
@@ -13,6 +17,7 @@ public class MyLinkList {
     linkList.priint();
 
   }
+  /*打印输出链表*/
     public void priint(){
       LikeNode cru=head;
       while (cru.next!=null){
@@ -68,7 +73,7 @@ public class MyLinkList {
 
 class LikeNode{
 
-  int value;
+   int value;
   LikeNode next;
 
   LikeNode(int value){
