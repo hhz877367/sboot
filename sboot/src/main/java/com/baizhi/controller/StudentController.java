@@ -27,34 +27,6 @@ public class StudentController {
   //http://localhost:8082/sboot/selectStudnrtAll user 123
   public AjaxResult selectStudnrtAll(){
     List<Student> students = studentService.selectAll();
-    int sum=1;
-    int sumIndex=0;
-    Long date1 = new Date().getTime();
-    int x=0;
-    for(int i=1;i<1000;i++){
-      for(int j=1;j<1000;j++){
-        x++;
-        if(x%10000==0){
-          System.out.println("执行了"+x/10000+"万次");
-          System.out.println(Utils.getStringDateByForm(new Date()));
-        }
-        if(sum>323232112){
-          sum=1;
-          sumIndex++;
-          List<Student> students2 = studentService.selectAll();
-        }else if(sum<323232112){
-          List<Student> students2 = studentService.selectAll();
-          sum=sum+j;
-        }
-      }
-    }
-    Long date2 = new Date().getTime();
-    System.out.println("循环了"+x+"次");
-    System.out.println(sumIndex);
-    System.out.println(sum);
-    long time=date2-date1;
-    System.out.println("消耗了"+time+"毫秒");
-
     return AjaxResult.success(students);
   }
 

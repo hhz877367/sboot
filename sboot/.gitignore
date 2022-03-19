@@ -82,7 +82,7 @@ DerivedData/
 !default.mode2v3
 !default.perspectivev3
 !default.xcworkspace
-workspace.xml
+
 #CocoaPods
 Pods/
 !Podfile
