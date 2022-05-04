@@ -8,6 +8,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import javax.annotation.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -45,7 +46,11 @@ public class StudentServiceImpl implements StudentService {
        List<Student> students = studentDao.selectAll();
        return new PageInfo<>(students);
    }
+    @Scheduled(cron = " */1 * * * * *")
+    public void testScheduled(){
 
+        System.out.println("进入方法--------------");
+    }
     @Override
     public boolean inserCopy() {
         return false;

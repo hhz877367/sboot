@@ -9,11 +9,13 @@ import java.util.Date;
 import javax.annotation.Resource;
 
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+
 public class StudentController {
   @Resource
   private StudentService studentService;
@@ -52,6 +54,7 @@ public class StudentController {
     System.out.println("進入方法");
     return AjaxResult.success(result);
   }
+
 
 
     /* @GetMapping("/user")

@@ -165,10 +165,22 @@
       <version>0.9.0</version>
     </dependency>
     <dependency>
+        <!--用于数字汉子转拼音-->
       <groupId>com.belerweb</groupId>
       <artifactId>pinyin4j</artifactId>
       <version>2.5.1</version>
     </dependency>
+      <!--rabitMQ导入的依赖-->
+      <dependency>
+          <groupId>com.rabbitmq</groupId>
+          <artifactId>amqp-client</artifactId>
+          <version>5.3.0</version>
+      </dependency>
+      <dependency>
+          <groupId>com.google.code.gson</groupId>
+          <artifactId>gson</artifactId>
+          <version>2.8.5</version>
+      </dependency>
   </dependencies>
     <build>
         <finalName>test37</finalName>

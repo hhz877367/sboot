@@ -6,12 +6,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 
 @MapperScan("com.baizhi.dao")
 //@EnableAspectJAutoProxy  关于aop类的注解
 @EnableGlobalMethodSecurity(securedEnabled = true)
 @SpringBootApplication()
+@EnableScheduling
 public class Application {
   public static void main(String[] args) {
     SpringApplication.run(Application.class, args);
