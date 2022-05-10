@@ -14,6 +14,8 @@ public class RabbitUtils {
         connectionFactory.setPassword("guest");
         connectionFactory.setVirtualHost("/");
         connectionFactory.setHost("localhost");
+        //设置连接那个虚拟主机
+       /* connectionFactory.setVirtualHost("/baiqi");*/
     }
     public static Connection getConnection(){
         Connection conn = null;

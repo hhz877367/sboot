@@ -14,7 +14,7 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 @EnableGlobalMethodSecurity(securedEnabled = true)
 @SpringBootApplication()
 @EnableScheduling
-public class Application {
+public class    Application {
   public static void main(String[] args) {
     SpringApplication.run(Application.class, args);
     System.out.println("(♥◠‿◠)ﾉﾞ sboot启动成功   ლ(´ڡ`ლ)ﾞ  \n" + " .-------.       ____     __  " + "   " +

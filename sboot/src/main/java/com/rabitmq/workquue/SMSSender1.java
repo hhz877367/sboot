@@ -1,4 +1,5 @@
 package com.rabitmq.workquue;
+import com.baizhi.entity.Person;
 import com.baizhi.util.RabbitConstant;
 import com.baizhi.util.RabbitUtils;
 import com.rabbitmq.client.*;
@@ -12,7 +13,6 @@ import java.io.IOException;
 public class SMSSender1 {
 
     public static void main(String[] args) throws IOException {
-
 
         Connection connection = RabbitUtils.getConnection();
         final Channel channel = connection.createChannel();

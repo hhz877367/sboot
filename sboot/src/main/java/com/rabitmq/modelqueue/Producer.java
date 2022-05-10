@@ -28,6 +28,7 @@ public class Producer {
         //第三个参数：是否队列私有化，false则代表所有消费者都可以访问，true代表只有第一次拥有它的消费者才能一直使用，其他消费者不让访问
         //第四个：是否自动删除,false代表连接停掉后不自动删除掉这个队列
         //其他额外的参数, null
+        //(如果不需要发布不需要队列，则此步骤不需要)
         channel.queueDeclare(RabbitConstant.QUEUE_HELLOWORLD,false, false, false, null);
 
         String message = "hello白起666";
