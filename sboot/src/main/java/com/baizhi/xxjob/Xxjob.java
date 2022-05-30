@@ -12,7 +12,7 @@ public class Xxjob {
     public static void main(String[] args) {
         Xxjob xxjob = new Xxjob();
     }
-    @Scheduled(cron = " */1 * * * * *")
+   // @Scheduled(cron = " */1 * * * * *")
     public  void lianxi(){
         System.out.println("aaa");
     }

@@ -46,7 +46,7 @@ public class StudentServiceImpl implements StudentService {
        List<Student> students = studentDao.selectAll();
        return new PageInfo<>(students);
    }
-    @Scheduled(cron = " */1 * * * * *")
+    //@Scheduled(cron = " */1 * * * * *")
     public void testScheduled(){
 
         System.out.println("进入方法--------------");
