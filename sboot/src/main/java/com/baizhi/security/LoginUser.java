@@ -1,11 +1,11 @@
 package com.baizhi.security;
 
-import java.util.Collection;
+/*import java.util.Collection;
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetails;*/
 
-public class LoginUser implements UserDetails {
-
+public class LoginUser /*implements UserDetails*/ {
+/*
   @Override
   public Collection<? extends GrantedAuthority> getAuthorities() {
     return null;
@@ -39,5 +39,5 @@ public class LoginUser implements UserDetails {
   @Override
   public boolean isEnabled() {
     return false;
-  }
+  }*/
 }

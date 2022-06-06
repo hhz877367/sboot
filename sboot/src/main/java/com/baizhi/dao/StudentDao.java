@@ -9,4 +9,6 @@ public interface StudentDao extends BaseMapper<Student> {
      List<Student> selectAll();
      //表复制语句
     boolean inserCopy();
+
+
 }

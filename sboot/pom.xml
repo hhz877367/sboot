@@ -12,7 +12,7 @@
 
   <groupId>com.baizhi</groupId>
   <artifactId>sboot</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>war</packaging>
 
   <name>sboot  自我练习</name>
@@ -34,10 +34,10 @@
     </dependency>
     <!-- 引入springSecurity  -->
 
-    <dependency>
+<!--    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-security</artifactId>
-    </dependency>
+    </dependency>-->
 
     <dependency>
       <groupId>org.apache.commons</groupId>
@@ -131,7 +131,6 @@
           <scope>provided</scope>
       </dependency>
 
-
       <dependency>
           <groupId>jstl</groupId>
           <artifactId>jstl</artifactId>
@@ -172,10 +171,28 @@
     </dependency>
       <!--rabitMQ导入的依赖-->
       <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-amqp</artifactId>
+      </dependency>
+      <dependency>
           <groupId>com.rabbitmq</groupId>
           <artifactId>amqp-client</artifactId>
           <version>5.3.0</version>
       </dependency>
+      <!--
+            导入swagger2
+      -->
+      <dependency>
+          <groupId>io.springfox</groupId>
+          <artifactId>springfox-swagger2</artifactId>
+          <version>2.6.0</version>
+      </dependency>
+      <dependency>
+          <groupId>io.springfox</groupId>
+          <artifactId>springfox-swagger-ui</artifactId>
+          <version>2.6.0</version>
+      </dependency>
+
       <dependency>
           <groupId>com.google.code.gson</groupId>
           <artifactId>gson</artifactId>
