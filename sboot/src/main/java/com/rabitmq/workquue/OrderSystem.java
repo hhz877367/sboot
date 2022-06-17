@@ -17,7 +17,7 @@ public class OrderSystem {
         Connection connection = RabbitUtils.getConnection();
         Channel channel = connection.createChannel();
         channel.queueDeclare(RabbitConstant.QUEUE_SMS, false, false, false, null);
-
+        System.out.println(channel.toString());
         for(int i = 1 ; i <= 100 ; i++) {
             SMS sms = new SMS("乘客" + i, "13900000" + i, "您的车票已预订成功");
             String jsonSMS = new Gson().toJson(sms);

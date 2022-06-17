@@ -1,21 +1,25 @@
 package com.baizhi.controller;
 
 import com.baizhi.constant.AjaxResult;
+import com.baizhi.entity.GtCollect;
 import com.baizhi.entity.Person;
 import com.baizhi.entity.Student;
+import com.baizhi.entity.Train;
 import com.baizhi.service.StudentService;
-import com.baizhi.util.Utils;
-import java.util.Date;
+
 import javax.annotation.Resource;
 
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.context.request.RequestAttributes;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
 
 import java.util.List;
 
 @RestController
-public class StudentController {
+public class StudentController extends BaseController{
+
   @Resource
   private StudentService studentService;
 
@@ -26,10 +30,35 @@ public class StudentController {
 
   @GetMapping("/selectStudnrtAll")
   //http://localhost:8082/sboot/selectStudnrtAll user 123
-  public AjaxResult selectStudnrtAll(){
+  @Page
+  public AjaxResult selectStudnrtAll(Integer pageNum,Integer pageSize){
+    ServletRequestAttributes request = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
+    request.getRequest().getParameter("pageNum");
+    Train train = new Train();
+    Class  t= Train.class;
+    Class aClass = train.getClass();
+    System.out.println(t==aClass);
+    System.out.println(t.equals(aClass));
+    System.out.println(studentService.toString());
     List<Student> students = studentService.selectAll();
-    return AjaxResult.success(students);
+    return getDataTable(students);
   }
+
+
+  @GetMapping("/insertStu")
+  public AjaxResult insertStu(){
+    for(int i=0;i<100;i++){
+      Student student = new Student();
+      student.setSname("张三"+i);
+      student.setAge("100"+i);
+      studentService.insert(student);
+    }
+
+
+
+    return AjaxResult.success("插入成功");
+  }
+
 
   @GetMapping("/addRedis")
   public  AjaxResult addRedis(){
@@ -38,8 +67,6 @@ public class StudentController {
     person.setName("zs");
     person.setId("11");
     redisTemplate.opsForValue().set("gmz-screen:2",person);
-
-
     return AjaxResult.success("操作成功");
   }
 
@@ -52,6 +79,11 @@ public class StudentController {
     }
     System.out.println("進入方法");
     return AjaxResult.success(result);
+  }
+  @GetMapping("/selectGtCollect")
+  public  AjaxResult selectAll(int curPage,int pageSize ){
+    List<GtCollect> gtCollects = studentService.selectGtCollect(curPage, pageSize);
+    return AjaxResult.success(gtCollects);
   }
 
 

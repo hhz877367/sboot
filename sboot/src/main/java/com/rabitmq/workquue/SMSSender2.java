@@ -15,6 +15,7 @@ public class SMSSender2 {
 
 
         Connection connection = RabbitUtils.getConnection();
+        System.out.println(connection.toString());
         final Channel channel = connection.createChannel();
 
         channel.queueDeclare(RabbitConstant.QUEUE_SMS, false, false, false, null);

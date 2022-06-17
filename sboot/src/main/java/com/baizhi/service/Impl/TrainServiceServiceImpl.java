@@ -2,9 +2,9 @@ package com.baizhi.service.Impl;
 
 import com.baizhi.constant.StringUtils;
 import com.baizhi.dao.TrainDao;
+import com.baizhi.entity.Student;
 import com.baizhi.entity.Train;
 import com.baizhi.rabbitmq.config.DelayConfig;
-import com.baizhi.rabbitmq.config.NomalTopicConfig;
 import com.baizhi.service.TrainService;
 import com.baizhi.util.Utils;
 import org.springframework.amqp.AmqpException;
@@ -21,11 +21,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.UUID;
 
 
-@Transactional
 @Service
 @Scope("prototype")
 public class TrainServiceServiceImpl implements TrainService {
@@ -38,20 +38,33 @@ public class TrainServiceServiceImpl implements TrainService {
 
     @Override
     public void testTopicConfirm(String time) throws AmqpException, UnsupportedEncodingException  {
-        System.out.println("执行testConfirm");
-        //进行消息发送
+// (NomalTopicConfig.TOPIC_EXCHANGGE,"confirm","message Confirm...",new CorrelationData("全局变量哈哈哈"));
+        ArrayList<Student> list = new ArrayList<>();
+        for(int i=0;i<1;i++){
+            try {
+                stest5000(i,time,list);
+                if(i%300000==0){
+               System.out.println("发送第"+i+"条消息");
+                Thread.sleep(1000);
+                }
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
 
-        for (int i = 0; i < 5; i++) {
-            System.out.println("发送消息");
-            rabbitTemplate.convertAndSend(NomalTopicConfig.TOPIC_EXCHANGGE,"confirm","message Confirm...",new CorrelationData("全局变量哈哈哈"));
+
         }
-/*
-        //进行睡眠操作
-        try {
-            Thread.sleep(5000);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }*/
+    }
+    private void stest5000(int i,String time,   ArrayList<Student> list ){
+        list.clear();
+        Student student = new Student();
+        rabbitTemplate.convertAndSend(DelayConfig.EXCHANGGE_NAME, DelayConfig.QUEUE_NAME,i, new MessagePostProcessor() {
+            @Override
+            public Message postProcessMessage(Message message) throws AmqpException {
+                //使用延迟插件只需要在消息的header中添加x-delay属性，值为过期时间，单位毫秒
+                message.getMessageProperties().setHeader("x-delay",time);
+                return message;
+            }
+        },new CorrelationData("第"+i+"条消息"));
     }
 
     @Override
