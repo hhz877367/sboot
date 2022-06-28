@@ -4,7 +4,7 @@
 <mapper namespace="com.baizhi.dao.TrainDao">
 	<resultMap id="train" type="com.baizhi.entity.Train">
 			<result column="train_id"	property="trainId" />
-			<result column="start_time"	property="startTime"/>
+			<result column="start_time"	property="localDate"/>
 	</resultMap>
 
 

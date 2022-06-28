@@ -15,6 +15,7 @@ import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
+import java.util.HashMap;
 import java.util.List;
 
 @RestController
@@ -26,12 +27,20 @@ public class StudentController extends BaseController{
   @Resource
   RedisTemplate redisTemplate;
 
+  private HashMap<String,String> map=new HashMap<String,String>();
 
 
   @GetMapping("/selectStudnrtAll")
   //http://localhost:8082/sboot/selectStudnrtAll user 123
   @Page
   public AjaxResult selectStudnrtAll(Integer pageNum,Integer pageSize){
+    try {
+      Thread.sleep(10000);
+      System.out.println(Thread.currentThread().getName()+"-----"+"当前线程");
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
+    map.put("aa","aa");
     ServletRequestAttributes request = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
     request.getRequest().getParameter("pageNum");
     Train train = new Train();

@@ -28,4 +28,6 @@ public class Student implements Serializable {
     private String score;
     private Date birth;
 
+    private int count;
+
 }

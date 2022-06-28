@@ -2,11 +2,14 @@ package com.baizhi.service.Impl;
 
 import com.baizhi.constant.StringUtils;
 import com.baizhi.dao.TrainDao;
+import com.baizhi.entity.HhzTestWait;
 import com.baizhi.entity.Student;
 import com.baizhi.entity.Train;
 import com.baizhi.rabbitmq.config.DelayConfig;
 import com.baizhi.service.TrainService;
 import com.baizhi.util.Utils;
+import org.apache.poi.ss.formula.functions.T;
+import org.openjdk.jol.info.ClassLayout;
 import org.springframework.amqp.AmqpException;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessagePostProcessor;
@@ -35,6 +38,8 @@ public class TrainServiceServiceImpl implements TrainService {
 
     @Resource
     private TrainDao trainDao;
+
+    private  static HhzTestWait student = new HhzTestWait();
 
     @Override
     public void testTopicConfirm(String time) throws AmqpException, UnsupportedEncodingException  {
@@ -164,6 +169,92 @@ public class TrainServiceServiceImpl implements TrainService {
 */
 
 
+    }
+
+    @Override
+    public void testTrainDate() {
+
+       // System.out.println(ClassLayout.parseInstance(train).toPrintable());]
+      /*  synchronized(student) {
+            System.out.println(Thread.currentThread().getName() + "进入notifyAll");
+            try {
+                student.notifyAll();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }*/
+ /*       synchronized(Student.class){
+            System.out.println(Thread.currentThread().getName()+"进入wait");
+            try {
+               Thread.sleep(10000);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            System.out.println(Thread.currentThread().getName()+"执行完毕");
+        }
+
+        synchronized(student){
+            System.out.println(Thread.currentThread().getName()+"进入wait");
+            try {
+               Thread.sleep(10000);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            System.out.println(Thread.currentThread().getName()+"执行完毕");
+        }*/
+        System.out.println(this.student);
+        synchronized(this.student){
+            System.out.println(Thread.currentThread().getName()+"进入wait");
+            try {
+               Thread.sleep(10000);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            System.out.println(Thread.currentThread().getName()+"执行完毕");
+        }
+
+
+  /*      synchronized(HhzTestWait.class) {
+            System.out.println(Thread.currentThread().getName() + "进入notifyAll");
+            try {
+                HhzTestWait.class.notifyAll();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }*/
+   /*     synchronized(HhzTestWait.class){
+            System.out.println(Thread.currentThread().getName()+"进入wait");
+            try {
+               Thread.sleep(10000);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            System.out.println(Thread.currentThread().getName()+"执行完毕");
+        }*/
+
+ /*       synchronized (train){
+            System.out.println(ClassLayout.parseInstance(train).toPrintable());
+            try {
+                new Thread(()->{
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    synchronized (train){
+                        train.notifyAll();
+                    }
+
+                        System.out.println("执行  train.notifyAll()");
+                }).start();
+                train.wait();
+                System.out.println(ClassLayout.parseInstance(train).toPrintable());
+                System.out.println("执行train.wait()");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }*/
+        System.out.println(student.toString());
     }
 
     //通过训练ID，定义训练的自动发送报文的接口

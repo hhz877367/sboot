@@ -25,4 +25,8 @@ public interface TrainService {
     //通过训练ID，定义训练的自动发送报文的接口
     public void testDlx(Train train);
 
+    //测试查date
+    public void testTrainDate();
+
+
 }

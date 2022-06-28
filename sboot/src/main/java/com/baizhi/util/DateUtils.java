@@ -1,5 +1,6 @@
 package com.baizhi.util;
 
+import io.swagger.models.auth.In;
 import org.apache.commons.lang3.time.DateFormatUtils;
 
 import java.lang.management.ManagementFactory;
@@ -37,6 +38,9 @@ public class DateUtils extends org.apache.commons.lang3.time.DateUtils {
      */
     public static Date getNowDate() {
         return new Date();
+    }
+    public static String dateTimeNowYYYYMMDD() {
+        return dateTimeNow(YYYYMMDDHHMMSS);
     }
 
     /**
@@ -276,8 +280,35 @@ public class DateUtils extends org.apache.commons.lang3.time.DateUtils {
             dateTime = LocalDateTime.now();
         }
         LocalDateTime localDate = LocalDateTime.of(dateTime.getYear(), dateTime.getMonth(), dateTime.getDayOfMonth(), 0 ,0 ,0);
-
         return localDate.plusDays(day);
+    }
+
+    /**
+     * 给指定日期加N天
+     *
+     * @param date 时间
+     * @return
+     * @author wyy
+     */
+    public static Date plusDateByInt(Date date, Integer n) {
+        Calendar calendar = new GregorianCalendar();
+        calendar.setTime(date);
+        calendar.add(calendar.DATE, n); //把日期往后增加一天,整数  往后推,负数往前移动
+        date = calendar.getTime(); //这个时间就是日期往后推一天的结果
+        return date;
+    }
+
+    public static void main(String[] args) {
+        Date date = new Date();
+        String dateStr = Utils.getStringDateByForm(date);
+        System.out.println(dateStr);
+
+        Date dateAdd = plusDateByInt(date, 1);
+        String dateStrAdd = Utils.getStringDateByForm(dateAdd);
+        System.out.println(dateStrAdd);
+
+
+
     }
 
 }

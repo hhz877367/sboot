@@ -24,7 +24,7 @@ public class MergeSoft {
             megerSort(data, mid + 1, right);
             // 分完了 接下来就要进行合并，也就是我们递归里面归的过程
             System.out.println(left+"---"+right);
-           // meger(data, left, mid, right);
+            meger(data, left, mid, right);
         }
     }
 
