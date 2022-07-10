@@ -14,22 +14,36 @@ public class CountDownLatchTest2 {
             final int index = i;
             new Thread(() -> {
                 try {
-                    Thread.sleep(1000 +
-                            ThreadLocalRandom.current().nextInt(1000));
                     System.out.println(Thread.currentThread().getName()
                             + " finish task" + index);
 
                     countDownLatch.countDown();
-                } catch (InterruptedException e) {
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
             }).start();
         }
 
-
+        //其他线程也可阻塞
+        for(int j=0;j<10;j++){
+            new Thread(()->{
+                try {
+                    countDownLatch.await();
+                    System.out.println("其他线程可执行");
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("");
+            }).start();
+        }
 
         // 主线程在阻塞，当计数器==0，就唤醒主线程往下执行。
         countDownLatch.await();
+
+
+
+        long count = countDownLatch.getCount();
+        System.out.println(count);
         System.out.println("主线程:在所有任务运行完成后，进行结果汇总");
 
     }

@@ -31,7 +31,6 @@ public class CyclicBarrierTest2 {
     public void count(){
         for(int i=0;i<3;i++){
             threadPool.execute(new Runnable(){
-
                 @Override
                 public void run() {
                     //获取学生平均成绩

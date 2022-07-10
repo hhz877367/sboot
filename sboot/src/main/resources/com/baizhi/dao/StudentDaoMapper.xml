@@ -19,7 +19,7 @@
 
 
     <select id="selectAll" resultMap="Student">
-		select s_name,age,score,birth from stu
+		select sname,age,score,birth from student
 	</select>
     <insert id="inserCopy">
 		INSERT INTO gt_action_propose ( action_propose ) SELECT

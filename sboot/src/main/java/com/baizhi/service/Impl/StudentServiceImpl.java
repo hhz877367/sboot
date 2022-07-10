@@ -8,6 +8,7 @@ import com.baizhi.service.StudentService;
 import com.baizhi.util.PageUtils;
 import com.baizhi.util.Utils;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import javax.annotation.Resource;
@@ -24,7 +25,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 import java.util.List;
-@Component
+import java.util.concurrent.locks.ReentrantLock;
+@Service
 public class StudentServiceImpl implements StudentService{
 
     @Resource
@@ -81,6 +83,37 @@ public class StudentServiceImpl implements StudentService{
         return taskList;
     }
 
+    @Override
+    public void setCountThread() {
+        for(int i=0;i<100;i++){
+            new Thread(()->{
+                    try{
+                        Student student = studentDao.selectById("1");
+                        student.setCount(student.getCount()+1);
+                        Student where = new Student();
+                        where.setId(1);
+                        where.setVersion(student.getVersion());
+                        UpdateWrapper<Student> wrapper = new UpdateWrapper<>();
+                        wrapper.setEntity(where);
+                        student.setVersion(student.getVersion()+1);
+                        int update = studentDao.update(student, wrapper);
+                        if(update==0){
+                            System.out.println("更新失败");
+                            try {
 
+                            } catch (Exception e) {
+                                e.printStackTrace();
+                            }
+                        }else {
+                            System.out.println("更新成功");
 
+                        }
+
+                    }catch (Exception e){
+
+                    }finally {
+                    }
+                }).start();
+            }
+    }
 }

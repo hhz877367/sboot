@@ -9,6 +9,9 @@ import java.util.stream.Collectors;
 public class SumCountUtilTest {
     public static void main(String[] args) {
         List<Student> list = getList();
+
+        long countSexMan = list.stream().filter(student -> student.getSex()==1).count();
+
         long l = System.currentTimeMillis();
         Map<String, List<Student>> collect1 = list.stream().collect(Collectors.groupingBy(Student::getSname));
         long l1 = System.currentTimeMillis();

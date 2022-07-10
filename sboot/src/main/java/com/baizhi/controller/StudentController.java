@@ -9,7 +9,15 @@ import com.baizhi.service.StudentService;
 
 import javax.annotation.Resource;
 
+import com.baizhi.springLisiter.HHZLisiterObject;
+import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
+import org.springframework.context.ApplicationEvent;
+import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
@@ -17,29 +25,39 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
+import java.util.Map;
 
 @RestController
-public class StudentController extends BaseController{
+@EnableScheduling
+public class StudentController extends BaseController implements ApplicationContextAware {
+
+  private ApplicationContext applicationContext;
+
+  @Autowired
+  private  List<StudentService> StudentService2;
+
+  @Autowired
+  private Map<String,StudentService> StudentService3;
+
 
   @Resource
-  private StudentService studentService;
-
+  private  StudentService studentService;
   @Resource
   RedisTemplate redisTemplate;
 
   private HashMap<String,String> map=new HashMap<String,String>();
 
+  @Autowired
+  private  ApplicationEventPublisher applicationEventPublisher;
 
   @GetMapping("/selectStudnrtAll")
   //http://localhost:8082/sboot/selectStudnrtAll user 123
   @Page
   public AjaxResult selectStudnrtAll(Integer pageNum,Integer pageSize){
-    try {
-      Thread.sleep(10000);
-      System.out.println(Thread.currentThread().getName()+"-----"+"当前线程");
-    } catch (InterruptedException e) {
-      e.printStackTrace();
-    }
+    //String message = applicationContext.getMessage("hhz", null, new Locale("en"));
+    applicationEventPublisher.publishEvent(new HHZLisiterObject("哈哈哈，我是被监听的"));
+    applicationContext.publishEvent("12345");
     map.put("aa","aa");
     ServletRequestAttributes request = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
     request.getRequest().getParameter("pageNum");
@@ -93,6 +111,18 @@ public class StudentController extends BaseController{
   public  AjaxResult selectAll(int curPage,int pageSize ){
     List<GtCollect> gtCollects = studentService.selectGtCollect(curPage, pageSize);
     return AjaxResult.success(gtCollects);
+  }
+
+
+  @GetMapping("/setCountThread")
+  public  AjaxResult setCountThread(){
+    studentService.setCountThread();
+    return AjaxResult.success("修改成功");
+  }
+
+  @Override
+  public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+    this.applicationContext=applicationContext;
   }
 
 

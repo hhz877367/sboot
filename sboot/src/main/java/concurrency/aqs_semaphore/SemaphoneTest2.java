@@ -9,7 +9,7 @@ public class SemaphoneTest2 {
     /**
      * 实现一个同时只能处理5个请求的限流器
      */
-    private static Semaphore semaphore = new Semaphore(5);
+    private static Semaphore semaphore = new Semaphore(5,true);
 
     /**
      * 定义一个线程池
@@ -22,14 +22,14 @@ public class SemaphoneTest2 {
      */
     public static void exec() {
         try {
-            semaphore.acquire(5);
+            semaphore.acquire(1);
             // 模拟真实方法执行
             System.out.println("执行exec方法" );
             Thread.sleep(2000);
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            semaphore.release(5);
+            semaphore.release(1);
         }
     }
 

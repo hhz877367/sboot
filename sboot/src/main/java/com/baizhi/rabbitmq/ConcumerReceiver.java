@@ -12,9 +12,9 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 import java.io.IOException;
 
-@Component
+/*@Component*/
 public class ConcumerReceiver {
-	@RabbitListener(queues="delay_queue")
+	/*@RabbitListener(queues="delay_queue")*/
 	public void topicReceiveqPeople(String message, Channel channel,@Header(AmqpHeaders.DELIVERY_TAG) long deliveryTag) {
 		try {
 			System.out.println("定时器1111---------消费delay_queue队列中的消息"+message);

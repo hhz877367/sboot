@@ -19,7 +19,6 @@ public class Test {
         list.add(s2);
         list.add(s2);
         list.add(s2);
-
         List<Student> list2 = list.stream().map(e ->{
             Student stu2 = new Student();
             stu2.setSname(e.getSname());

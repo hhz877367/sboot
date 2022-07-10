@@ -9,13 +9,13 @@ public class HHInstationAwareBeanPoseProcessor implements InstantiationAwareBean
 
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
-        System.out.println(beanName+"实例化前+HHInstationAwareBeanPoseProcessor");
+      //  System.out.println(beanName+"实例化前+HHInstationAwareBeanPoseProcessor");
         return bean;
     }
 
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
-        System.out.println(beanName+"实例化后+HHInstationAwareBeanPoseProcessor");
+       // System.out.println(beanName+"实例化后+HHInstationAwareBeanPoseProcessor");
         return bean;
     }
 }

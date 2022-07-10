@@ -1,11 +1,16 @@
 package com.baizhi;
-
+import org.redisson.Redisson;
+import org.redisson.config.Config;
 import org.mybatis.spring.annotation.MapperScan;
+import org.redisson.Redisson;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.context.MessageSource;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.scheduling.annotation.EnableScheduling;
 /*import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;*/
 
@@ -25,4 +30,9 @@ public class    Application {
         " |  |  \\    /  \\  " + "    /          " + " \n" + " ''-'   " +
         "`'-'    `-..-'              ");
   }
+
+
+
+
+
 }

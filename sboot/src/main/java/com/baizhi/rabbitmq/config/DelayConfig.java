@@ -17,12 +17,12 @@ import java.util.HashMap;
 * 自定义消息队列时间
 * */
 
-@Configuration
+/*@Configuration*/
 public class DelayConfig {
     public static final String QUEUE_NAME="delay_queue";
     public static final String EXCHANGGE_NAME="test_delay_exchange";
 
-    @Bean
+ /*   @Bean
     public CustomExchange delayExchage(){
         HashMap<String, Object> map = new HashMap<>();
         map.put("x-delayed-type","direct");
@@ -44,10 +44,10 @@ public class DelayConfig {
         RabbitTemplate rabbitTemplate = new RabbitTemplate(connectionFactory);
         //设置全局处理参数
         rabbitTemplate.setConfirmCallback(new RabbitTemplate.ConfirmCallback() {
-            /**
+            *//**
              * @param correlationData 相关配置信息
              * @param ack   exchange交换机 是否成功收到了消息。true 成功，false代表失败
-             * @param cause 失败原因*/
+             * @param cause 失败原因*//*
             @Override
             public void confirm(CorrelationData correlationData, boolean ack, String cause) {
                System.out.println(correlationData);
@@ -68,6 +68,6 @@ public class DelayConfig {
             }
         });
         return rabbitTemplate;
-    }
+    }*/
 
 }

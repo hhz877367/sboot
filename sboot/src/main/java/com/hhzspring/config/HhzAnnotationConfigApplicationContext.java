@@ -64,6 +64,7 @@ public class HhzAnnotationConfigApplicationContext {
         for (String pathUrl : clazzPathList) {
             try {
                 Class<?> clazz = classLoader.loadClass(pathUrl);
+
                 //得到HhzComponent注解的class对象
                 if(clazz.isAnnotationPresent(HhzComponent.class)){
                     BeanDefinition beanDefinition = new BeanDefinition();
