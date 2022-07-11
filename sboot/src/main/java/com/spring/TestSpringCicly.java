@@ -3,7 +3,6 @@ package com.spring;
 import org.springframework.context.SmartLifecycle;
 import org.springframework.stereotype.Component;
 
-@Component
 public class TestSpringCicly  implements SmartLifecycle {
     @Override
     public void start() {

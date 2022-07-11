@@ -1,8 +1,6 @@
 package com.baizhi.util;
 
-import com.baizhi.entity.Dog;
 import com.baizhi.entity.Student;
-import lombok.Data;
 
 import javax.annotation.Resource;
 import java.lang.reflect.Field;

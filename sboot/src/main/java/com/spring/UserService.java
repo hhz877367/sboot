@@ -11,13 +11,13 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
 
-@Component
+
 public class UserService  {
 
 
     private OrderService orderService;
 
-    @Autowired
+
     private ResourceLoader resourceLoader;
 
 
@@ -26,9 +26,7 @@ public class UserService  {
         System.out.println("执行Uservice___test");
     }
 
-    public UserService(OrderService orderService){
-        this.orderService=orderService;
-    }
+
 
  /*   private String aaa;
 

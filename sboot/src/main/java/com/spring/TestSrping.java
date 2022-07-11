@@ -17,16 +17,20 @@ public class TestSrping {
        // ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         System.out.println("开始getBean之前");
+        OrderService orderService = (OrderService)context.getBean("orderService");
+        System.out.println("orderService--"+orderService);
 
-        UserService userService = (UserService)context.getBean("userService");
+     UserService userService = (UserService)context.getBean("userService");
         userService.test();
 
-        UserService userService2 = (UserService)context.getBean("userService");
-        userService2.test();
+         /*  UserService userService2 = (UserService)context.getBean("userService");
+        userService2.test();*/
 
-        OrderService orderService = context.getBean("orderService",OrderService.class);
-        System.out.println(orderService.toString());
+        OrderService orderService2 = context.getBean("orderService",OrderService.class);
+        System.out.println(orderService2.toString());
 
+        TestConfiguration testConfiguration = context.getBean("testConfiguration",TestConfiguration.class);
+        testConfiguration.test();
 
    /*     System.out.println(context.getBean("userService"));
         System.out.println(context.getBean("zhouyuBeanPostProcessor"));

@@ -3,9 +3,11 @@ package com.spring;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ResourceBundleMessageSource;
 
 @ComponentScan("com.spring")
+@Configuration(proxyBeanMethods = true)
 public class AppConfig {
 /*  @PostConstruct
   public  void a(){

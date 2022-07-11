@@ -6,8 +6,11 @@ import org.springframework.core.type.ClassMetadata;
 import org.springframework.core.type.classreading.MetadataReader;
 import org.springframework.core.type.classreading.SimpleMetadataReaderFactory;
 
+import javax.security.auth.login.Configuration;
 import java.io.IOException;
+import java.util.Map;
 
+//spring的ClassMetaData的用法 / mateDate
 public class UtilsSpringClassMetaDataReader {
 
 
@@ -17,6 +20,8 @@ public class UtilsSpringClassMetaDataReader {
 
         MetadataReader reader = getClassMetadata(stu.getName());
         AnnotationMetadata stuAnnotationMetadata = reader.getAnnotationMetadata();
+
+
         ClassMetadata stuClassMetaData = reader.getClassMetadata();
         System.out.println("判断student是否是抽象方法"+stuClassMetaData.isAbstract());
         boolean annotation = stuClassMetaData.isAnnotation();
