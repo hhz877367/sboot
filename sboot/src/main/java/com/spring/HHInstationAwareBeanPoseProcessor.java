@@ -3,7 +3,7 @@ package com.spring;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor;
 import org.springframework.stereotype.Component;
-
+@Component
 public class HHInstationAwareBeanPoseProcessor implements InstantiationAwareBeanPostProcessor {
 
     @Override

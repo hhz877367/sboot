@@ -1,12 +1,12 @@
-package com.hhz.model.soft;
+package algorithm._05排序._01_递进;
 
 import java.util.Arrays;
 
-public class MergeSoft {
+public class _03归并排序 {
     /*
-    *  归并排序: 就是先把一组数据，通过递归的方式，拆分成一个数为止。在递归合并的过程中，进行排序
-    *
-    * */
+     *  归并排序: 就是先把一组数据，通过递归的方式，拆分成一个数为止。在递归合并的过程中，进行排序
+     * nlogn;   拆分数组 logn  ,遍历数组 n
+     * */
 
     public static void main(String[] args) {
 
@@ -57,7 +57,5 @@ public class MergeSoft {
             data[i] = temp[i];
         }
     }
-
-
 
 }

@@ -37,10 +37,52 @@ public class StudentServiceImpl implements StudentService{
 
 
 
+    /*
+    * isolation  隔离级别  主要是set到连接里，数据库对应的
+    * propagation 传播机制
+    *  需求1  在执行a() 方法时，需要开启新的事务
+    *mandatory 强制事务执行，如果不存在事务，则会抛异常
+    *required_new 不管当前事务是否存在，都会新建一个事务
+    * nested 如果当前存在事务，就嵌套当前事务中去执行，如果当前没有事务，那么就新建一个事务，类似 REQUIRE_NEW这个样一个传播行为
+    *required  默认最友好 存在则加入，不存在则创建
+    *supports  表示支持当前当前的事务，如果当前不存在事务，就以非事务的方式去执行
+    *
+    * not_support  表示当前如果有事务，则挂起当前事务，并且不开启新的事务
+    * NEVER     从不支持事务，不存在则报错
+    * */
     @Override
-    @Transactional(propagation = Propagation.REQUIRED)
+    @Transactional
     public void insert(Student s) {
-        studentDao.insert(s);
+                s.setAge("1");
+                studentDao.insert(s);
+                studentDao.insert(s);
+                s.setAge("2");
+                studentDao.insert(s);
+                s.setAge("3");
+                try {
+                    studentService.testa();
+                }catch (Exception e){
+                     e.printStackTrace();
+                }
+
+                s.setAge("1");
+                studentDao.insert(s);
+                studentDao.insert(s);
+                s.setAge("2");
+                studentDao.insert(s);
+                s.setAge("3");
+            int c=1/0;
+    }
+
+    @Override
+    /*
+    *
+    * */
+    @Transactional(propagation = Propagation.SUPPORTS)
+    public void testa() {
+        Student student = new Student();
+        student.setAge("bbbbbb");
+        studentDao.insert(student);
     }
 
     @Override

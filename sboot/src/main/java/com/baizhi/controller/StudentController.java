@@ -10,6 +10,7 @@ import com.baizhi.service.StudentService;
 import javax.annotation.Resource;
 
 import com.baizhi.springLisiter.HHZLisiterObject;
+import com.baizhi.xxjob.TestComponentScan;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -34,6 +35,9 @@ public class StudentController extends BaseController implements ApplicationCont
 
   private ApplicationContext applicationContext;
 
+  @Resource
+  private TestComponentScan testComponentScan;
+
   @Autowired
   private  List<StudentService> StudentService2;
 
@@ -55,6 +59,8 @@ public class StudentController extends BaseController implements ApplicationCont
   //http://localhost:8082/sboot/selectStudnrtAll user 123
   @Page
   public AjaxResult selectStudnrtAll(Integer pageNum,Integer pageSize){
+    testComponentScan.test();
+
     //String message = applicationContext.getMessage("hhz", null, new Locale("en"));
     applicationEventPublisher.publishEvent(new HHZLisiterObject("哈哈哈，我是被监听的"));
     applicationContext.publishEvent("12345");
@@ -74,15 +80,10 @@ public class StudentController extends BaseController implements ApplicationCont
 
   @GetMapping("/insertStu")
   public AjaxResult insertStu(){
-    for(int i=0;i<100;i++){
       Student student = new Student();
-      student.setSname("张三"+i);
-      student.setAge("100"+i);
+      student.setSname("张三"+1);
+      student.setAge("100"+1);
       studentService.insert(student);
-    }
-
-
-
     return AjaxResult.success("插入成功");
   }
 

@@ -10,6 +10,8 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
 
+
+@Component
 public class ZhouyuBeanPostProcessor implements BeanPostProcessor{
 
 

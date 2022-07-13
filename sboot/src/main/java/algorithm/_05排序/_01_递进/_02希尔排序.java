@@ -1,13 +1,12 @@
-package com.hhz.model.soft;
+package algorithm._05排序._01_递进;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Random;
 
-public class InsertSort {
+public class _02希尔排序 {
 
     //插入排序,打扑克牌一样的排序。把一个无序的集合，插入到一个有序的集合中。
-    // 时间复杂度 n^2
+    //i从1开始   j=i-1 ,拿i后面的依次往前已经排好序的比
+    // 时间复杂度 n^2  最好的是0N
     public static void main(String[] args) {
         long l = System.currentTimeMillis();
         int[] a = getIntArr();
@@ -31,10 +30,10 @@ public class InsertSort {
         System.out.println();
     }
     
-    private  static int[] getIntArr(){
-        int[] a=new int[200000];
+    public  static int[] getIntArr(){
+        int[] a=new int[10];
         Random random = new Random();
-        for(int i=0;i<200000;i++){
+        for(int i=0;i<a.length;i++){
             int i1 = random.nextInt(100);
             a[i]=random.nextInt(100);
         }

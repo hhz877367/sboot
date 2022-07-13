@@ -12,6 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 /*import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;*/
 
 @MapperScan("com.baizhi.dao")
@@ -19,6 +20,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 /*@EnableGlobalMethodSecurity(securedEnabled = true)*/
 @SpringBootApplication()
 @EnableScheduling
+@EnableTransactionManagement
 public class    Application {
   public static void main(String[] args) {
     SpringApplication.run(Application.class, args);

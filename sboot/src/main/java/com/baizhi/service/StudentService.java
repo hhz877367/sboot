@@ -12,6 +12,8 @@ import java.util.List;
 public interface StudentService {
     //导入Student
      void insert(Student s);
+
+     void testa();
     //分页查询
      List<Student> selectAll();
 
