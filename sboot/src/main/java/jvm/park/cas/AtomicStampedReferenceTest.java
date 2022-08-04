@@ -20,7 +20,6 @@ public class AtomicStampedReferenceTest {
             int value = (int) atomicStampedReference.get(stampHolder);
             int stamp = stampHolder[0];
             log.debug("Thread1 read value: " + value + ", stamp: " + stamp);
-
             // 阻塞1s
             LockSupport.parkNanos(1000000000L);
             // Thread1通过CAS修改value值为3   stamp是版本，每次修改可以通过+1保证版本唯一性

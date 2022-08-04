@@ -18,9 +18,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @MapperScan("com.baizhi.dao")
 //@EnableAspectJAutoProxy  关于aop类的注解
 /*@EnableGlobalMethodSecurity(securedEnabled = true)*/
-@SpringBootApplication()
+@SpringBootApplication
 @EnableScheduling
-@EnableTransactionManagement
 public class    Application {
   public static void main(String[] args) {
     SpringApplication.run(Application.class, args);

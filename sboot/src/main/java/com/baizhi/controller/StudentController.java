@@ -19,19 +19,20 @@ import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
+import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 @RestController
 @EnableScheduling
 public class StudentController extends BaseController implements ApplicationContextAware {
+  private int j=0;
 
   private ApplicationContext applicationContext;
 
@@ -90,12 +91,67 @@ public class StudentController extends BaseController implements ApplicationCont
 
   @GetMapping("/addRedis")
   public  AjaxResult addRedis(){
-    Person person = new Person();
-    person.setAge(11);
-    person.setName("zs");
-    person.setId("11");
-    redisTemplate.opsForValue().set("gmz-screen:2",person);
+    for( j=0;j<1000;j++){
+      new Thread(()->{
+        try {
+          Thread.sleep(10);
+        } catch (InterruptedException e) {
+          e.printStackTrace();
+        }
+        int threadname=j;
+        for(int i=0;i<1000;i++){
+          try {
+            Thread.sleep(10);
+          } catch (InterruptedException e) {
+            e.printStackTrace();
+          }
+          Object o = redisTemplate.opsForValue().get("trainusering:"+Thread.currentThread().getName());
+          if(o==null){
+            GtCollect person = new GtCollect();
+            person.setHeartbeat(11);
+            person.setImei("zs");
+            person.setType(11);
+            List<GtCollect> list = new ArrayList<>();
+            person.setList(list);
+            System.out.println("这里需要在查依次数据库");
+            redisTemplate.opsForValue().setIfAbsent("trainusering:"+Thread.currentThread().getName(),person,1000, TimeUnit.SECONDS);
+          }else {
+            GtCollect person = (GtCollect)o;
+            person.setType(i);
+            List<GtCollect> list = person.getList();
+            GtCollect personing = new GtCollect();
+            personing.setHeartbeat(new Random().nextInt(100));
+            list.add(personing);
+            person.setListsize(list.size());
+            redisTemplate.opsForValue().set("trainusering:"+Thread.currentThread().getName(),person);
+          }
+        }
+
+      }).start();
+    }
+
+
     return AjaxResult.success("操作成功");
+  }
+
+  @GetMapping("/getRedisByPerson")
+  public AjaxResult getRedisByPerson(){
+    long l = System.currentTimeMillis();
+    Map<String,String> map=new HashMap<>();
+      Set keys = redisTemplate.keys("trainusering*");
+      for (Object key : keys) {
+        Person person =(Person) redisTemplate.opsForValue().get(key);
+        List<Person> list = person.getList();
+        int sum=0;
+        for (Person person1 : list) {
+          sum=sum+person1.getAge();
+        }
+        String result=sum+"";
+        map.put(key.toString(),result);
+      }
+    long l1 = System.currentTimeMillis();
+    System.out.println("進入方法"+(l1-l));
+    return AjaxResult.success(map);
   }
 
   @GetMapping("/getRedis/{id}")

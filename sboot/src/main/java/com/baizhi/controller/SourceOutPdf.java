@@ -168,6 +168,7 @@ public class SourceOutPdf {
                     thread.setUuid(uuid);
                     //直接把任务放到线程池里执行，分配任务的活交给线程池
                     excutor.submit(thread);
+
                 }
                 latch.await();
             } else {

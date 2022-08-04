@@ -1,6 +1,7 @@
 package algorithm._05排序._01_递进;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class _03归并排序 {
     /*
@@ -10,12 +11,24 @@ public class _03归并排序 {
 
     public static void main(String[] args) {
 
-        int data[] = { 9, 5, 6, 8, 0, 3, 7, 1,22,3};
+        int data[] = getIntArr();
+        long l = System.currentTimeMillis();
         megerSort(data, 0, data.length - 1);
-        System.out.println(Arrays.toString(data));
+        long l1 = System.currentTimeMillis();
+        System.out.println("消耗时间"+(l1-l));
         //JDK里面的排序源码
 
     }
+
+    public  static int[] getIntArr(){
+        int[] a=new int[100000]; //200万，1秒不到
+        Random random = new Random();
+        for(int i=0;i<a.length;i++){
+            a[i]=random.nextInt(100000); //数据分数度 最大2千万
+        }
+        return a;
+    }
+
 
     public static void megerSort(int data[], int left, int right) { // 数组的两端
         if (left < right) { // 相等了就表示只有一个数了 不用再拆了
@@ -23,7 +36,6 @@ public class _03归并排序 {
             megerSort(data, left, mid);
             megerSort(data, mid + 1, right);
             // 分完了 接下来就要进行合并，也就是我们递归里面归的过程
-            System.out.println(left+"---"+right);
             meger(data, left, mid, right);
         }
     }

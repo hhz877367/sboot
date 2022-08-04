@@ -25,21 +25,80 @@
 
 
   <dependencies>
+      <!--
+        引入rocketMQ
+      -->
+      <dependency>
+          <groupId>org.apache.rocketmq</groupId>
+          <artifactId>rocketmq-spring-boot-starter</artifactId>
+          <version>2.1.1</version>
+          <exclusions>
+              <exclusion>
+                  <groupId>org.springframework.boot</groupId>
+                  <artifactId>spring-boot-starter</artifactId>
+              </exclusion>
+              <exclusion>
+                  <groupId>org.springframework</groupId>
+              <artifactId>spring-core</artifactId> </exclusion>
+              <exclusion>
+                  <groupId>org.springframework</groupId>
+                  <artifactId>spring-webmvc</artifactId>
+              </exclusion>
+          </exclusions>
+      </dependency>
+
+        <!--springCloud-->
+      <dependency>
+          <groupId>com.alibaba.cloud</groupId>
+          <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+          <version>2.2.5.RELEASE</version>
+      </dependency>
+      <!--引入nacos客户端依赖-->
+      <dependency>
+          <groupId>com.alibaba.nacos</groupId>
+          <artifactId>nacos-client</artifactId>
+          <version>2.1.0</version>
+      </dependency>
+
     <!--
-        目前来说不知道spring-boot-starter-web 究竟干了啥
+        一切@requeController注解
     -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-    <!-- 引入springSecurity  -->
+    <!--引入rabbitmq-->
+      <dependency>
+          <groupId>org.apache.rocketmq</groupId>
+          <artifactId>rocketmq-client</artifactId>
+          <version>4.9.1</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.rocketmq</groupId>
+          <artifactId>rocketmq-acl</artifactId>
+          <version>4.9.1</version>
+      </dependency>
+
+      <!-- 引入springSecurity  -->
 
 <!--    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-security</artifactId>
     </dependency>-->
+      <!--客户端kafka-->
+      <dependency>
+          <groupId>org.apache.kafka</groupId>
+          <artifactId>kafka-clients</artifactId>
+          <version>2.4.1</version>
+      </dependency>
 
-    <dependency>
+        <!--springboot依赖的Kafka-->
+      <dependency>
+          <groupId>org.springframework.kafka</groupId>
+          <artifactId>spring-kafka</artifactId>
+      </dependency>
+
+      <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
     </dependency>
@@ -228,4 +287,16 @@
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>central</id>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </pluginRepository>
+    </pluginRepositories>
 </project>

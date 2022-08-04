@@ -4,43 +4,31 @@ import java.util.Random;
 
 public class _02希尔排序 {
 
-    //插入排序,打扑克牌一样的排序。把一个无序的集合，插入到一个有序的集合中。
-    //i从1开始   j=i-1 ,拿i后面的依次往前已经排好序的比
+    //和插入排序类似
+    //外层循环分组每次分半比较，分到小于1为止。内存i从add开始   j每次增量为add
     // 时间复杂度 n^2  最好的是0N
     public static void main(String[] args) {
-        long l = System.currentTimeMillis();
-        int[] a = getIntArr();
-        for(int i=1;i<a.length;i++){
-            int temp=a[i];
-            int j=i-1;
-            for(;j>=0;j--){
-                if(a[j]>temp){
-                    a[j+1]=a[j];
-                }else {
-                    break;
+        int a[] = { 9, 8, 7, 0, 1, 3, 2 };
+        int n = a.length;
+
+        for (int add = n / 2; add >= 1; add /= 2) {
+            for (int i = add; i < n; i++) { // 为什么i要从1开始？
+                int data = a[i];
+                int j = i - add;
+                for (; j >= 0; j-= add) {// 从尾到头 1+2+3+4+5+...+n=>
+                    if (a[j] > data) {
+                        a[j + add] = a[j]; // 数据往后移动
+                    } else { // 因为前面已经是排好序的 那么找到一个比他小的就不用找了，因为前面的肯定更小
+                        break; // O(1) 如果这个break执行的越多 那么我是不是效率就越高?
+                    }
                 }
+                a[j + add] = data;
             }
-            a[j+1]=temp;
         }
-        long l1 = System.currentTimeMillis();
-        System.out.println("排序完成时间"+(l1-l)+"毫秒");
-        for(int k=0;k<a.length;k++){
-            System.out.print(a[k]+",");
+        for (int i : a) {
+            System.out.println(i);
         }
-        System.out.println();
     }
-    
-    public  static int[] getIntArr(){
-        int[] a=new int[10];
-        Random random = new Random();
-        for(int i=0;i<a.length;i++){
-            int i1 = random.nextInt(100);
-            a[i]=random.nextInt(100);
-        }
-        return a;
-    }
-
-
 
 
 }

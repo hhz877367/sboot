@@ -10,25 +10,20 @@ public class CompareAtomic {
     @Contended
     static AtomicInteger sum = new AtomicInteger(0);
 
-    private int count;
+    private static int count;
 
     private static ReentrantLock lock = new ReentrantLock();
 
     public static void main(String[] args) {
-        CompareAtomic compareTestLock = new CompareAtomic();
-        for (int i = 0; i < 1; i++) {
+
+        for (int i = 0; i < 8; i++) {
             Thread thread = new Thread(() -> {
                 try {
-                    long l = System.currentTimeMillis();
-                    System.out.println(ClassLayout.parseInstance(compareTestLock).toPrintable());
-                    synchronized (compareTestLock) {
+                    synchronized (CompareAtomic.class) {
                         for (int j = 0; j < 1000000; j++) {
-                            compareTestLock.count++;
+                            sum.incrementAndGet();
                         }
                     }
-
-                    long l1 = System.currentTimeMillis();
-                    System.out.println("synchronized消耗时间" + (l1 - l));
 
                 } catch (Exception e) {
 
@@ -37,12 +32,11 @@ public class CompareAtomic {
             });
             thread.start();
         }
-        try {
-            Thread.sleep(30000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+
+        synchronized (CompareAtomic.class) {
+            System.out.println("compareTestLock"+CompareAtomic.count);
         }
-        System.out.println(compareTestLock.count);
+
 
   /*      for (int i = 0; i < 100; i++) {
             Thread thread = new Thread(() -> {
@@ -83,11 +77,7 @@ public class CompareAtomic {
             });
             thread.start();
         }*/
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
         System.out.println("Atomic" + sum);
     }
 }

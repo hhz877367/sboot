@@ -7,9 +7,14 @@ import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 @Data
 public class GtCollect implements Serializable {
+
+    private List<GtCollect> list;
+
+    private int listsize;
 
     private static final long serialVersionUID = 1L;
 

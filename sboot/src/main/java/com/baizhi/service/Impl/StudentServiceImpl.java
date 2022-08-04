@@ -71,7 +71,7 @@ public class StudentServiceImpl implements StudentService{
                 s.setAge("2");
                 studentDao.insert(s);
                 s.setAge("3");
-            int c=1/0;
+            /*int c=1/0;*/
     }
 
     @Override

@@ -9,6 +9,7 @@ import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.util.concurrent.SettableListenableFuture;
 
 import java.util.HashMap;
 
@@ -22,7 +23,7 @@ public class DelayConfig {
     public static final String QUEUE_NAME="delay_queue";
     public static final String EXCHANGGE_NAME="test_delay_exchange";
 
- /*   @Bean
+   @Bean
     public CustomExchange delayExchage(){
         HashMap<String, Object> map = new HashMap<>();
         map.put("x-delayed-type","direct");
@@ -31,26 +32,28 @@ public class DelayConfig {
 
     @Bean
     public Queue delayQueue(){
-        return  new Queue(QUEUE_NAME,true);
+        Queue queue = new Queue(QUEUE_NAME, true);
+        return  queue;
     }
     
     @Bean
     public Binding delayBinding(){
-        return BindingBuilder.bind(delayQueue()).to(delayExchage()).with(QUEUE_NAME).noargs();
+        Binding noargs = BindingBuilder.bind(delayQueue()).to(delayExchage()).with(QUEUE_NAME).noargs();
+        return noargs;
     }
 
-    @Bean
-    public RabbitTemplate rabbitTemplate(ConnectionFactory connectionFactory) {
+      @Bean
+   public RabbitTemplate rabbitTemplate(ConnectionFactory connectionFactory) {
         RabbitTemplate rabbitTemplate = new RabbitTemplate(connectionFactory);
         //设置全局处理参数
         rabbitTemplate.setConfirmCallback(new RabbitTemplate.ConfirmCallback() {
-            *//**
+       /*     *
              * @param correlationData 相关配置信息
              * @param ack   exchange交换机 是否成功收到了消息。true 成功，false代表失败
-             * @param cause 失败原因*//*
+             * @param cause 失败原因*/
             @Override
             public void confirm(CorrelationData correlationData, boolean ack, String cause) {
-               System.out.println(correlationData);
+                System.out.println(correlationData);
                 //ack 为  true表示 消息已经到达交换机
                 if (ack) {
                     //接收成功
@@ -68,6 +71,6 @@ public class DelayConfig {
             }
         });
         return rabbitTemplate;
-    }*/
+    }
 
 }

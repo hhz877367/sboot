@@ -18,12 +18,13 @@ public class Baidu {
         //channel.queueUnbind(RabbitConstant.QUEUE_BAIDU, RabbitConstant.EXCHANGE_WEATHER_TOPIC, "*.*.*.20201127");
         //*.hebei.*.*
         channel.basicQos(1);
-        channel.basicConsume(RabbitConstant.QUEUE_BAIDU , false , new DefaultConsumer(channel){
+        DefaultConsumer defaultConsumer = new DefaultConsumer(channel) {
             @Override
             public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
                 System.out.println("百度天气收到气象信息：" + new String(body));
-                channel.basicAck(envelope.getDeliveryTag() , false);
+                channel.basicAck(envelope.getDeliveryTag(), false);
             }
-        });
+        };
+        channel.basicConsume(RabbitConstant.QUEUE_BAIDU , false ,defaultConsumer);
     }
 }

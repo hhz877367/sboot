@@ -14,12 +14,13 @@ import java.io.IOException;
 
 /*@Component*/
 public class ConcumerReceiver {
-	/*@RabbitListener(queues="delay_queue")*/
+	@RabbitListener(queues="delay_queue")
 	public void topicReceiveqPeople(String message, Channel channel,@Header(AmqpHeaders.DELIVERY_TAG) long deliveryTag) {
 		try {
 			System.out.println("定时器1111---------消费delay_queue队列中的消息"+message);
 			channel.basicQos(1);
 			channel.basicAck(deliveryTag,false);
+			/*channel.waitForConfirms()*/
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

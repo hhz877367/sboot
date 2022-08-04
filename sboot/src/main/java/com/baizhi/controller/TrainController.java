@@ -57,7 +57,7 @@ public class TrainController/* implements ApplicationContextAware*/ {
     @GetMapping("/addTrain")
     public AjaxResult addTrain(String trainName,String startTime){
         try {
-           // trainService.addTrain(trainName,startTime);
+         trainService.addTrain(trainName,startTime);
         }catch (Exception e){
             e.printStackTrace();
         }

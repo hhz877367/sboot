@@ -62,7 +62,7 @@ public class TrainServiceServiceImpl implements TrainService {
     private void stest5000(int i,String time,   ArrayList<Student> list ){
         list.clear();
         Student student = new Student();
-        rabbitTemplate.convertAndSend(DelayConfig.EXCHANGGE_NAME, DelayConfig.QUEUE_NAME,i, new MessagePostProcessor() {
+        rabbitTemplate.convertAndSend(DelayConfig.EXCHANGGE_NAME, DelayConfig.QUEUE_NAME,"message"+i, new MessagePostProcessor() {
             @Override
             public Message postProcessMessage(Message message) throws AmqpException {
                 //使用延迟插件只需要在消息的header中添加x-delay属性，值为过期时间，单位毫秒

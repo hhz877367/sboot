@@ -1,13 +1,14 @@
 package concurrency.synchronizedtest;
 
 public class TestSynchronized {
-    private static Object object = "";
+    private  Object object = "";
     private  static int sum = 0;
 
     public  static void main(String[] args) {
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 8; i++) {
             Thread thread = new Thread(() -> {
-                synchronized (object) {
+                TestSynchronized object = new TestSynchronized();
+                synchronized (object.object) {
                     for (int j = 0; j < 1000; j++) {
                         sum++;
                     }

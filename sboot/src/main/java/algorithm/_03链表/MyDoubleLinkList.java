@@ -40,9 +40,9 @@ public class MyDoubleLinkList{
         myDoubleLinkList.inserNth(0,0);
         myDoubleLinkList.inserNth(1,1);
         myDoubleLinkList.inserNth(2,2);
-        myDoubleLinkList.inserNth(3,4);
-        myDoubleLinkList.inserNth(4,4);
-        myDoubleLinkList.inserNth(4,4);
+        myDoubleLinkList.inserNth(3,3);
+        myDoubleLinkList.inserNth(4,2);
+        myDoubleLinkList.inserNth(4,2);
         myDoubleLinkList.print();
         myDoubleLinkList.deleteNth(0);
         System.out.println("------");
@@ -120,12 +120,18 @@ public class MyDoubleLinkList{
             insertTail(value);
             return;
         }
+        if(position>size){
+            System.out.println("插入失败");
+            return;
+        }
         DoubleNode node = node(position);
         DoubleNode newNode = new DoubleNode(value);
         DoubleNode prev = node.pre;
         //先处理与后节点的关系
         newNode.next=node;
         node.pre=newNode;
+
+
         //在处理与前节点的关系
         prev.next=newNode;
         node.pre=prev;

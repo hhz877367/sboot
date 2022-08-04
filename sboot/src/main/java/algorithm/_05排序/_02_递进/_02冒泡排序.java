@@ -3,7 +3,9 @@ package algorithm._05排序._02_递进;
 
 import java.util.Random;
 
-public class 冒泡排序 {
+public class _02冒泡排序 {
+    //相邻的依次比较
+    // n平方   稳定， 相同位置的元素可能发生前后的变化  冒泡
     public static void main(String[] args) {
         int[] intArr = new int[]{29,85,39,96,24,63,14,72,8,65};
         for (int i : intArr) {
