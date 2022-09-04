@@ -1,6 +1,8 @@
 package com.baizhi.entity;
 
+import lombok.Data;
 
+@Data
 public class Dog {
 
     public String address;
