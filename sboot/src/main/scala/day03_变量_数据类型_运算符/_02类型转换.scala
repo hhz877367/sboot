@@ -1,6 +1,6 @@
 package day03_变量_数据类型_运算符
 
-object 类型转换02 {
+object _02类型转换 {
   def main(args: Array[String]): Unit = {
     var a1 : Byte = 10
     var b1 : Long = 1000
@@ -17,5 +17,10 @@ object 类型转换02 {
     // 12.3 转换成int
     var f1: Int  = "123.4".toDouble.toInt
     println(f1)
+
+    var int3 :Int = (a1.+(b1)).toInt
+    println(int3)
+
+
   }
 }

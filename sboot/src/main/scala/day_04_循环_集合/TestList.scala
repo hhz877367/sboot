@@ -1,4 +1,4 @@
-package day_04_集合
+package day_04_循环_集合
 
 object TestList {
   def main(args: Array[String]): Unit = {

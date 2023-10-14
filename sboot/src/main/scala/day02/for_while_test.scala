@@ -11,5 +11,15 @@ object for_while_test {
     for( a <- numList ){
       println( "Value of a: " + a );
     }
+
+    //判断引用
+    var s1 = "hello"
+    var s2 = new String("hello")
+    println(s1 == s2 )
+    println(s1.equals(s2))
+    println(s1.eq(s2))
+
+    //
+
   }
 }

@@ -26,7 +26,8 @@ public class TrainController/* implements ApplicationContextAware*/ {
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        this.applicationContext=applicationContext;
+        this.applicationContext=
+        ;
     }
     @Resource
     private RemoveBean removeBean;*/

@@ -1,7 +1,7 @@
 package day03_变量_数据类型_运算符
 
 //Scala 中使用 val 语句可以定义函数，def 语句定义方法。
-object TestFunciton {
+object _01TestFunciton {
   def main(args: Array[String]): Unit = {
 /*    printf("a+b=" + addInt(1, 2))
     var a: String = "aaa"*/

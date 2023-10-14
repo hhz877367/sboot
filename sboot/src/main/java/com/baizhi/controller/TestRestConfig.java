@@ -1,5 +1,7 @@
 package com.baizhi.controller;
 
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.baizhi.constant.AjaxResult;
 import com.baizhi.entity.Student;
 import com.baomidou.mybatisplus.extension.api.R;
@@ -22,5 +24,10 @@ public class TestRestConfig {
         return AjaxResult.success(result);
     }
 
+    public static void main(String[] args) {
+        String[] split = "2022102017105695240004.2022102017105682770005".split("\\.");
+        System.out.println(split.length);
+        System.out.println(split.toString());
+    }
 
 }
