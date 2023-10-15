@@ -60,22 +60,8 @@ public class StudentController extends BaseController implements ApplicationCont
   //http://localhost:8082/sboot/selectStudnrtAll user 123
   @Page
   public AjaxResult selectStudnrtAll(Integer pageNum,Integer pageSize){
-    testComponentScan.test();
-
-    //String message = applicationContext.getMessage("hhz", null, new Locale("en"));
-    applicationEventPublisher.publishEvent(new HHZLisiterObject("哈哈哈，我是被监听的"));
-    applicationContext.publishEvent("12345");
-    map.put("aa","aa");
-    ServletRequestAttributes request = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
-    request.getRequest().getParameter("pageNum");
-    Train train = new Train();
-    Class  t= Train.class;
-    Class aClass = train.getClass();
-    System.out.println(t==aClass);
-    System.out.println(t.equals(aClass));
-    System.out.println(studentService.toString());
     List<Student> students = studentService.selectAll();
-    return getDataTable(students);
+    return  AjaxResult.success(students);
   }
 
 
