@@ -1,0 +1,12 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µüô€
+:
+java:S2386"Make this member "protected".(Òı®Ñ8‹¥Š§˜0
+:
+java:S2386"Make this member "protected".(ÇŸÌæ8‹¥Š§˜0
+9
+java:S2386"Make this member "protected".(ûµ²8‹¥Š§˜0
+?
+java:S2386"Make this member "protected".(ÉÔúÿÿÿÿ8‹¥Š§˜0
+\
+java:S1118":Add a private constructor to hide the implicit public one.(¼¹ùûÿÿÿÿ8‹¥Š§˜0

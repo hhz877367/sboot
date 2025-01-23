@@ -1,0 +1,64 @@
+
+U
+java:S1118":Add a private constructor to hide the implicit public one.(å£ƒ¸ûÿÿÿÿ
+A
+java:S1481Þ"*Remove this unused "value" local variable.(€ÜÃÔ
+n
+java:S3252“"WUse static access with "org.apache.poi.xwpf.usermodel.Document" for "PICTURE_TYPE_PNG".(º‹©ƒ
+u
+java:S2293Í"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÝºŠþÿÿÿÿ
+T
+java:S1155}">Use isEmpty() to check whether the collection is empty or not.(ªÕëì
+Y
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(´ÑÏÚýÿÿÿÿ
+@
+java:S1481¦")Remove this unused "rows" local variable.(‡¥Õ’
+F
+java:S1481§"/Remove this unused "targetCell" local variable.(¼Ÿ¸‘
+v
+java:S3252›"XUse static access with "org.apache.poi.xwpf.usermodel.Document" for "PICTURE_TYPE_PICT".(›‡Ô¨8ÅŠ…¨˜0
+{
+java:S3252¤"XUse static access with "org.apache.poi.xwpf.usermodel.Document" for "PICTURE_TYPE_JPEG".(âœÑÙøÿÿÿÿ8ÅŠ…¨˜0
+u
+java:S2293Ó"YReplace the type specification in this constructor call with the diamond operator ("<>").(•Õ¨¸ùÿÿÿÿ
+K
+java:S3740Œ"/Provide the parametrized type for this generic.(›à€ïúÿÿÿÿ
+W	java:S125á"<This block of commented-out lines of code should be removed.(ˆ€ÄÃþÿÿÿÿ
+T	java:S106ý"9Replace this use of System.out or System.err by a logger.(ãû·þûÿÿÿÿ
+@
+java:S1481Ã")Remove this unused "rows" local variable.(‡¥Õ’
+H
+java:S1481",Remove this unused "picType" local variable.(ØçÝûÿÿÿÿ
+Z
+java:S1155ê">Use isEmpty() to check whether the collection is empty or not.(Ú×Ÿ×þÿÿÿÿ
+U
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(ºš›©
+U
+java:S1155ã">Use isEmpty() to check whether the collection is empty or not.(‹±¶ç
+z
+java:S3252¢"WUse static access with "org.apache.poi.xwpf.usermodel.Document" for "PICTURE_TYPE_EMF".( «·Åÿÿÿÿÿ8ÅŠ…¨˜0
+U
+java:S1155½">Use isEmpty() to check whether the collection is empty or not.(æµ–ˆ
+E
+java:S1172g"/Remove this unused method parameter "mapList1".(‹êãâ
+u
+java:S2293Ï"YReplace the type specification in this constructor call with the diamond operator ("<>").(çâîÀýÿÿÿÿ
+D
+java:S1172O".Remove this unused method parameter "mapList".(·¯’õ
+T
+java:S1155}">Use isEmpty() to check whether the collection is empty or not.(ªÕëì
+f
+java:S2674õ"JCheck the return value of the "read" call to see how many bytes were read.(Õ‰¡°üÿÿÿÿ
+u
+java:S3252 "WUse static access with "org.apache.poi.xwpf.usermodel.Document" for "PICTURE_TYPE_DIB".(‰éöõ8ÅŠ…¨˜0
+u
+java:S3252ž"WUse static access with "org.apache.poi.xwpf.usermodel.Document" for "PICTURE_TYPE_PNG".(ŽøÑ€8ÅŠ…¨˜0
+z
+java:S3252¦"WUse static access with "org.apache.poi.xwpf.usermodel.Document" for "PICTURE_TYPE_WMF".(šõ¨ªûÿÿÿÿ8ÅŠ…¨˜0
+Y
+java:S1155x">Use isEmpty() to check whether the collection is empty or not.(âòˆøÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(¹ÇÂÇ
+n
+java:S3776ø"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(Îæ®¬þÿÿÿÿ
+F
+java:S1481Ä"/Remove this unused "targetCell" local variable.(¼Ÿ¸‘

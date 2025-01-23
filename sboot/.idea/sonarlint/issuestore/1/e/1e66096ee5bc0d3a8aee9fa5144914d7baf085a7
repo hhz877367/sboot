@@ -1,0 +1,28 @@
+
+ó
+java:S1130"ÄRemove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(≠ÀêÍ
+ç
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(≠ÀêÍ
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(±ùÙä
+Q	java:S125"<This block of commented-out lines of code should be removed.(–™îﬁ
+K
+java:S1481Z"5Remove this unused "executorService2" local variable.( Ñ„è
+M
+java:S1128"7Remove this unused import 'com.baizhi.test.CountModel'.(ü£‰¡
+U
+java:S1128":Remove this unused import 'java.util.concurrent.Executor'.(˜˝∂å˙ˇˇˇˇ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Éä¬Q
+Q	java:S125]"<This block of commented-out lines of code should be removed.(—´—ü
+N	java:S106U"9Replace this use of System.out or System.err by a logger.(Û¶ü≥
+K
+java:S1481Y"5Remove this unused "executorService1" local variable.(ÓÒ˛˘
+J
+java:S1481X"4Remove this unused "executorService" local variable.(∏ëÊ√
+X
+java:S1481["=Remove this unused "scheduledExecutorService" local variable.( Õ•„˙ˇˇˇˇ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¥¬Ëò¸ˇˇˇˇ
+N	java:S106="9Replace this use of System.out or System.err by a logger.(±ùÙä
+S	java:S106("9Replace this use of System.out or System.err by a logger.(¥¬Ëò¸ˇˇˇˇ
+P
+java:S1481\"5Remove this unused "executorService3" local variable.(‘≥Â¸¸ˇˇˇˇ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(Û¶ü≥

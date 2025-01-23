@@ -1,0 +1,745 @@
+16:09:14.982 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 7944 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:09:14.984 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:09:14.984 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:09:15.896 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:09:16.287 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:09:16.352 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:09:17.596 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 2.953 seconds (JVM running for 3.59)
+16:09:30.589 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectList - [debug,143] - ==>  Preparing: SELECT id,s_name,age,score,birth FROM stu WHERE id=? 
+16:09:30.602 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectList - [debug,143] - ==> Parameters: 4(Integer)
+16:09:30.614 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectList - [debug,143] - <==      Total: 1
+16:10:02.597 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM gt_collect 
+16:10:02.597 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==> Parameters: 
+16:10:20.015 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - <==      Total: 1
+16:10:20.019 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect LIMIT ?, ? 
+16:10:20.019 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==> Parameters: 19999980(Integer), 20(Integer)
+16:10:20.906 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectGtCollect - [debug,143] - <==      Total: 0
+16:10:51.918 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM gt_collect 
+16:10:51.918 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==> Parameters: 
+16:11:09.310 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - <==      Total: 1
+16:11:09.311 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect LIMIT ?, ? 
+16:11:09.311 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==> Parameters: 599980(Integer), 20(Integer)
+16:11:09.673 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectGtCollect - [debug,143] - <==      Total: 20
+16:11:09.769 [http-nio-8082-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.baizhi.entity.GtCollect]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.baizhi.entity.GtCollect and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.baizhi.constant.AjaxResult["data"]->com.github.pagehelper.Page[0])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.baizhi.entity.GtCollect and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.baizhi.constant.AjaxResult["data"]->com.github.pagehelper.Page[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:404)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:722)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:643)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1429)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:921)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:287)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:295)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+16:11:56.025 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:11:56.029 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:12:02.179 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 21340 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:12:02.181 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:12:02.181 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:12:03.090 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:12:03.505 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:12:03.565 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:12:04.812 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 2.955 seconds (JVM running for 3.624)
+16:12:07.972 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM gt_collect 
+16:12:08.004 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==> Parameters: 
+16:12:25.486 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - <==      Total: 1
+16:12:25.489 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect LIMIT ?, ? 
+16:12:25.490 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==> Parameters: 599980(Integer), 20(Integer)
+16:12:25.886 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - <==      Total: 20
+16:13:03.175 [http-nio-8082-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.baizhi.entity.GtCollect]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.baizhi.entity.GtCollect and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.baizhi.constant.AjaxResult["data"]->com.github.pagehelper.Page[0])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.baizhi.entity.GtCollect and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.baizhi.constant.AjaxResult["data"]->com.github.pagehelper.Page[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:404)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:722)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:643)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1429)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:921)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:287)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:295)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+16:13:24.675 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM gt_collect 
+16:13:24.676 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==> Parameters: 
+16:13:42.081 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - <==      Total: 1
+16:13:42.082 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect LIMIT ?, ? 
+16:13:42.082 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==> Parameters: 599980(Integer), 20(Integer)
+16:13:42.490 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectGtCollect - [debug,143] - <==      Total: 20
+16:13:43.526 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:13:43.530 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:13:47.893 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 10912 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:13:47.895 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:13:47.896 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:13:48.807 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:13:49.219 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:13:49.277 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:13:50.489 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 2.924 seconds (JVM running for 3.558)
+16:13:53.250 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM gt_collect 
+16:13:53.280 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==> Parameters: 
+16:14:10.665 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - <==      Total: 1
+16:14:10.668 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect LIMIT ?, ? 
+16:14:10.669 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==> Parameters: 599980(Integer), 20(Integer)
+16:14:11.064 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - <==      Total: 20
+16:14:38.176 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectList - [debug,143] - ==>  Preparing: SELECT id,s_name,age,score,birth FROM stu WHERE id=? 
+16:14:38.177 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectList - [debug,143] - ==> Parameters: 4(Integer)
+16:14:38.188 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectList - [debug,143] - <==      Total: 1
+16:14:58.951 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM gt_collect 
+16:14:58.951 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==> Parameters: 
+16:15:16.382 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - <==      Total: 1
+16:15:16.382 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect LIMIT ?, ? 
+16:15:16.382 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==> Parameters: 599980(Integer), 20(Integer)
+16:15:16.753 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectGtCollect - [debug,143] - <==      Total: 20
+16:23:28.919 [AMQP Connection 127.0.0.1:5672] WARN  c.r.c.i.ForgivingExceptionHandler - [log,115] - An unexpected connection driver error occured (Exception message: Connection reset)
+16:23:28.923 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+16:23:28.923 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+16:23:28.955 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:23:28.959 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:23:34.771 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 2484 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:23:34.773 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:23:34.773 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:23:35.856 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:23:36.268 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:23:36.328 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:23:37.640 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.257 seconds (JVM running for 3.967)
+16:23:42.545 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM gt_collect 
+16:23:42.557 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==> Parameters: 
+16:24:00.005 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - <==      Total: 1
+16:24:00.008 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect LIMIT ?, ? 
+16:24:00.008 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==> Parameters: 599980(Integer), 20(Integer)
+16:24:00.419 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - <==      Total: 20
+16:24:00.421 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect SELECT * FROM gt_collect e NNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT ?, ?) ed ON e.collect_id = ed.collect_id; 
+16:24:00.422 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==> Parameters: 20(Integer), 600000(Integer)
+16:24:00.455 [http-nio-8082-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT * FROM gt_collect e
+    NNER JOIN ( SELECT collect_id FROM gt_collect ORD' at line 2
+### The error may exist in file [D:\sboot\sboot\target\classes\com\baizhi\dao\StudentDaoMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select collect_id,user_id,train_id,btutc_time,imei from gt_collect  SELECT * FROM gt_collect e     NNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT ?, ?) ed ON e.collect_id = ed.collect_id;
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT * FROM gt_collect e
+    NNER JOIN ( SELECT collect_id FROM gt_collect ORD' at line 2
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT * FROM gt_collect e
+    NNER JOIN ( SELECT collect_id FROM gt_collect ORD' at line 2] with root cause
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT * FROM gt_collect e
+    NNER JOIN ( SELECT collect_id FROM gt_collect ORD' at line 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy157.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy155.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy107.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:158)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:76)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62)
+	at com.sun.proxy.$Proxy108.selectGtCollect2(Unknown Source)
+	at com.baizhi.service.Impl.StudentServiceImpl.selectGtCollect(StudentServiceImpl.java:70)
+	at com.baizhi.service.Impl.StudentServiceImpl$$FastClassBySpringCGLIB$$318b795f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.service.Impl.StudentServiceImpl$$EnhancerBySpringCGLIB$$57255353.selectGtCollect(<generated>)
+	at com.baizhi.controller.StudentController.selectAll(StudentController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+16:25:27.655 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:25:27.660 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:25:30.439 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 14448 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:25:30.441 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:25:30.441 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:25:31.342 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:25:31.747 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:25:31.803 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:25:33.021 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 2.906 seconds (JVM running for 3.589)
+16:25:37.095 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM gt_collect 
+16:25:37.125 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==> Parameters: 
+16:25:54.615 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - <==      Total: 1
+16:25:54.618 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect LIMIT ?, ? 
+16:25:54.618 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==> Parameters: 599980(Integer), 20(Integer)
+16:25:54.998 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - <==      Total: 20
+16:25:55.000 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect e NNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT ?, ?) ed ON e.collect_id = ed.collect_id; 
+16:25:55.001 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==> Parameters: 20(Integer), 600000(Integer)
+16:25:55.037 [http-nio-8082-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT 20, 600000)' at line 2
+### The error may exist in file [D:\sboot\sboot\target\classes\com\baizhi\dao\StudentDaoMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select collect_id,user_id,train_id,btutc_time,imei from gt_collect e     NNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT ?, ?) ed ON e.collect_id = ed.collect_id;
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT 20, 600000)' at line 2
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT 20, 600000)' at line 2] with root cause
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT 20, 600000)' at line 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy157.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy155.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy107.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:158)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:76)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62)
+	at com.sun.proxy.$Proxy108.selectGtCollect2(Unknown Source)
+	at com.baizhi.service.Impl.StudentServiceImpl.selectGtCollect(StudentServiceImpl.java:70)
+	at com.baizhi.service.Impl.StudentServiceImpl$$FastClassBySpringCGLIB$$318b795f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.service.Impl.StudentServiceImpl$$EnhancerBySpringCGLIB$$c8a53fad.selectGtCollect(<generated>)
+	at com.baizhi.controller.StudentController.selectAll(StudentController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+16:27:49.092 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:27:49.096 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:27:53.329 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 13064 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:27:53.330 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:27:53.331 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:27:57.113 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 17392 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:27:57.114 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:27:57.115 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:27:58.032 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:27:58.457 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:27:58.518 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:27:59.776 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.013 seconds (JVM running for 3.641)
+16:28:01.762 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM gt_collect 
+16:28:01.793 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==> Parameters: 
+16:28:19.288 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - <==      Total: 1
+16:28:19.290 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect LIMIT ?, ? 
+16:28:19.291 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==> Parameters: 599980(Integer), 20(Integer)
+16:28:19.702 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - <==      Total: 20
+16:28:19.704 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect e NNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT ?, ?) ed ON e.collect_id = ed.collect_id; 
+16:28:19.705 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==> Parameters: 600000(Integer), 20(Integer)
+16:28:19.740 [http-nio-8082-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT 600000, 20)' at line 2
+### The error may exist in file [D:\sboot\sboot\target\classes\com\baizhi\dao\StudentDaoMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select collect_id,user_id,train_id,btutc_time,imei from gt_collect e     NNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT ?, ?) ed ON e.collect_id = ed.collect_id;
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT 600000, 20)' at line 2
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT 600000, 20)' at line 2] with root cause
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT 600000, 20)' at line 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy157.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy155.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy107.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:158)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:76)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62)
+	at com.sun.proxy.$Proxy108.selectGtCollect2(Unknown Source)
+	at com.baizhi.service.Impl.StudentServiceImpl.selectGtCollect(StudentServiceImpl.java:70)
+	at com.baizhi.service.Impl.StudentServiceImpl$$FastClassBySpringCGLIB$$318b795f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.service.Impl.StudentServiceImpl$$EnhancerBySpringCGLIB$$c6850073.selectGtCollect(<generated>)
+	at com.baizhi.controller.StudentController.selectAll(StudentController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+16:28:53.284 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:28:53.288 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:28:58.210 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 11024 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:28:58.212 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:28:58.212 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:28:59.140 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:28:59.540 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:28:59.597 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:29:00.844 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 2.957 seconds (JVM running for 3.594)
+16:29:04.585 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM gt_collect 
+16:29:04.615 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==> Parameters: 
+16:29:22.136 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - <==      Total: 1
+16:29:22.139 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect LIMIT ?, ? 
+16:29:22.139 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==> Parameters: 599980(Integer), 20(Integer)
+16:29:22.486 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - <==      Total: 20
+16:29:22.488 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect e iNNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT ?, ?) ed ON e.collect_id = ed.collect_id; 
+16:29:22.488 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==> Parameters: 600000(Integer), 20(Integer)
+16:29:22.525 [http-nio-8082-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error querying database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'collect_id' in field list is ambiguous
+### The error may exist in file [D:\sboot\sboot\target\classes\com\baizhi\dao\StudentDaoMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select collect_id,user_id,train_id,btutc_time,imei from gt_collect e     iNNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT ?, ?) ed ON e.collect_id = ed.collect_id;
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'collect_id' in field list is ambiguous
+; Column 'collect_id' in field list is ambiguous; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'collect_id' in field list is ambiguous] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Column 'collect_id' in field list is ambiguous
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy157.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy155.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy107.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:158)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:76)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62)
+	at com.sun.proxy.$Proxy108.selectGtCollect2(Unknown Source)
+	at com.baizhi.service.Impl.StudentServiceImpl.selectGtCollect(StudentServiceImpl.java:70)
+	at com.baizhi.service.Impl.StudentServiceImpl$$FastClassBySpringCGLIB$$318b795f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.service.Impl.StudentServiceImpl$$EnhancerBySpringCGLIB$$b31a872.selectGtCollect(<generated>)
+	at com.baizhi.controller.StudentController.selectAll(StudentController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+16:30:08.417 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:30:08.421 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:30:11.105 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 12408 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:30:11.107 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:30:11.108 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:30:12.029 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:30:12.449 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:30:12.510 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:30:13.750 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 2.958 seconds (JVM running for 3.569)
+16:30:16.405 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM gt_collect 
+16:30:16.416 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==> Parameters: 
+16:30:33.935 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - <==      Total: 1
+16:30:33.938 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect LIMIT ?, ? 
+16:30:33.938 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==> Parameters: 599980(Integer), 20(Integer)
+16:30:34.354 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect - [debug,143] - <==      Total: 20
+16:30:34.357 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==>  Preparing: select e.collect_id,user_id,train_id,btutc_time,imei from gt_collect e iNNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT ?, ?) ed ON e.collect_id = ed.collect_id; 
+16:30:34.357 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==> Parameters: 600000(Integer), 20(Integer)
+16:30:34.527 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - <==      Total: 20
+16:32:55.894 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:32:55.899 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed

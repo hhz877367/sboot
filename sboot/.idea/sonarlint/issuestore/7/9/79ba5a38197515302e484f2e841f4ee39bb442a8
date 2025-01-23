@@ -1,0 +1,21 @@
+
+d
+java:S1128"GRemove this unused import 'org.springframework.core.io.ResourceLoader'.(ηΰΙΗ8µεµ1
+^
+java:S1128"ARemove this unused import 'org.springframework.core.io.Resource'.(ΉÒΑ8•ξεµ1
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(ΰώ²Η8•ξεµ1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(–¦‰―όÿÿÿÿ8β΄µ1
+L
+java:S1481"0Remove this unused "anInterface" local variable.(Ψώ8•ξεµ1
+H
+java:S1481"&Remove this unused "b" local variable.(Ηψ½ΐόÿÿÿÿ8•ξεµ1
+Q
+java:S1481"/Remove this unused "anAbstract" local variable.(‰π­”ψÿÿÿÿ8•ξεµ1
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(³΅Κωÿÿÿÿ8•ξεµ1
+U
+java:S1481%"3Remove this unused "interfaceNames" local variable.(Σ“ρÿϋÿÿÿÿ8•ξεµ1
+M
+java:S1905"0Remove this unnecessary cast to "ClassMetadata".(Λ†€8•ξεµ1
+H
+java:S1481"+Remove this unused "aFinal" local variable.(άΠ«8•ξεµ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Λ†€8•ξεµ1

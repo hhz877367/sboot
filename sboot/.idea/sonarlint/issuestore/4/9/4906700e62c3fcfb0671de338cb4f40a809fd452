@@ -1,0 +1,30 @@
+
+[	java:S106´"9Replace this use of System.out or System.err by a logger.(¯ô”Çÿÿÿÿÿ8İóìŸ˜0
+]
+java:S1126Ë"AReplace this if-then-else statement by a single return statement.(œ©Üİşÿÿÿÿ
+b
+java:S2184€"FCast one of the operands of this multiplication operation to a "long".(íïêşÿÿÿÿ
+f
+java:S1192"PUse already-defined constant 'YYYY_MM_DD' instead of duplicating its value here.(úÑØ
+\
+java:S2184~"FCast one of the operands of this multiplication operation to a "long".(¦›çö
+-
+java:S2176"Rename this class.( ÖÂ¶şÿÿÿÿ
+`	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+W	java:S125‹"<This block of commented-out lines of code should be removed.(‘¹¡¬ÿÿÿÿÿ
+Q
+java:S2209Ü"5Change this instance-reference to a static reference.(¿÷™ëûÿÿÿÿ
+S
+java:S1128"6Remove this unused import 'io.swagger.models.auth.In'.(å£Ùó8ÑµİŸ˜0
+W	java:S125"<This block of commented-out lines of code should be removed.(„öİ£ıÿÿÿÿ
+a
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(á™¹ğûÿÿÿÿ
+a
+java:S1192"FDefine a constant instead of duplicating this literal "HH:mm" 4 times.(´»¤ÿÿÿÿÿ
+o
+java:S1192"YUse already-defined constant 'YYYY_MM_DD_HH_MM_SS' instead of duplicating its value here.( ÍÜ·
+h
+java:S1192"MUse already-defined constant 'YYYY_MM' instead of duplicating its value here.(´»¤ÿÿÿÿÿ
+V	java:S106°"9Replace this use of System.out or System.err by a logger.(Â’£ 8İóìŸ˜0
+R
+java:S2209¨"5Change this instance-reference to a static reference.(µüëK8…ÜÛŸ˜0

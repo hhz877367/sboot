@@ -1,0 +1,23 @@
+
+H
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+R
+java:S1128"7Remove this unused import 'com.baizhi.util.QueryExcel'.(ó’”øÿÿÿÿ
+a
+java:S1128"KRemove this unused import 'com.baizhi.service.Impl.ExtGaSourceServiceImpl'.(ƒ‰«Ì
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒŠÂQ
+f
+java:S1128"KRemove this unused import 'com.baizhi.entity.excelEntity.ThreadExcelModel'.(Èá‡¾øÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ñ¹‡Šùÿÿÿÿ
+V
+java:S1128";Remove this unused import 'com.baizhi.constant.AjaxResult'.(çÌÉªıÿÿÿÿ
+8
+java:S2438""Argument 1" is a "Thread".(í£İ 8Ğ©Ñ¬¸1
+V
+java:S1128"@Remove this unused import 'java.util.concurrent.CountDownLatch'.(¤ƒô§
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(ÆŞıÿÿÿÿÿ
+?
+java:S1128	")Remove this unused import 'java.io.File'.(†Ğ¥Å
+d
+java:S1128"IRemove this unused import 'com.baizhi.entity.excelEntity.SourceOutPdfVo'.(Ç×²Üÿÿÿÿÿ

@@ -1,0 +1,6 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µüô€
+G
+java:S1481]"*Remove this unused "score" local variable.(à£å‹8Å”ˆ§˜0
+…
+java:S14881"cImmediately return this expression instead of assigning it to the temporary variable "sourceIndex".(‡ýÕ±úÿÿÿÿ8Å”ˆ§˜0

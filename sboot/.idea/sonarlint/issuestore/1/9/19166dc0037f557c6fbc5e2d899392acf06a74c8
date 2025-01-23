@@ -1,0 +1,15 @@
+
+]
+java:S1126’"AReplace this if-then-else statement by a single return statement.(Ÿ†æ¢ÿÿÿÿÿ
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(æË©Œ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(†ðÊa
+Ä
+java:S1130Y"¨Remove the declaration of thrown exception 'net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombination', as it cannot be thrown from method's body.(³ãÉÌýÿÿÿÿ
+m
+java:S3776X"RRefactor this method to reduce its Cognitive Complexity from 52 to the 15 allowed.(†‹×æþÿÿÿÿ
+f	java:S117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Ñ»œ
+]
+java:S1126š"AReplace this if-then-else statement by a single return statement.(•å’¦þÿÿÿÿ
+J
+java:S3740-"/Provide the parametrized type for this generic.(­õñ‹úÿÿÿÿ
+f	java:S117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôíÉ±

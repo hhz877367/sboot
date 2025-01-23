@@ -1,0 +1,24 @@
+
+H
+java:S1135T"2Complete the task associated to this TODO comment.(¼ßÇá
+Q	java:S1257"<This block of commented-out lines of code should be removed.(“³Šú
+o
+java:S2293>"YReplace the type specification in this constructor call with the diamond operator ("<>").(âýÚå
+X	java:S125#"<This block of commented-out lines of code should be removed.(ÎéÅƒ8÷“þÝ³1
+’
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(àÜÕúÿÿÿÿÿ
+V	java:S125X"<This block of commented-out lines of code should be removed.(¤«Àýÿÿÿÿ
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(¹Ïûð
+Q	java:S125B"<This block of commented-out lines of code should be removed.(Èõð
+V	java:S125P"<This block of commented-out lines of code should be removed.(˜Õ”òüÿÿÿÿ
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(‡·Àê
+>
+java:S1604G"(Make this anonymous inner class a lambda( ­Ç÷
+X	java:S125("<This block of commented-out lines of code should be removed.(óºÕô8·¹þÝ³1
+Q	java:S125<"<This block of commented-out lines of code should be removed.(Ç“‰
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ã¹ƒ¨
+œ
+java:S1130"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(àÜÕúÿÿÿÿÿ
+o
+java:S22934"YReplace the type specification in this constructor call with the diamond operator ("<>").(«£ðè

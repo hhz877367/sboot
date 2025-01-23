@@ -1,0 +1,24 @@
+
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(Ğœ…¶ÿÿÿÿÿ8°„©–œ0
+U	java:S106V"9Replace this use of System.out or System.err by a logger.(ÍŠ¸ã8Šç§Ó›0
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(îÂ½Ìøÿÿÿÿ8ÃŒ‰ğ¸1
+h
+java:S1192%"FDefine a constant instead of duplicating this literal "stock" 5 times.(€àÎ·øÿÿÿÿ8Šç§Ó›0
+G
+java:S5411~"*Use the primitive boolean expression here.(•Â©¯8°Å¯ñ¸1
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(‘­Çüÿÿÿÿ8°„©–œ0
+Z	java:S106k"9Replace this use of System.out or System.err by a logger.(›Èûÿÿÿÿ8³‰ğ¸1
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(ÓÆ¢ÿ8°´©–œ0
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(ë­ô8Šç§Ó›0
+]	java:S125."<This block of commented-out lines of code should be removed.(˜–Æ‚ıÿÿÿÿ8Šç§Ó›0
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(èãÈÕ8Šç§Ó›0
+d
+java:S2142‰"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ºš¸ñ¸1
+n
+java:S1192-"QDefine a constant instead of duplicating this literal "lock:product_101" 3 times.(›œÆÔ8˜¾àï¸1
+U	java:S106<"9Replace this use of System.out or System.err by a logger.(ÍŠ¸ã8Šç§Ó›0
+U	java:S106T"9Replace this use of System.out or System.err by a logger.(ë­ô8Šç§Ó›0
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(€àÎ·øÿÿÿÿ8°´©–œ0
+L
+java:S54111"*Use the primitive boolean expression here.(‡šÑ©ûÿÿÿÿ8Šç§Ó›0
+Z	java:S106O"9Replace this use of System.out or System.err by a logger.(¿óşŸÿÿÿÿÿ8Šç§Ó›0

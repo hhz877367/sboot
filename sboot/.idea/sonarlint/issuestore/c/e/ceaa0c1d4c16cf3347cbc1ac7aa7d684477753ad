@@ -1,0 +1,7 @@
+
+b
+java:S1128"LRemove this unused import 'org.springframework.context.ApplicationListener'.(Ê½åŠ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Öîø¸
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¯Ü³Œ
+X
+java:S1128";Remove this unused import 'javax.annotation.PostConstruct'.(›ÅÁ8ôü‡¿´1

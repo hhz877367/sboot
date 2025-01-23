@@ -1,0 +1,21 @@
+
+S
+java:S3655"7Call "Optional#isPresent()" before accessing the value.(æ Şs8™¹òí˜0
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßåÃÅ8™¹òí˜0
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(Á‘Ÿ‰8™¹òí˜0
+T
+java:S1128"2Remove this unused import 'com.baizhi.entity.Cat'.(øçº¾ùÿÿÿÿ8™¹òí˜0
+:
+java:S2119+"Save and re-use this "Random".(¼İÅf8™¹òí˜0
+V
+java:S1481"4Remove this unused "indexValueModel" local variable.(íğ§—ùÿÿÿÿ8™¹òí˜0
+Y
+java:S3655"7Call "Optional#isPresent()" before accessing the value.(Ù²ÌŠûÿÿÿÿ8™¹òí˜0
+M
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ18™¹òí˜0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼¸åÒÿÿÿÿÿ
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(ĞÕæÍüÿÿÿÿ8™¹òí˜0
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(ŞŠ‘•üÿÿÿÿ8™¹òí˜0
+d
+java:S1128"BRemove this unused import 'sun.plugin.javascript.navig.LinkArray'.(ŞŠ‘•üÿÿÿÿ8™¹òí˜0

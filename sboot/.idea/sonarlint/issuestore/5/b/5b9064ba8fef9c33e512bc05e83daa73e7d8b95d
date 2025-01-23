@@ -1,0 +1,14 @@
+
+W	java:S125#"<This block of commented-out lines of code should be removed.(£§ˆp8êşÊö·1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8éÜÕı˜0
+J
+java:S1191"5Use classes from the Java API instead of Sun classes.(ÉÈÓ
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(Ğ˜±8Éãèü˜0
+G
+java:S1128"2Remove this unused import 'sun.nio.ch.ThreadPool'.(ÉÈÓ
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(Û’í«8ğî’ı˜0
+c
+java:S21427"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¡Æšı˜0
+4
+java:S2438""myTask" is a "Thread".(·Àò8’ìÂö·1

@@ -1,0 +1,26 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(ı™À
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+\
+java:S21424"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+N	java:S106S"9Replace this use of System.out or System.err by a logger.(²—ÎÇ
+E
+java:S3740"/Provide the parametrized type for this generic.(ı™À
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ÒÛÂÿÿÿÿÿ
+Q	java:S125J"<This block of commented-out lines of code should be removed.(©åŠ‚
+\
+java:S2142@"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(ÿ™ìâ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(ó÷Êúÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(£ªêÚøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(˜àÊ¼ùÿÿÿÿ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(ƒ¶äü
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ôšªì
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(à®Úö
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(àôıÿùÿÿÿÿ
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(ÖØòÆüÿÿÿÿ
+\
+java:S2142("FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(¾Í÷‹

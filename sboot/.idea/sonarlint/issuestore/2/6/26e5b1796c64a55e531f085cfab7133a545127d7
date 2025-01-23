@@ -1,0 +1,10 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(´¦…¸ÿÿÿÿÿ8 Õ¦š0
+:
+java:S2119*"Save and re-use this "Random".(¼İÅf8¿şõ¥š0
+R
+java:S1481"0Remove this unused "countSexMan" local variable.(ÕÁ’üÿÿÿÿ8®®Òôš0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(şæÃëûÿÿÿÿ8¶ÛÓ¦š0
+U	java:S106""9Replace this use of System.out or System.err by a logger.(±å‡ì8œ¥”¦š0
+T
+java:S1128"2Remove this unused import 'com.baizhi.entity.Cat'.(øçº¾ùÿÿÿÿ8™¸Çè²1

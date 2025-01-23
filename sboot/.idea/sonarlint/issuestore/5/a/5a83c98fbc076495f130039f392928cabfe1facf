@@ -1,0 +1,19 @@
+
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¼şàÌÿÿÿÿÿ8Â¤ÂÃ0
+s
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Úäşÿÿÿÿ8çèÆ0
+Z
+java:S1128	"8Remove this unused import 'javax.annotation.PreDestroy'.(ˆÇÜÆüÿÿÿÿ8â¦Æ0
+‰
+java:S1128"gRemove this unused import 'org.springframework.beans.factory.config.DestructionAwareBeanPostProcessor'.(Òìáöüÿÿÿÿ8Â¤ÂÃ0
+`
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(«ç¤Âÿÿÿÿÿ
+T
+java:S4973"9Use the "equals" method if value comparison was intended.(«ç¤Âÿÿÿÿÿ
+6
+java:S2129" Remove this "String" constructor(ÈÎÅ©
+U	java:S106"9Replace this use of System.out or System.err by a logger.(£ÎˆÇ8Â¤ÂÃ0
+e
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8â¦Æ0

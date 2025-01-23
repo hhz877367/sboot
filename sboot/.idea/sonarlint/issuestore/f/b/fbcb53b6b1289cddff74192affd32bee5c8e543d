@@ -1,0 +1,20 @@
+
+W	java:S125#"<This block of commented-out lines of code should be removed.(¡ãñt8áëÊÛ–0
+§
+java:S1130"„Remove the declaration of thrown exception 'java.lang.reflect.InvocationTargetException', as it cannot be thrown from method's body.(…ñáÀÿÿÿÿÿ8ØşÈÖ0
+]	java:S125"<This block of commented-out lines of code should be removed.(û€Şôıÿÿÿÿ8Ü‡Åî0
+O
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ8Ü‡Åî0
+w
+java:S1128"URemove this unused import 'org.springframework.transaction.annotation.Transactional'.(ğùçøùÿÿÿÿ8¶Áµ§–0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(•µñ¥ùÿÿÿÿ8Ü‡Åî0
+X	java:S125-"<This block of commented-out lines of code should be removed.(ç¦°Ù8ÆæÂ²–0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ó†£å8ïåªÆ0
+›
+java:S1130"yRemove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.(…ñáÀÿÿÿÿÿ8ØşÈÖ0
+]	java:S125"<This block of commented-out lines of code should be removed.(ÄÛšóÿÿÿÿÿ8Ø‘êß•0
+]	java:S125&"<This block of commented-out lines of code should be removed.(¼¸äÊıÿÿÿÿ8÷ŒÙ–0
+Œ
+java:S1128"jRemove this unused import 'org.springframework.web.context.support.AnnotationConfigWebApplicationContext'.(ô±Ü¤úÿÿÿÿ8Ü‡Åî0
+]	java:S125"<This block of commented-out lines of code should be removed.(£øï­ıÿÿÿÿ8ö¢­Æ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¹·ÀÚ8Ü‡Åî0

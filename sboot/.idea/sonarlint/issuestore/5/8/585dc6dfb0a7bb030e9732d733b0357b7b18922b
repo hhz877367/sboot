@@ -1,0 +1,35 @@
+
+c
+java:S2095("HUse try-with-resources or close this "FileWriter" in a "finally" clause.(§Õıæşÿÿÿÿ
+[	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(Ô÷Â³
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™»øéüÿÿÿÿ
+U
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(Áş¹Ùşÿÿÿÿ
+N
+java:S1197!"8Move the array designator from the variable to the type.(Ô÷Â³
+W
+java:S1128
+"ARemove this unused import 'java.io.UnsupportedEncodingException'.(Ãµ…“
+b
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(øÆˆ€
+T
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(”¿×›ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‚“É¾úÿÿÿÿ
+?
+java:S1905-")Remove this unnecessary cast to "double".(™…ß
+W
+java:S1075'"ARefactor your code to get this URI from a customizable parameter.(ûü¡‰
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ù¶Ìßùÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(£š“
+@
+java:S1172!"*Remove this unused method parameter "min".(Ô÷Â³
+W
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(ºç®š
+N
+java:S1197""8Move the array designator from the variable to the type.(ÄÅ¼Ø
+T
+java:S2130">Use "Double.parseDouble" for this string-to-double conversion.(ÅúŒè

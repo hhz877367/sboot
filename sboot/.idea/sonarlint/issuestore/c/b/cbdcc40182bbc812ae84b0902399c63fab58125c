@@ -1,0 +1,10 @@
+
+[
+java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(Ø„³¯
+P
+java:S1191"5Use classes from the Java API instead of Sun classes.(’ï÷¼ýÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰ì¡Åùÿÿÿÿ
+g	java:S116"RRename this field "Student" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…îÐ«
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ž³ð¸ûÿÿÿÿ
+O
+java:S2123":Remove this increment or correct the code not to waste it.(¹ †i

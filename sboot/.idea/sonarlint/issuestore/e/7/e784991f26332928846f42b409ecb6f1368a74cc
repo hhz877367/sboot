@@ -1,0 +1,13 @@
+
+n
+java:S1128"YRemove this unused import 'org.springframework.util.concurrent.SettableListenableFuture'.(ôƒ…a
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(„žÖ´þÿÿÿÿ
+C
+java:S16041"(Make this anonymous inner class a lambda(Ñê´ƒùÿÿÿÿ
+y
+java:S1488)"^Immediately return this expression instead of assigning it to the temporary variable "noargs".(ºËÂ¯ýÿÿÿÿ
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(÷Ãã¡
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(£þÿÃ
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(âÝ®‹
+x
+java:S1488#"]Immediately return this expression instead of assigning it to the temporary variable "queue".(ÁÌ®¾ÿÿÿÿÿ

@@ -1,0 +1,80 @@
+
+=
+java:S2111İ"!Use "BigDecimal.valueOf" instead.(ôâËºùÿÿÿÿ
+=
+java:S2111ö"!Use "BigDecimal.valueOf" instead.(—ÊäÄÿÿÿÿÿ
+z
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "string".(íÓÇ¦şÿÿÿÿ
+]
+java:S2259Ê"FA "NullPointerException" could be thrown; "setTime2" is nullable here.(®š½‡
+y
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "motnhCount".(²äÍì
+z
+java:S1488˜"^Immediately return this expression instead of assigning it to the temporary variable "string".(íÓÇ¦şÿÿÿÿ
+z
+java:S1488¿"dImmediately return this expression instead of assigning it to the temporary variable "yesterdayEnd".(…½·X
+t
+java:S1488ë"^Immediately return this expression instead of assigning it to the temporary variable "result".(ÈÈºX
+}
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "yesterDay".(ô’õ÷øÿÿÿÿ
+O
+java:S2864h"4Iterate over the "entrySet" instead of the "keySet".(˜åº úÿÿÿÿ
+m
+java:S2259Ô"VA "NullPointerException" could be thrown; "getDateByStringYYYYMMDD()" can return null.(†¥ÇÙ
+€
+java:S1488¹"dImmediately return this expression instead of assigning it to the temporary variable "yesterdayEnd".(Å®öĞûÿÿÿÿ
+m
+java:S2259Î"VA "NullPointerException" could be thrown; "getDateByStringYYYYMMDD()" can return null.(Š¿¿½
+8
+java:S1116ä"Remove this empty statement.(Åñ­õşÿÿÿÿ
+F
+java:S1172‹"*Remove this unused method parameter "age".(¨›ğ¢ıÿÿÿÿ
+m
+java:S2259Æ"VA "NullPointerException" could be thrown; "getDateByStringYYYYMMDD()" can return null.(ü¼ø
+]
+java:S2259ß"FA "NullPointerException" could be thrown; "setTime1" is nullable here.(ã«Ûí
+U
+java:S4973Ù"9Use the "equals" method if value comparison was intended.(òÛŸúÿÿÿÿ
+8
+java:S2111ã"!Use "BigDecimal.valueOf" instead.(ñ´Êà
+\
+java:S2259š"EA "NullPointerException" could be thrown; "setTime" is nullable here.(ÔÁ¼¹
+7
+java:S2129†" Remove this "Double" constructor(ÇÑ€ù
+b
+java:S1192Æ"KDefine a constant instead of duplicating this literal "yyyy-MM-dd" 7 times.(ü¼ø
+c
+java:S1192Í"GDefine a constant instead of duplicating this literal "-01-01" 3 times.(´é½³ıÿÿÿÿ
+8
+java:S2111×"!Use "BigDecimal.valueOf" instead.(“ó²’
+z
+java:S1488²"dImmediately return this expression instead of assigning it to the temporary variable "yesterdayEnd".(…½·X
+B
+java:S1168Ä"+Return an empty collection instead of null.(¥¹ï
+<
+java:S2129«" Remove this "Double" constructor(ŠÄüüÿÿÿÿ
+w
+java:S1488«"[Immediately return this expression instead of assigning it to the temporary variable "day".(ŠÄüüÿÿÿÿ
+r
+java:S2259Í"VA "NullPointerException" could be thrown; "getDateByStringYYYYMMDD()" can return null.(´é½³ıÿÿÿÿ
+€
+java:S1488Å"dImmediately return this expression instead of assigning it to the temporary variable "yesterdayEnd".(Û¼Â—şÿÿÿÿ
+\
+java:S2259ş"FA "NullPointerException" could be thrown; "dateTime" is nullable here.(äĞí
+7
+java:S2129" Remove this "Double" constructor(²äÍì
+O	java:S106‡"9Replace this use of System.out or System.err by a logger.(Éµ»é
+T	java:S106Ê"9Replace this use of System.out or System.err by a logger.(î™éÁøÿÿÿÿ
+O	java:S106Ì"9Replace this use of System.out or System.err by a logger.(­›
+r
+java:S2259Ç"VA "NullPointerException" could be thrown; "getDateByStringYYYYMMDD()" can return null.(´ÆËúÿÿÿÿ
+]
+java:S2259É"FA "NullPointerException" could be thrown; "setTime1" is nullable here.(ã«Ûí
+u
+java:S1488î"^Immediately return this expression instead of assigning it to the temporary variable "result".(àôáæ
+8
+java:S2111Ò"!Use "BigDecimal.valueOf" instead.(Ãò«†
+U
+java:S4973è"9Use the "equals" method if value comparison was intended.(òÛŸúÿÿÿÿ
+]
+java:S2259à"FA "NullPointerException" could be thrown; "setTime2" is nullable here.(®š½‡

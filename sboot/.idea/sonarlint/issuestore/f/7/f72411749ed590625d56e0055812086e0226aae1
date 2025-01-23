@@ -1,0 +1,10 @@
+
+V	java:S125!"<This block of commented-out lines of code should be removed.(Ûûß²úÿÿÿÿ
+P	java:S1255"<This block of commented-out lines of code should be removed.(óÌ`
+C
+java:S1604""(Make this anonymous inner class a lambda(µ¸ƒ­ùÿÿÿÿ
+t
+java:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(µ¸ƒ­ùÿÿÿÿ
+M	java:S1067"9Replace this use of System.out or System.err by a logger.(€£û)
+O
+java:S47194"9Replace charset name argument with StandardCharsets.UTF_8(ëÂë

@@ -1,0 +1,62 @@
+
+T
+java:S1128"2Remove this unused import 'org.redisson.Redisson'.(ĞÈ›Ùùÿÿÿÿ8Ş»Üî¸1
+z
+java:S1128"]Remove this unused import 'org.springframework.web.context.request.ServletRequestAttributes'.(şĞ‘Ÿ8äŸÓè²1
+a
+java:S1128""DRemove this unused import 'java.util.concurrent.ThreadPoolExecutor'.(¦ÿöÊ8ˆ“Í¬¸1
+Z
+java:S1128"8Remove this unused import 'org.assertj.core.data.Index'.(áŞ§ıÿÿÿÿ8¸ÊÑ¦¸1
+g
+java:S2259ô"DA "NullPointerException" could be thrown; "person" is nullable here.(Æ İşÿÿÿÿ8«²ª¥¸1
+Z	java:S106T"9Replace this use of System.out or System.err by a logger.(ÇşÖ‚øÿÿÿÿ8†æÖ¥¸1
+I
+java:S1068="'Remove this unused "map" private field.(çìúòúÿÿÿÿ8äŸÓè²1
+{	java:S1165"ZRename this field "StudentService3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒéÜ¿şÿÿÿÿ8Å ´Ã0
+R
+java:S3740ñ"/Provide the parametrized type for this generic.(ì’›øÿÿÿÿÿ8«²ª¥¸1
+l
+java:S1192Ğ"NDefine a constant instead of duplicating this literal "trainusering:" 3 times.(àğ¹›8«²ª¥¸1
+{	java:S1162"ZRename this field "StudentService2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş¥’ıÿÿÿÿ8Å ´Ã0
+^	java:S125 "<This block of commented-out lines of code should be removed.(»Ë¿äÿÿÿÿÿ8«²ª¥¸1
+ƒ
+java:S1450*"aRemove the "applicationContext" field and declare it as a local variable in the relevant methods.(î‡²şÿÿÿÿ8äŸÓè²1
+V
+java:S1128"4Remove this unused import 'com.baizhi.entity.Train'.(é‰òûÿÿÿÿ8—¶Óè²1
+V	java:S106ı"9Replace this use of System.out or System.err by a logger.(—¨í8«²ª¥¸1
+v
+java:S1128"YRemove this unused import 'org.springframework.web.context.request.RequestContextHolder'.(ºãê8äŸÓè²1
+d
+java:S2142Í"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8«²ª¥¸1
+r
+java:S1450("PRemove the "j" field and declare it as a local variable in the relevant methods.(¤³Šäüÿÿÿÿ8®Ú±¸Ÿ0
+U	java:S106K"9Replace this use of System.out or System.err by a logger.(å¼œ8‹îÓè²1
+U
+java:S1117ğ"7Rename "map" which hides the field declared at line 61.(îö8«²ª¥¸1
+e
+java:S1128"IRemove this unused import 'org.springframework.context.ApplicationEvent'.(È±8‰ìÏè²1
+s
+java:S1128"VRemove this unused import 'org.springframework.web.context.request.RequestAttributes'.(¢“…°8‰ìÏè²1
+R
+java:S1481É"/Remove this unused "threadname" local variable.(¾ÅÅûÿÿÿÿ8«²ª¥¸1
+c
+java:S1192^"FDefine a constant instead of duplicating this literal "list1" 4 times.(‘£Í‰8Ç¤–¦¸1
+h
+java:S1128"FRemove this unused import 'com.baizhi.springLisiter.HHZLisiterObject'.(Œ’Úúÿÿÿÿ8äŸÓè²1
+d
+java:S2142Æ"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8«²ª¥¸1
+U	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ÄÃ¼08«²ª¥¸1
+J
+java:S3740;"/Provide the parametrized type for this generic.(£ü‰üÿÿÿÿÿ
+U	java:S106I"9Replace this use of System.out or System.err by a logger.(µ¹²¬8‹îÓè²1
+{
+java:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(çìúòúÿÿÿÿ8»ì…˜0
+X
+java:S1068*"6Remove this unused "applicationContext" private field.(î‡²şÿÿÿÿ8äŸÓè²1
+K
+java:S1481G".Remove this unused "increment" local variable.(şğ¼¨8¢ƒ©¥¸1
+[	java:S106Ø"9Replace this use of System.out or System.err by a logger.(À‰Ü„øÿÿÿÿ8«²ª¥¸1
+S
+java:S1128"1Remove this unused import 'scala.runtime.Static'.(äĞ¼¼şÿÿÿÿ8İ¢Œ£¹1
+u
+java:S1128"SRemove this unused import 'org.springframework.transaction.annotation.Propagation'.(èª¡Çûÿÿÿÿ8‰ìÏè²1

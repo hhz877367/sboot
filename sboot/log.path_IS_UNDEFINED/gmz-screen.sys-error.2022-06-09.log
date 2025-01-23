@@ -1,0 +1,8 @@
+15:29:52.785 [rabbitConnectionFactory1] ERROR o.s.a.r.c.PublisherCallbackChannelImpl - [lambda$doHandleConfirm$1,1030] - Exception delivering confirm
+java.lang.NullPointerException: null
+	at com.baizhi.rabbitmq.config.DelayConfig$1.confirm(DelayConfig.java:55)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.handleConfirm(RabbitTemplate.java:2480)
+	at org.springframework.amqp.rabbit.connection.PublisherCallbackChannelImpl.lambda$doHandleConfirm$1(PublisherCallbackChannelImpl.java:1026)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)

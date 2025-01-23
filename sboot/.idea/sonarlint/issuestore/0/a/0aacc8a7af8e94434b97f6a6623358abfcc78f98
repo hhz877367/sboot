@@ -1,0 +1,10 @@
+
+\
+java:S2142,"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+S	java:S106"9Replace this use of System.out or System.err by a logger.(îˆÎ½ùÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ó„é¨úÿÿÿÿ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(×¯ëÔ
+H
+java:S1874)"2Remove this use of "getSeconds"; it is deprecated.(×¯ëÔ

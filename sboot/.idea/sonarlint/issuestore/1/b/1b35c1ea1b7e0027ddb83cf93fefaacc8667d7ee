@@ -1,0 +1,12 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µüô€
+:
+java:S2386"Make this member "protected".(ò¹±Ş8¤¹ƒ§˜0
+I
+java:S1481",Remove this unused "bmiDesc" local variable.(€Û´Ñ8¤¹ƒ§˜0
+9
+java:S2386"Make this member "protected".(À§¾$8¤¹ƒ§˜0
+e
+java:S1192;"HDefine a constant instead of duplicating this literal "bmiDesc" 3 times.(Âÿ´Ñ8¤¹ƒ§˜0
+?
+java:S2386"Make this member "protected".(‚”úÿÿÿÿ8¤¹ƒ§˜0

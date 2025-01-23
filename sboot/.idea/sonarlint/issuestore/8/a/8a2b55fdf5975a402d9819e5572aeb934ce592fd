@@ -1,0 +1,25 @@
+
+Ž
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Þýÿÿÿÿ8ƒç¦Þ³1
+Q	java:S125$"<This block of commented-out lines of code should be removed.(µ»ç
+V	java:S125B"<This block of commented-out lines of code should be removed.(ÛÖ‚¶úÿÿÿÿ
+t
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(…œ“§úÿÿÿÿ
+V	java:S125F"<This block of commented-out lines of code should be removed.(ÛÖ‚¶úÿÿÿÿ
+Z	java:S106g"9Replace this use of System.out or System.err by a logger.(·Üâ¤úÿÿÿÿ8€›çÝ³1
+U
+java:S1128":Remove this unused import 'ch.qos.logback.classic.Logger'.(™Ððöøÿÿÿÿ
+d
+java:S1128	"GRemove this unused import 'org.apache.logging.log4j.spi.LoggerContext'.(áìþ‘8ÌºÊÞ³1
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ã¹ƒ¨
+X	java:S125?"<This block of commented-out lines of code should be removed.(þ£û›8Ùº©Þ³1
+]	java:S125J"<This block of commented-out lines of code should be removed.(ã³žŠþÿÿÿÿ8Ôù¦Þ³1
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¯Šþé
+V	java:S125p"<This block of commented-out lines of code should be removed.(ˆ©á‘ýÿÿÿÿ
+[
+java:S1128"9Remove this unused import 'ch.qos.logback.classic.Level'.(þÀ¢ºþÿÿÿÿ8ÌºÊÞ³1
+Q
+java:S1128
+"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚÞ8ÌºÊÞ³1

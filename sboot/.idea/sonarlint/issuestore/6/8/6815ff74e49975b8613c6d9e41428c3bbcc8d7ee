@@ -1,0 +1,8 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÌÈ¶ùùÿÿÿÿ8ã»È•œ0
+Q
+java:S3740"/Provide the parametrized type for this generic.(£ü‰üÿÿÿÿÿ8±ã¿•œ0
+s
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Úäþÿÿÿÿ8»¶°–œ0
+J
+java:S1481"-Remove this unused "nameList" local variable.(ˆ•žæ8…»é•œ0

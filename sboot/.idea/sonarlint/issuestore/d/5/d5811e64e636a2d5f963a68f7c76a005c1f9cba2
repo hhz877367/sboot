@@ -1,0 +1,17 @@
+
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(ÿâÑŸ8§öäÄ™0
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(ÿâÑŸ8ç¾şÄ™0
+c
+java:S21425"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¾““Å™0
+X	java:S125"<This block of commented-out lines of code should be removed.(½‘Ñ³8˜óÅ™0
+U	java:S106;"9Replace this use of System.out or System.err by a logger.(ÿâÑŸ8¾““Å™0
+Z	java:S106@"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ8”ÚîÄ™0
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ8çÅ™0
+c
+java:S2142A"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8”ÚîÄ™0
+c
+java:S2142)"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8çÅ™0
+X	java:S125"<This block of commented-out lines of code should be removed.(Æëœ‡8±íĞÄ™0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(»ê°ıÿÿÿÿ8çäãÄ™0
+X	java:S125"<This block of commented-out lines of code should be removed.(ÿÒÔ›8±íĞÄ™0
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ8¾““Å™0

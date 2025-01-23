@@ -1,0 +1,21 @@
+
+N
+java:S1197"8Move the array designator from the variable to the type.(´Ì¿Á
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(ÔÜëê
+W
+java:S1128"ARemove this unused import 'java.io.UnsupportedEncodingException'.(Ãµ…“
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Şì™§úÿÿÿÿ
+g
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(¿¨õøÿÿÿÿ
+[
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(¿¨õøÿÿÿÿ8ƒ÷ÂŸ0
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Çãã¼ıÿÿÿÿ
+U
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ
+T
+java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(âË–úÿÿÿÿ
+a
+java:S1128	"FRemove this unused import 'javax.imageio.stream.FileImageInputStream'.(½ƒÊ³şÿÿÿÿ
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Š±Æïıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ëõç¨

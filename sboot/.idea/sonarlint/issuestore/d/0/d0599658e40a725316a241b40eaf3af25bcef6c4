@@ -1,0 +1,23 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÜÁíº8ÑÇë±–0
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(İêı¾8²‡±–0
+Q
+java:S3740"/Provide the parametrized type for this generic.(æİ’Ûıÿÿÿÿ8·ªë±–0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Œ…Úåüÿÿÿÿ8²‡±–0
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æİ’Ûıÿÿÿÿ8·ªë±–0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ş»Ş8²‡±–0
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¸®·8ı¦æ±–0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ˆö°8²‡±–0
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(¾¼¡“ıÿÿÿÿ8²‡±–0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¿çòÂ8²‡±–0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(£—½şÿÿÿÿ8²‡±–0
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(Ôáæ‚8²‡±–0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(…—ÆÍÿÿÿÿÿ8²‡±–0
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(Ÿá¸şÿÿÿÿ8²‡±–0
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(„Ú‡é8²‡±–0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(œÇ¥ˆúÿÿÿÿ8²‡±–0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(óÌÂüÿÿÿÿ8²‡±–0
+_
+java:S2094"BRemove this empty class, write its code or make it an "interface".(Ã™ÄÏ8²‡±–0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Õ‹‘ÿÿÿÿÿ8²‡±–0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ˆ´“•øÿÿÿÿ8£…æ±–0

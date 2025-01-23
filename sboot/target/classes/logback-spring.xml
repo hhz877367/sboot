@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true" scan="true" scanPeriod="30 seconds"
+               xmlns="http://ch.qos.logback/xml/ns/logback"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://ch.qos.logback/xml/ns/logback
+    https://raw.githubusercontent.com/enricopulatzo/logback-XSD/master/src/main/xsd/logback.xsd">
+<!--    <springProperty scope="context" name="log.path" source="log.path"/>
+    <springProperty scope="context" name="log.level" source="log.level"/>
+    <springProperty scope="context" name="domain.name" source="gmz.module"/>
+
+    <property name="log.pattern"
+              value="%d{HH:mm:ss.SSS} [%thread] %-5level %logger{20} - [%method,%line] - %msg%n"/>-->
+    <!-- 控制台输出 -->
+<!--    <appender name="log.console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+                ${log.pattern}
+            </pattern>
+        </encoder>
+    </appender>-->
+    <!-- 系统日志输出 -->
+    <appender name="file_info" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>
+            ${log.path}/${domain.name}.sys-info.log
+        </file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 按天回滚 daily -->
+            <fileNamePattern>
+                ${log.path}/${domain.name}.sys-info.%d{yyyy-MM-dd}.log
+            </fileNamePattern>
+            <!-- 日志最大的历史 60天 -->
+            <maxHistory>
+                60
+            </maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>
+                ${log.pattern}
+            </pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>
+                INFO
+            </level>
+            <onMatch>
+                ACCEPT
+            </onMatch>
+            <onMismatch>
+                DENY
+            </onMismatch>
+        </filter>
+    </appender>
+    <appender name="async_info" class="ch.qos.logback.classic.AsyncAppender">
+        <!-- 添加附加的Appender, 最多只能添加一个 -->
+        <appender-ref ref="file_info"/>
+    </appender>
+
+    <appender name="file_error" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>
+            ${log.path}/${domain.name}.sys-error.log
+        </file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 按天回滚 daily -->
+            <fileNamePattern>
+                ${log.path}/${domain.name}.sys-error.%d{yyyy-MM-dd}.log
+            </fileNamePattern>
+            <!-- 日志最大的历史 60天 -->
+            <maxHistory>
+                60
+            </maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>
+                ${log.pattern}
+            </pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>
+                ERROR
+            </level>
+            <onMatch>
+                ACCEPT
+            </onMatch>
+            <onMismatch>
+                DENY
+            </onMismatch>
+        </filter>
+    </appender>
+    <appender name="async_error" class="ch.qos.logback.classic.AsyncAppender">
+        <!-- 添加附加的Appender, 最多只能添加一个 -->
+        <appender-ref ref="file_error"/>
+    </appender>
+
+    <!-- 用户访问日志输出 -->
+    <appender name="sys-user" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>
+            ${log.path}/${domain.name}.sys-user.log
+        </file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 按天回滚 daily -->
+            <fileNamePattern>
+                ${log.path}/${domain.name}.sys-user.%d{yyyy-MM-dd}.log
+            </fileNamePattern>
+            <!-- 日志最大的历史 60天 -->
+            <maxHistory>
+                60
+            </maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>
+                ${log.pattern}
+            </pattern>
+        </encoder>
+    </appender>
+    <appender name="async_sysuser" class="ch.qos.logback.classic.AsyncAppender">
+        <!-- 添加附加的Appender, 最多只能添加一个 -->
+        <appender-ref ref="sys-user"/>
+    </appender>
+
+    <logger name="ch.qos.logback" level="ERROR"/>
+    <logger name="java.sql" level="ERROR"/>
+    <logger name="io.swagger" level="ERROR"/>
+    <logger name="org.springframework" level="ERROR"/>
+    <logger name="org.quartz" level="ERROR"/>
+    <logger name="springfox.documentation" level="ERROR"/>
+    <logger name="com.baomidou.mybatisplus" level="ERROR"/>
+    <logger name="org.mybatis" level="ERROR"/>
+    <logger name="io.netty" level="ERROR"/>
+    <logger name="org.hibernate" level="ERROR"/>
+    <logger name="io.lettuce" level="ERROR"/>
+    <logger name="org.apache" level="ERROR"/>
+
+    <logger name="com.gmz" level="${log.level}">
+        <appender-ref ref="file_info"/>
+        <appender-ref ref="file_error"/>
+        <appender-ref ref="sys-user"/>
+    </logger>
+
+    <root level="${log.level}">
+       <!-- <appender-ref ref="log.console"/>-->
+     <!--   <appender-ref ref="file_info"/>
+        <appender-ref ref="file_error"/>
+        <appender-ref ref="sys-user"/>-->
+    </root>
+
+</configuration>

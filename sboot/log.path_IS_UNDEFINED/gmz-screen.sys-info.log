@@ -1,0 +1,13 @@
+15:36:49.256 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 8996 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:36:49.262 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:36:51.041 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:36:51.121 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:36:51.862 [main] INFO  org.redisson.Version - [logVersion,41] - Redisson 3.6.5
+15:36:52.548 [redisson-netty-4-28] INFO  o.r.c.p.MasterPubSubConnectionPool - [operationComplete,145] - 1 connections initialized for localhost/127.0.0.1:6379
+15:36:52.549 [redisson-netty-4-4] INFO  o.r.c.p.MasterConnectionPool - [operationComplete,145] - 32 connections initialized for localhost/127.0.0.1:6379
+15:36:52.699 [main] INFO  org.redisson.Version - [logVersion,41] - Redisson 3.6.5
+15:36:52.741 [redisson-netty-7-3] INFO  o.r.c.p.MasterPubSubConnectionPool - [operationComplete,145] - 1 connections initialized for localhost/127.0.0.1:6379
+15:36:52.741 [redisson-netty-7-2] INFO  o.r.c.p.MasterConnectionPool - [operationComplete,145] - 32 connections initialized for localhost/127.0.0.1:6379
+15:36:53.864 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 5.063 seconds (JVM running for 5.872)
+15:37:01.348 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:37:01.352 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed

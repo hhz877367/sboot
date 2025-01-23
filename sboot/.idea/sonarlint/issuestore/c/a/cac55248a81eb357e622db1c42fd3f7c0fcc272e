@@ -1,0 +1,11 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(“ˆóáýÿÿÿÿ8Þ™”•µ1
+S	java:S106"9Replace this use of System.out or System.err by a logger.(•µñ¥ùÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ã¥ÞÞøÿÿÿÿ8­Î³•µ1
+V	java:S125"<This block of commented-out lines of code should be removed.(û€Þôýÿÿÿÿ
+”
+java:S1130	"yRemove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.(…ñáÀÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÄÛšóÿÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(•€úà8èˆ‘•µ1
+ 
+java:S1130	"„Remove the declaration of thrown exception 'java.lang.reflect.InvocationTargetException', as it cannot be thrown from method's body.(…ñáÀÿÿÿÿÿ

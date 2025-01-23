@@ -1,0 +1,12 @@
+
+V	java:S125Z"<This block of commented-out lines of code should be removed.(ß™ïâûÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ª–Å†şÿÿÿÿ
+Q	java:S125*"<This block of commented-out lines of code should be removed.(îÜĞ
+r
+java:S1128"WRemove this unused import 'org.springframework.amqp.rabbit.connection.CorrelationData'.(ò×¹¤øÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(¼Ò­¦üÿÿÿÿ
+P	java:S125R"<This block of commented-out lines of code should be removed.(ïÎ
+Q	java:S125V"<This block of commented-out lines of code should be removed.(Ÿ¯Éˆ
+Q	java:S125J"<This block of commented-out lines of code should be removed.(ÌÏìù
+V	java:S125N"<This block of commented-out lines of code should be removed.(İ”ìÈşÿÿÿÿ

@@ -1,0 +1,54 @@
+10:47:21.505 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 22180 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+10:47:21.515 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+10:47:21.515 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+10:47:22.541 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+10:47:22.957 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+10:47:23.017 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+10:47:24.363 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.233 seconds (JVM running for 4.001)
+10:47:56.385 [http-nio-8082-exec-7] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM gt_collect 
+10:47:56.399 [http-nio-8082-exec-7] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==> Parameters: 
+10:48:12.807 [http-nio-8082-exec-7] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - <==      Total: 1
+10:48:12.810 [http-nio-8082-exec-7] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect LIMIT ?, ? 
+10:48:12.810 [http-nio-8082-exec-7] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==> Parameters: 110(Integer), 11(Integer)
+10:48:12.814 [http-nio-8082-exec-7] DEBUG c.b.d.S.selectGtCollect - [debug,143] - <==      Total: 11
+10:48:12.816 [http-nio-8082-exec-7] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==>  Preparing: select e.collect_id,user_id,train_id,btutc_time,imei from gt_collect e iNNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT ?, ?) ed ON e.collect_id = ed.collect_id; 
+10:48:12.816 [http-nio-8082-exec-7] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==> Parameters: 121(Integer), 11(Integer)
+10:48:12.820 [http-nio-8082-exec-7] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - <==      Total: 11
+10:57:27.008 [http-nio-8082-exec-4] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM gt_collect 
+10:57:27.008 [http-nio-8082-exec-4] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==> Parameters: 
+10:57:43.293 [http-nio-8082-exec-4] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - <==      Total: 1
+10:57:43.294 [http-nio-8082-exec-4] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect LIMIT ?, ? 
+10:57:43.294 [http-nio-8082-exec-4] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==> Parameters: 110(Integer), 11(Integer)
+10:57:43.297 [http-nio-8082-exec-4] DEBUG c.b.d.S.selectGtCollect - [debug,143] - <==      Total: 11
+10:57:43.297 [http-nio-8082-exec-4] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==>  Preparing: select e.collect_id,user_id,train_id,btutc_time,imei from gt_collect e iNNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT ?, ?) ed ON e.collect_id = ed.collect_id; 
+10:57:43.297 [http-nio-8082-exec-4] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==> Parameters: 121(Integer), 11(Integer)
+10:57:43.299 [http-nio-8082-exec-4] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - <==      Total: 11
+10:58:02.231 [http-nio-8082-exec-5] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM gt_collect 
+10:58:02.231 [http-nio-8082-exec-5] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==> Parameters: 
+10:58:18.413 [http-nio-8082-exec-5] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - <==      Total: 1
+10:58:18.414 [http-nio-8082-exec-5] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect LIMIT ?, ? 
+10:58:18.414 [http-nio-8082-exec-5] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==> Parameters: 1043613(Integer), 323(Integer)
+10:58:19.127 [http-nio-8082-exec-5] DEBUG c.b.d.S.selectGtCollect - [debug,143] - <==      Total: 323
+10:58:19.127 [http-nio-8082-exec-5] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==>  Preparing: select e.collect_id,user_id,train_id,btutc_time,imei from gt_collect e iNNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT ?, ?) ed ON e.collect_id = ed.collect_id; 
+10:58:19.127 [http-nio-8082-exec-5] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==> Parameters: 1043936(Integer), 323(Integer)
+10:58:19.388 [http-nio-8082-exec-5] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - <==      Total: 323
+10:58:43.940 [http-nio-8082-exec-6] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM gt_collect 
+10:58:43.941 [http-nio-8082-exec-6] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - ==> Parameters: 
+10:59:00.298 [http-nio-8082-exec-6] DEBUG c.b.d.S.selectGtCollect_COUNT - [debug,143] - <==      Total: 1
+10:59:00.298 [http-nio-8082-exec-6] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==>  Preparing: select collect_id,user_id,train_id,btutc_time,imei from gt_collect LIMIT ?, ? 
+10:59:00.298 [http-nio-8082-exec-6] DEBUG c.b.d.S.selectGtCollect - [debug,143] - ==> Parameters: 222222(Integer), 111111(Integer)
+10:59:01.321 [http-nio-8082-exec-6] DEBUG c.b.d.S.selectGtCollect - [debug,143] - <==      Total: 111111
+10:59:01.321 [http-nio-8082-exec-6] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==>  Preparing: select e.collect_id,user_id,train_id,btutc_time,imei from gt_collect e iNNER JOIN ( SELECT collect_id FROM gt_collect ORDER BY user_id LIMIT ?, ?) ed ON e.collect_id = ed.collect_id; 
+10:59:01.322 [http-nio-8082-exec-6] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - ==> Parameters: 333333(Integer), 111111(Integer)
+10:59:03.088 [http-nio-8082-exec-6] DEBUG c.b.d.S.selectGtCollect2 - [debug,143] - <==      Total: 111111
+11:17:24.563 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - delivery acknowledgement on channel 1 timed out. Timeout value used: 1800000 ms. This timeout value can be configured, see consumers doc guide to learn more, class-id=0, method-id=0)
+11:47:24.817 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - delivery acknowledgement on channel 2 timed out. Timeout value used: 1800000 ms. This timeout value can be configured, see consumers doc guide to learn more, class-id=0, method-id=0)
+12:17:25.074 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - delivery acknowledgement on channel 3 timed out. Timeout value used: 1800000 ms. This timeout value can be configured, see consumers doc guide to learn more, class-id=0, method-id=0)
+13:32:01.581 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - delivery acknowledgement on channel 4 timed out. Timeout value used: 1800000 ms. This timeout value can be configured, see consumers doc guide to learn more, class-id=0, method-id=0)
+14:02:01.807 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - delivery acknowledgement on channel 5 timed out. Timeout value used: 1800000 ms. This timeout value can be configured, see consumers doc guide to learn more, class-id=0, method-id=0)
+14:32:02.084 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - delivery acknowledgement on channel 6 timed out. Timeout value used: 1800000 ms. This timeout value can be configured, see consumers doc guide to learn more, class-id=0, method-id=0)
+15:02:02.362 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - delivery acknowledgement on channel 7 timed out. Timeout value used: 1800000 ms. This timeout value can be configured, see consumers doc guide to learn more, class-id=0, method-id=0)
+15:32:02.632 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - delivery acknowledgement on channel 8 timed out. Timeout value used: 1800000 ms. This timeout value can be configured, see consumers doc guide to learn more, class-id=0, method-id=0)
+16:02:02.902 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - delivery acknowledgement on channel 9 timed out. Timeout value used: 1800000 ms. This timeout value can be configured, see consumers doc guide to learn more, class-id=0, method-id=0)
+16:27:55.241 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:27:55.245 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed

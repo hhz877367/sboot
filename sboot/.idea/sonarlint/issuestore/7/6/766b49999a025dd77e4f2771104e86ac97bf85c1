@@ -1,0 +1,40 @@
+
+X
+java:S1141ˆ"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8¥í‹æ0
+g
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8Ã ´Ã0
+V	java:S106‡"9Replace this use of System.out or System.err by a logger.(”ùš¦8¥í‹æ0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ü¦ß¸üÿÿÿÿ
+K	java:S108ˆ")Either remove or fill this block of code.(¡»¢üùÿÿÿÿ8¥í‹æ0
+b
+java:S1128"ERemove this unused import 'java.util.concurrent.locks.ReentrantLock'.(òªø8‡åö˜›0
+U	java:S106b"9Replace this use of System.out or System.err by a logger.(àÉÙÇ8¥í‹æ0
+F	java:S108’")Either remove or fill this block of code.(”ı¾8¥í‹æ0
+X
+java:S1128";Remove this unused import 'com.baizhi.entity.TaskPlanPojo'.(š€ĞÊ8ŸúÉ»”0
+U	java:S106t"9Replace this use of System.out or System.err by a logger.(ı•ï­8¥í‹æ0
+[	java:S106"9Replace this use of System.out or System.err by a logger.(ªÖæùÿÿÿÿ8¥í‹æ0
+g
+java:S1128"ERemove this unused import 'org.springframework.beans.BeansException'.(Æ¢ùìüÿÿÿÿ8¶Áµ§–0
+h
+java:S1128"KRemove this unused import 'org.springframework.context.ApplicationContext'.(»Ô»¿8¶Áµ§–0
+U	java:S106p"9Replace this use of System.out or System.err by a logger.(€¾½8¥í‹æ0
+F	java:S108”")Either remove or fill this block of code.(Úîø›8¥í‹æ0
+X	java:S125:"<This block of commented-out lines of code should be removed.(ëÉäĞ8Ò·Ş´1
+l
+java:S3252["OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(¶Ìë¯8¥í‹æ0
+‚
+java:S1488R"`Immediately return this expression instead of assigning it to the temporary variable "students".(Âïíøÿÿÿÿ8¥í‹æ0
+H
+java:S1481B"&Remove this unused "c" local variable.(¬Û´’üÿÿÿÿ8‚Ô­Ş´1
+Q
+java:S1481q"/Remove this unused "gtCollects" local variable.(´­²€ùÿÿÿÿ8¥í‹æ0
+z
+java:S1128
+"XRemove this unused import 'com.baomidou.mybatisplus.core.conditions.query.QueryWrapper'.(ÓÆÂæÿÿÿÿÿ8¶Áµ§–0
+m
+java:S1128"PRemove this unused import 'org.springframework.context.ApplicationContextAware'.(’ïı·8¶Áµ§–0
+Y
+java:S3518B"7Make sure "a" can't be zero before doing this division.(¬Û´’üÿÿÿÿ8‚Ô­Ş´1
+n
+java:S1128"LRemove this unused import 'org.springframework.beans.factory.BeanNameAware'.(¡üÿ²ÿÿÿÿÿ8®È¾Û–0

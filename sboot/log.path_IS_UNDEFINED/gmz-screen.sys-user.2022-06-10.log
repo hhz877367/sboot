@@ -1,0 +1,581 @@
+10:24:27.502 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 23604 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+10:24:27.512 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+10:24:27.512 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+10:24:29.143 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+10:24:29.753 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+10:24:29.873 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+10:24:31.843 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 4.955 seconds (JVM running for 6.828)
+11:36:16.366 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+11:36:16.376 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+13:50:43.771 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 10940 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+13:50:43.771 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+13:50:43.771 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+13:50:45.281 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+13:50:45.921 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+13:50:46.020 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+13:50:48.045 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 4.906 seconds (JVM running for 6.41)
+13:54:02.089 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 15400 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+13:54:02.097 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+13:54:02.097 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+13:54:03.698 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+13:54:04.410 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+13:54:04.514 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+13:54:07.759 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 6.282 seconds (JVM running for 7.412)
+14:01:06.681 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 15480 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:01:06.691 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:01:06.691 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:01:13.319 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 12496 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:01:13.319 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:01:13.319 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:01:14.951 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:01:15.739 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:01:15.852 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:01:19.134 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 6.408 seconds (JVM running for 7.636)
+14:02:57.282 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 9048 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:02:57.282 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:02:57.282 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:02:59.952 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:03:00.996 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:03:01.164 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:03:09.499 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 12.889 seconds (JVM running for 14.544)
+14:27:27.095 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 18488 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:27:27.097 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:27:27.097 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:27:28.152 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:27:28.632 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:27:28.708 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:27:30.304 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.582 seconds (JVM running for 4.268)
+14:28:34.376 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 13476 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:28:34.378 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:28:34.379 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:28:35.447 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:28:35.896 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:28:35.961 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:28:37.478 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.481 seconds (JVM running for 4.212)
+14:28:49.386 [http-nio-8082-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+	at com.baizhi.entity.Student.<init>(Student.java:30)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl.testTopicConfirm(TrainServiceServiceImpl.java:45)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl$$FastClassBySpringCGLIB$$d76717a3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$$Lambda$987/0x000000084079c040.proceedWithInvocation(Unknown Source)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl$$EnhancerBySpringCGLIB$$778689e.testTopicConfirm(<generated>)
+	at com.baizhi.controller.TrainController.testTopicConfirm(TrainController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+14:29:34.359 [http-nio-8082-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+14:29:40.258 [http-nio-8082-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+14:29:46.750 [http-nio-8082-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+14:29:53.756 [AMQP Connection 127.0.0.1:5672] ERROR c.r.c.i.ForgivingExceptionHandler - [log,119] - An unexpected connection driver error occured
+java.lang.OutOfMemoryError: Java heap space
+14:29:53.849 [http-nio-8082-BlockPoller] ERROR o.a.t.u.n.NioBlockingSelector - [log,175] - Error processing selection key operations
+java.lang.OutOfMemoryError: Java heap space
+14:29:54.368 [http-nio-8082-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+14:29:54.368 [http-nio-8082-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+14:29:54.371 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#5-1] ERROR o.s.a.r.l.SimpleMessageListenerContainer - [run,1251] - Consumer thread error, thread abort.
+java.lang.OutOfMemoryError: Java heap space
+14:29:54.383 [http-nio-8082-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+14:29:54.383 [http-nio-8082-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+14:29:54.488 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.489 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#5-1] ERROR o.s.a.r.l.SimpleMessageListenerContainer - [killOrRestart,1398] - Stopping container from aborted consumer
+14:29:54.489 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.489 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.494 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.494 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.494 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.495 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.495 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.495 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.495 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.496 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.497 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.497 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.497 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.498 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.498 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.498 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.498 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.498 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.499 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.499 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.499 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.499 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.499 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.500 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.500 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.500 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.500 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.501 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.501 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.501 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.501 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.501 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.502 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.502 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.502 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.502 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.502 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.502 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:29:54.502 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.674 [AMQP Connection 127.0.0.1:5672] ERROR c.r.c.i.ForgivingExceptionHandler - [log,119] - An unexpected connection driver error occured
+java.lang.OutOfMemoryError: Java heap space
+14:30:00.675 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.676 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.676 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.676 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.676 [http-nio-8082-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+14:30:00.676 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.676 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.676 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.677 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.677 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.677 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.678 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.678 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.678 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.678 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.679 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.679 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.679 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.679 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.679 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.679 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.679 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.680 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.680 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.680 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.680 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.680 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.680 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.680 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.680 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.681 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.681 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.681 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.681 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.681 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.681 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.682 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.682 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.682 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.682 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.682 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.683 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.683 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.683 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.683 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.683 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.684 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.684 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.684 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.685 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.685 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.685 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.685 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.685 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.685 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.685 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.686 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.686 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.686 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.686 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.686 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.686 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.687 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:00.687 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:09.655 [AMQP Connection 127.0.0.1:5672] ERROR c.r.c.i.ForgivingExceptionHandler - [log,119] - An unexpected connection driver error occured
+java.lang.OutOfMemoryError: Java heap space
+14:30:09.655 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#3-3] ERROR o.s.a.r.l.SimpleMessageListenerContainer - [run,1251] - Consumer thread error, thread abort.
+java.lang.OutOfMemoryError: Java heap space
+14:30:09.655 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#6-3] ERROR o.s.a.r.l.SimpleMessageListenerContainer - [run,1251] - Consumer thread error, thread abort.
+java.lang.OutOfMemoryError: Java heap space
+14:30:09.655 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:09.655 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#3-3] ERROR o.s.a.r.l.SimpleMessageListenerContainer - [killOrRestart,1398] - Stopping container from aborted consumer
+14:30:09.655 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#6-3] ERROR o.s.a.r.l.SimpleMessageListenerContainer - [killOrRestart,1398] - Stopping container from aborted consumer
+14:30:09.656 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:09.656 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:09.656 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.405 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.405 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.406 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.406 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.406 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.406 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.406 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.407 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.407 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.407 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.407 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.408 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.408 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.408 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.408 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.409 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.409 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.409 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.409 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.410 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.410 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.410 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.410 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.410 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.410 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: connection error
+14:30:10.548 [http-nio-8082-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+14:33:41.214 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 8912 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:33:41.216 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:33:41.217 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:33:42.155 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:33:42.566 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:33:42.628 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:33:44.081 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.195 seconds (JVM running for 3.896)
+14:34:35.500 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#8-1] ERROR o.s.a.r.l.SimpleMessageListenerContainer - [run,1251] - Consumer thread error, thread abort.
+java.lang.OutOfMemoryError: Java heap space
+	at org.springframework.amqp.rabbit.support.DefaultMessagePropertiesConverter.toMessageProperties(DefaultMessagePropertiesConverter.java:88)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.handle(BlockingQueueConsumer.java:453)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.nextMessage(BlockingQueueConsumer.java:499)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:922)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:908)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:81)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1279)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1185)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+14:34:35.500 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#10-1] ERROR o.s.a.r.l.SimpleMessageListenerContainer - [run,1251] - Consumer thread error, thread abort.
+java.lang.OutOfMemoryError: Java heap space
+14:34:35.504 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#10-1] ERROR o.s.a.r.l.SimpleMessageListenerContainer - [killOrRestart,1398] - Stopping container from aborted consumer
+14:34:35.504 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#8-1] ERROR o.s.a.r.l.SimpleMessageListenerContainer - [killOrRestart,1398] - Stopping container from aborted consumer
+14:34:35.508 [http-nio-8082-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+	at com.baizhi.entity.Student.<init>(Student.java:30)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl.testTopicConfirm(TrainServiceServiceImpl.java:55)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl$$FastClassBySpringCGLIB$$d76717a3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$$Lambda$996/0x00000008407c2440.proceedWithInvocation(Unknown Source)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl$$EnhancerBySpringCGLIB$$fb775c38.testTopicConfirm(<generated>)
+	at com.baizhi.controller.TrainController.testTopicConfirm(TrainController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+14:35:26.123 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:35:26.128 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:40:53.859 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 22156 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:40:53.860 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:40:53.861 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:40:54.797 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:40:55.288 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:40:55.359 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:40:56.980 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.46 seconds (JVM running for 4.093)
+14:42:37.100 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20160 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:42:37.102 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:42:37.103 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:42:38.076 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:42:38.492 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:42:38.556 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:42:40.111 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.371 seconds (JVM running for 4.043)
+14:46:02.236 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 15732 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:46:02.237 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:46:02.237 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:46:03.086 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:46:03.431 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:46:03.487 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:46:04.694 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 2.74 seconds (JVM running for 3.377)
+15:01:10.084 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 18060 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:01:10.088 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:01:10.089 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:01:11.199 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:01:11.628 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:01:11.689 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:01:12.995 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.297 seconds (JVM running for 4.046)
+15:03:53.108 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:03:53.111 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:04:00.965 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 9536 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:04:00.968 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:04:00.968 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:04:01.975 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:04:02.374 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:04:02.431 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:04:03.799 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.251 seconds (JVM running for 4.005)
+15:47:42.960 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20616 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:47:42.961 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:47:42.962 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:47:43.978 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:47:44.397 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:47:44.468 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:47:45.890 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.287 seconds (JVM running for 4.013)
+15:48:28.761 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 11580 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:48:28.764 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:48:28.765 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:48:29.834 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:48:30.230 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:48:30.289 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:48:31.613 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.29 seconds (JVM running for 4.414)
+15:52:28.943 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 22944 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:52:28.946 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:52:28.947 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:52:30.175 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:52:30.597 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:52:30.656 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:52:32.014 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.495 seconds (JVM running for 4.229)
+15:58:19.313 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 7284 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:58:19.316 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:58:19.316 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:58:20.346 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:58:24.508 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 7096 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:58:24.510 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:58:24.510 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:58:25.516 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:58:25.913 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:58:25.963 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:58:27.349 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.194 seconds (JVM running for 3.843)
+16:02:03.460 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 8868 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:02:03.462 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:02:03.463 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:02:04.497 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:02:04.879 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:02:04.937 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:02:06.233 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.128 seconds (JVM running for 3.804)
+16:04:30.416 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 19104 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:04:30.418 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:04:30.418 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:04:31.539 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:04:31.975 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:04:32.039 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:04:33.559 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.534 seconds (JVM running for 4.26)
+16:04:42.339 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:04:42.344 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:04:46.551 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 9672 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:04:46.554 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:04:46.555 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:04:47.683 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:04:48.110 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:04:48.172 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:04:49.697 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.609 seconds (JVM running for 4.397)
+16:07:00.904 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 21624 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:07:00.907 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:07:00.907 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:07:02.214 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:07:02.707 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:07:02.781 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:07:14.919 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20052 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:07:14.921 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:07:14.922 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:07:16.422 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:07:17.012 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:07:17.094 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:07:22.214 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 7.833 seconds (JVM running for 8.628)
+16:08:18.595 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:08:18.600 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:08:25.168 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20464 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:08:25.170 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:08:25.170 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:08:26.266 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:08:26.663 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:08:26.721 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:08:28.139 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.33 seconds (JVM running for 3.933)
+16:08:46.583 [http-nio-8082-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+	at com.baizhi.entity.Student.<init>(Student.java:30)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl.stest5000(TrainServiceServiceImpl.java:60)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl.testTopicConfirm(TrainServiceServiceImpl.java:46)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl$$FastClassBySpringCGLIB$$d76717a3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$$Lambda$847/630004958.proceedWithInvocation(Unknown Source)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl$$EnhancerBySpringCGLIB$$ed644679.testTopicConfirm(<generated>)
+	at com.baizhi.controller.TrainController.testTopicConfirm(TrainController.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+16:08:49.982 [http-nio-8082-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+	at com.baizhi.entity.Student.<init>(Student.java:30)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl.stest5000(TrainServiceServiceImpl.java:60)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl.testTopicConfirm(TrainServiceServiceImpl.java:46)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl$$FastClassBySpringCGLIB$$d76717a3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$$Lambda$847/630004958.proceedWithInvocation(Unknown Source)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl$$EnhancerBySpringCGLIB$$ed644679.testTopicConfirm(<generated>)
+	at com.baizhi.controller.TrainController.testTopicConfirm(TrainController.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+16:08:53.217 [http-nio-8082-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+	at com.baizhi.entity.Student.<init>(Student.java:30)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl.stest5000(TrainServiceServiceImpl.java:60)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl.testTopicConfirm(TrainServiceServiceImpl.java:46)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl$$FastClassBySpringCGLIB$$d76717a3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$$Lambda$847/630004958.proceedWithInvocation(Unknown Source)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl$$EnhancerBySpringCGLIB$$ed644679.testTopicConfirm(<generated>)
+	at com.baizhi.controller.TrainController.testTopicConfirm(TrainController.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+16:09:19.747 [http-nio-8082-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+	at com.baizhi.entity.Student.<init>(Student.java:30)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl.stest5000(TrainServiceServiceImpl.java:60)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl.testTopicConfirm(TrainServiceServiceImpl.java:46)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl$$FastClassBySpringCGLIB$$d76717a3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$$Lambda$847/630004958.proceedWithInvocation(Unknown Source)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.service.Impl.TrainServiceServiceImpl$$EnhancerBySpringCGLIB$$ed644679.testTopicConfirm(<generated>)
+	at com.baizhi.controller.TrainController.testTopicConfirm(TrainController.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+16:09:23.272 [http-nio-8082-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+16:14:26.158 [http-nio-8082-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+16:14:29.378 [http-nio-8082-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+16:15:03.809 [http-nio-8082-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+16:15:11.896 [http-nio-8082-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+16:15:15.138 [http-nio-8082-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+16:15:18.347 [http-nio-8082-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+16:15:50.973 [http-nio-8082-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space
+16:15:54.120 [http-nio-8082-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space] with root cause
+java.lang.OutOfMemoryError: Java heap space

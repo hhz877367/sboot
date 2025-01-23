@@ -1,0 +1,110 @@
+gmz:
+  # 名称
+  name: GMZ
+  # 版本
+  version: '@revision@'
+  # 版权年份
+  copyrightYear: 2020
+  # 文件路径 示例（ Windows配置E:/gerh/uploadPath，Linux配置 /home/gerh/uploadPath）
+  profile: D:/word
+  # 获取ip地址开关
+  addressEnabled: true
+  # 验证码开关
+  captchaEnabled: false
+  # 模块名称
+  module: gmz-screen
+
+
+server:
+    port: 8082
+    servlet:
+        context-path: /sboot
+#配置数据库的连接信息
+spring:
+#  kafka:
+#    bootstrap-servers: 127.0.0.1:9092
+#    producer: # 生产者
+#      retries: 3 # 设置大于0的值，则客户端会将发送失败的记录重新发送
+#      batch-size: 16384
+#      buffer-memory: 33554432
+#      acks: 1
+#      # 指定消息key和消息体的编解码方式
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+#    consumer:
+#      group-id: default-group
+#      enable-auto-commit: false
+#      auto-offset-reset: earliest
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#    listener:
+#      # 当每一条记录被消费者监听器（ListenerConsumer）处理之后提交
+#      # RECORD
+#      # 当每一批poll()的数据被消费者监听器（ListenerConsumer）处理之后提交
+#      # BATCH
+#      # 当每一批poll()的数据被消费者监听器（ListenerConsumer）处理之后，距离上次提交时间大于TIME时提交
+#      # TIME
+#      # 当每一批poll()的数据被消费者监听器（ListenerConsumer）处理之后，被处理record数量大于等于COUNT时提交
+#      # COUNT
+#      # TIME |　COUNT　有一个条件满足时提交
+#      # COUNT_TIME
+#      # 当每一批poll()的数据被消费者监听器（ListenerConsumer）处理之后, 手动调用Acknowledgment.acknowledge()后提交
+#      # MANUAL
+#      # 手动调用Acknowledgment.acknowledge()后立即提交
+#      # MANUAL_IMMEDIATE
+#      ack-mode: MANUAL_IMMEDIATE
+
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    publisher-returns: true
+    publisher-confirm-type: correlated
+    template:
+      mandatory: true
+    listener:
+      simple:
+        acknowledge-mode: manual
+        prefetch: 1
+        retry:
+          max-attempts: 3
+          enabled: true
+          initial-interval: 2000
+      direct:
+        acknowledge-mode: manual
+
+  cache:
+    redis:
+      time-to-live: 3000
+      cache-null-values: true
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/stu?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    username: root
+    password: 123456
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jackson:
+    date-format: yyyy-MM-dd
+    time-zone: GMT+8
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 20000
+    database: 5
+    expireTime: 129600
+    jedis:
+      pool:
+        max-active: 8
+
+
+
+#给实体起别名，设置映射文件的路径。
+mybatis-plus:
+  type-aliases-package: com.baizhi.entity
+  mapper-locations: classpath*:com/baizhi/dao/*.xml
+#logging:
+#  level:
+#    org.apache.kafka.clients.consumer.internals.ConsumerCoordinator: ERROR

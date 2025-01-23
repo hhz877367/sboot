@@ -1,0 +1,12 @@
+
+J
+java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ8–„øäµ1
+V
+java:S1128"4Remove this unused import 'org.mockito.InjectMocks'.(Ó§óµşÿÿÿÿ8–„øäµ1
+a
+java:S1128"?Remove this unused import 'org.aspectj.lang.annotation.Aspect'.(˜Ú§®ıÿÿÿÿ8«œûıµ1
+G
+java:S2160"+Override the "equals" method in this class.(ô¨ú]8–„øäµ1
+h
+java:S1128"KRemove this unused import 'org.springframework.context.annotation.Primary'.(“ğ›ß8–„øäµ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(È–…÷8–„øäµ1

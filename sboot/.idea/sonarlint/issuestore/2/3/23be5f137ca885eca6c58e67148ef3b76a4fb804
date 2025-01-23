@@ -1,0 +1,20 @@
+
+m
+java:S2259"K"NullPointerException" will be thrown when invoking method "getRunIndex()".(îÑ¼ÿþÿÿÿÿ8ðî¤§˜0
+:
+java:S2386]"Make this member "protected".(öÝÍì8ðî¤§˜0
+R
+java:S2209?"5Change this instance-reference to a static reference.(­á¶‰8ðî¤§˜0
+W
+java:S1118":Add a private constructor to hide the implicit public one.(’…¦£8„Æœ§˜0
+9
+java:S2386z"Make this member "protected".(ûµ²8ðî¤§˜0
+:
+java:S2386u"Make this member "protected".(ÇŸÌæ8ðî¤§˜0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µüô€
+@
+java:S2386Œ"Make this member "protected".(£ì§þýÿÿÿÿ8ðî¤§˜0
+;
+java:S2386ž"Make this member "protected".(Òý®Ñ8ðî¤§˜0
+;
+java:S2386°"Make this member "protected".(®Žéí8ðî¤§˜0

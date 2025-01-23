@@ -1,0 +1,8 @@
+
+J
+java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ8Ÿ±·Œ˜0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Éú³èüÿÿÿÿ8º·¯Œ˜0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¥æ¬Œ8Å÷¥Œ˜0
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(ÎÍµ8·ÚÆŒ˜0
+I
+java:S1602$",Remove useless curly braces around statement(¥—ığ8·ÚÆŒ˜0

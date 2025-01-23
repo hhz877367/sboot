@@ -1,0 +1,7 @@
+
+Q
+java:S1128"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜8«Œ‹¤¹1
+{
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(˜ßœóıÿÿÿÿ8Ô½Œ¤¹1
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ÒåŸúÿÿÿÿ8¡Èª¤¹1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Š¬¼Õùÿÿÿÿ8óÔ¸¤¹1

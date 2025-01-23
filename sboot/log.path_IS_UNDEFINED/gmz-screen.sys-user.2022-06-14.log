@@ -1,0 +1,1032 @@
+10:58:53.763 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 15828 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+10:58:53.763 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+10:58:53.763 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+10:58:55.045 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+10:58:55.508 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+10:58:55.588 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+10:58:57.116 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.728 seconds (JVM running for 5.226)
+10:59:27.076 [http-nio-8082-exec-5] DEBUG c.b.d.S.selectList - [debug,143] - ==>  Preparing: SELECT id,s_name,age,score,birth,a FROM stu WHERE id=? AND a=? 
+10:59:27.096 [http-nio-8082-exec-5] DEBUG c.b.d.S.selectList - [debug,143] - ==> Parameters: 4(Integer), [I@172743db(int[])
+10:59:27.156 [http-nio-8082-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'a' in 'field list'
+### The error may exist in com/baizhi/dao/StudentDao.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,s_name,age,score,birth,a  FROM stu     WHERE id=?      AND a=?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'a' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'a' in 'field list'] with root cause
+java.sql.SQLSyntaxErrorException: Unknown column 'a' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy173.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy171.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy107.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:158)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:76)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62)
+	at com.sun.proxy.$Proxy108.selectList(Unknown Source)
+	at com.baizhi.service.Impl.StudentServiceImpl.selectAll(StudentServiceImpl.java:41)
+	at com.baizhi.service.Impl.StudentServiceImpl$$FastClassBySpringCGLIB$$318b795f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.service.Impl.StudentServiceImpl$$EnhancerBySpringCGLIB$$da0af555.selectAll(<generated>)
+	at com.baizhi.controller.StudentController.selectStudnrtAll(StudentController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+10:59:44.310 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectList - [debug,143] - ==>  Preparing: SELECT id,s_name,age,score,birth,a FROM stu WHERE id=? AND a=? 
+10:59:44.331 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectList - [debug,143] - ==> Parameters: 4(Integer), [I@66eb4fdf(int[])
+10:59:59.918 [http-nio-8082-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'a' in 'field list'
+### The error may exist in com/baizhi/dao/StudentDao.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,s_name,age,score,birth,a  FROM stu     WHERE id=?      AND a=?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'a' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'a' in 'field list'] with root cause
+java.sql.SQLSyntaxErrorException: Unknown column 'a' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy173.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy171.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy107.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:158)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:76)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62)
+	at com.sun.proxy.$Proxy108.selectList(Unknown Source)
+	at com.baizhi.service.Impl.StudentServiceImpl.selectAll(StudentServiceImpl.java:41)
+	at com.baizhi.service.Impl.StudentServiceImpl$$FastClassBySpringCGLIB$$318b795f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.service.Impl.StudentServiceImpl$$EnhancerBySpringCGLIB$$da0af555.selectAll(<generated>)
+	at com.baizhi.controller.StudentController.selectStudnrtAll(StudentController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+11:00:13.098 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20904 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+11:00:13.108 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+11:00:13.108 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:00:14.109 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+11:00:14.499 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:00:14.559 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+11:00:15.919 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.176 seconds (JVM running for 3.829)
+11:00:27.612 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectList - [debug,143] - ==>  Preparing: SELECT id,s_name,age,score,birth FROM stu WHERE id=? 
+11:00:27.631 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectList - [debug,143] - ==> Parameters: 4(Integer)
+11:00:27.653 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectList - [debug,143] - <==      Total: 1
+11:00:49.083 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectList - [debug,143] - ==>  Preparing: SELECT id,s_name,age,score,birth FROM stu WHERE id=? 
+11:00:49.085 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectList - [debug,143] - ==> Parameters: 4(Integer)
+11:00:49.087 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectList - [debug,143] - <==      Total: 1
+11:11:38.562 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 9264 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+11:11:38.565 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+11:11:38.565 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:11:39.714 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+11:11:40.225 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:11:40.293 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+11:11:41.830 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.591 seconds (JVM running for 4.179)
+11:12:03.355 [http-nio-8082-exec-9] DEBUG c.b.d.S.selectList - [debug,143] - ==>  Preparing: SELECT id,s_name,age,score,birth FROM stu WHERE id=? 
+11:12:03.522 [http-nio-8082-exec-9] DEBUG c.b.d.S.selectList - [debug,143] - ==> Parameters: 4(Integer)
+11:12:03.657 [http-nio-8082-exec-9] DEBUG c.b.d.S.selectList - [debug,143] - <==      Total: 1
+11:12:05.697 [http-nio-8082-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is org.springframework.transaction.IllegalTransactionStateException: Existing transaction found for transaction marked with propagation 'never'] with root cause
+org.springframework.transaction.IllegalTransactionStateException: Existing transaction found for transaction marked with propagation 'never'
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.handleExistingTransaction(AbstractPlatformTransactionManager.java:404)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:352)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:572)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:360)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.service.Impl.StudentServiceImpl$$EnhancerBySpringCGLIB$$26da6239.testa(<generated>)
+	at com.baizhi.service.Impl.StudentServiceImpl.selectAll(StudentServiceImpl.java:46)
+	at com.baizhi.service.Impl.StudentServiceImpl$$FastClassBySpringCGLIB$$318b795f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.service.Impl.StudentServiceImpl$$EnhancerBySpringCGLIB$$26da6239.selectAll(<generated>)
+	at com.baizhi.controller.StudentController.selectStudnrtAll(StudentController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+16:42:34.844 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 5044 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:42:34.852 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:42:34.852 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:42:37.152 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:42:37.990 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:42:38.110 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:42:41.063 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 6.988 seconds (JVM running for 8.375)
+16:43:20.298 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:43:20.308 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:39:09.360 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 4720 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:39:09.362 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+17:39:09.362 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:39:10.479 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+17:39:10.903 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:39:10.963 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:39:12.386 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.404 seconds (JVM running for 4.055)
+17:41:01.524 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 11820 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:41:01.526 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+17:41:01.526 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:41:02.578 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+17:41:02.999 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:41:03.059 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:41:04.473 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.355 seconds (JVM running for 4.023)
+17:41:39.634 [http-nio-8082-exec-10] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu 
+17:41:39.645 [http-nio-8082-exec-10] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 
+17:41:39.658 [http-nio-8082-exec-10] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 14
+17:42:34.780 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:42:34.785 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:42:40.089 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 15100 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:42:40.094 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+17:42:40.094 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:42:41.507 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+17:42:41.958 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:42:42.020 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:42:43.519 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.977 seconds (JVM running for 4.806)
+17:42:56.221 [http-nio-8082-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is java.lang.reflect.UndeclaredThrowableException] with root cause
+java.lang.NoSuchMethodException: com.baizhi.controller.StudentController Can't find startPage method
+	at com.baizhi.controller.PageAspect.page(PageAspect.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:626)
+	at org.springframework.aop.aspectj.AspectJMethodBeforeAdvice.before(AspectJMethodBeforeAdvice.java:44)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.controller.StudentController$$EnhancerBySpringCGLIB$$956daf7a.selectStudnrtAll(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+17:43:43.281 [http-nio-8082-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is java.lang.reflect.UndeclaredThrowableException] with root cause
+java.lang.NoSuchMethodException: com.baizhi.controller.StudentController Can't find startPage method
+	at com.baizhi.controller.PageAspect.page(PageAspect.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:626)
+	at org.springframework.aop.aspectj.AspectJMethodBeforeAdvice.before(AspectJMethodBeforeAdvice.java:44)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.controller.StudentController$$EnhancerBySpringCGLIB$$956daf7a.selectStudnrtAll(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+17:44:13.575 [http-nio-8082-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is java.lang.reflect.UndeclaredThrowableException] with root cause
+java.lang.NoSuchMethodException: com.baizhi.controller.StudentController Can't find startPage method
+	at com.baizhi.controller.PageAspect.page(PageAspect.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:626)
+	at org.springframework.aop.aspectj.AspectJMethodBeforeAdvice.before(AspectJMethodBeforeAdvice.java:44)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.baizhi.controller.StudentController$$EnhancerBySpringCGLIB$$956daf7a.selectStudnrtAll(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+17:44:25.682 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:44:25.687 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:44:33.163 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 17528 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:44:33.165 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+17:44:33.166 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:44:34.203 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+17:44:34.606 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:44:34.664 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:44:36.028 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.278 seconds (JVM running for 3.925)
+17:44:49.839 [http-nio-8082-exec-7] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu 
+17:44:49.851 [http-nio-8082-exec-7] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 
+17:44:49.867 [http-nio-8082-exec-7] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 14
+17:45:46.374 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 4992 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:45:46.376 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+17:45:46.377 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:45:47.412 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+17:45:47.809 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:45:47.868 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:45:49.211 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.202 seconds (JVM running for 3.838)
+17:45:58.575 [http-nio-8082-exec-7] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu 
+17:45:58.589 [http-nio-8082-exec-7] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 
+17:45:58.602 [http-nio-8082-exec-7] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 14
+17:46:43.983 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 13660 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:46:43.985 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+17:46:43.985 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:46:45.031 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+17:46:45.442 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:46:45.501 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:46:46.873 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.255 seconds (JVM running for 3.901)
+17:46:50.438 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu 
+17:46:50.450 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 
+17:46:50.464 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 14
+17:51:49.335 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 7576 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:51:49.337 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+17:51:49.338 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:51:50.356 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+17:51:50.753 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:51:50.812 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:51:52.190 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.226 seconds (JVM running for 3.888)
+17:52:19.884 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.896 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三0(String), 1000(String)
+17:52:19.908 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.922 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.922 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三1(String), 1001(String)
+17:52:19.923 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.925 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.925 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三2(String), 1002(String)
+17:52:19.926 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.928 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.928 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三3(String), 1003(String)
+17:52:19.930 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.932 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.932 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三4(String), 1004(String)
+17:52:19.933 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.935 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.936 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三5(String), 1005(String)
+17:52:19.936 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.938 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.938 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三6(String), 1006(String)
+17:52:19.939 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.941 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.942 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三7(String), 1007(String)
+17:52:19.943 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.945 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.945 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三8(String), 1008(String)
+17:52:19.946 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.947 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.948 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三9(String), 1009(String)
+17:52:19.949 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.950 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.950 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三10(String), 10010(String)
+17:52:19.952 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.953 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.953 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三11(String), 10011(String)
+17:52:19.954 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.955 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.955 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三12(String), 10012(String)
+17:52:19.957 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.958 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.958 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三13(String), 10013(String)
+17:52:19.959 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.961 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.961 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三14(String), 10014(String)
+17:52:19.962 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.965 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.965 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三15(String), 10015(String)
+17:52:19.968 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.970 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.970 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三16(String), 10016(String)
+17:52:19.971 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.973 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.973 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三17(String), 10017(String)
+17:52:19.974 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.976 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.976 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三18(String), 10018(String)
+17:52:19.977 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.979 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.979 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三19(String), 10019(String)
+17:52:19.980 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.982 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.982 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三20(String), 10020(String)
+17:52:19.984 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.985 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.986 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三21(String), 10021(String)
+17:52:19.987 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.988 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.989 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三22(String), 10022(String)
+17:52:19.990 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.992 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.992 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三23(String), 10023(String)
+17:52:19.993 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.995 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.995 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三24(String), 10024(String)
+17:52:19.996 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:19.998 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:19.999 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三25(String), 10025(String)
+17:52:19.999 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.001 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.001 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三26(String), 10026(String)
+17:52:20.002 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.004 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.004 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三27(String), 10027(String)
+17:52:20.005 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.007 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.007 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三28(String), 10028(String)
+17:52:20.008 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.010 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.010 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三29(String), 10029(String)
+17:52:20.011 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.012 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.013 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三30(String), 10030(String)
+17:52:20.013 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.015 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.015 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三31(String), 10031(String)
+17:52:20.016 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.018 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.019 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三32(String), 10032(String)
+17:52:20.020 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.022 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.022 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三33(String), 10033(String)
+17:52:20.023 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.025 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.025 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三34(String), 10034(String)
+17:52:20.026 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.028 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.028 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三35(String), 10035(String)
+17:52:20.029 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.031 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.031 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三36(String), 10036(String)
+17:52:20.032 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.033 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.034 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三37(String), 10037(String)
+17:52:20.034 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.036 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.036 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三38(String), 10038(String)
+17:52:20.037 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.039 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.039 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三39(String), 10039(String)
+17:52:20.040 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.043 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.043 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三40(String), 10040(String)
+17:52:20.044 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.045 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.045 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三41(String), 10041(String)
+17:52:20.046 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.048 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.048 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三42(String), 10042(String)
+17:52:20.049 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.050 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.050 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三43(String), 10043(String)
+17:52:20.051 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.053 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.054 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三44(String), 10044(String)
+17:52:20.054 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.056 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.056 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三45(String), 10045(String)
+17:52:20.056 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.058 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.059 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三46(String), 10046(String)
+17:52:20.060 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.062 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.063 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三47(String), 10047(String)
+17:52:20.063 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.065 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.066 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三48(String), 10048(String)
+17:52:20.067 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.068 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.068 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三49(String), 10049(String)
+17:52:20.069 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.071 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.071 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三50(String), 10050(String)
+17:52:20.072 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.074 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.074 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三51(String), 10051(String)
+17:52:20.074 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.076 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.076 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三52(String), 10052(String)
+17:52:20.077 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.078 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.079 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三53(String), 10053(String)
+17:52:20.079 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.081 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.081 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三54(String), 10054(String)
+17:52:20.082 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.083 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.083 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三55(String), 10055(String)
+17:52:20.084 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.086 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.086 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三56(String), 10056(String)
+17:52:20.087 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.088 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.088 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三57(String), 10057(String)
+17:52:20.089 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.090 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.091 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三58(String), 10058(String)
+17:52:20.091 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.093 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.093 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三59(String), 10059(String)
+17:52:20.095 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.096 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.096 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三60(String), 10060(String)
+17:52:20.097 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.100 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.100 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三61(String), 10061(String)
+17:52:20.102 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.104 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.104 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三62(String), 10062(String)
+17:52:20.105 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.107 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.108 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三63(String), 10063(String)
+17:52:20.109 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.111 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.112 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三64(String), 10064(String)
+17:52:20.113 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.115 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.116 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三65(String), 10065(String)
+17:52:20.116 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.118 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.118 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三66(String), 10066(String)
+17:52:20.119 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.120 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.120 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三67(String), 10067(String)
+17:52:20.121 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.123 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.123 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三68(String), 10068(String)
+17:52:20.123 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.125 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.125 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三69(String), 10069(String)
+17:52:20.126 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.127 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.128 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三70(String), 10070(String)
+17:52:20.129 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.131 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.131 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三71(String), 10071(String)
+17:52:20.132 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.133 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.133 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三72(String), 10072(String)
+17:52:20.134 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.135 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.135 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三73(String), 10073(String)
+17:52:20.136 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.137 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.137 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三74(String), 10074(String)
+17:52:20.138 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.139 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.139 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三75(String), 10075(String)
+17:52:20.140 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.142 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.142 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三76(String), 10076(String)
+17:52:20.143 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.145 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.145 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三77(String), 10077(String)
+17:52:20.146 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.147 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.148 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三78(String), 10078(String)
+17:52:20.149 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.151 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.151 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三79(String), 10079(String)
+17:52:20.152 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.153 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.153 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三80(String), 10080(String)
+17:52:20.154 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.155 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.155 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三81(String), 10081(String)
+17:52:20.156 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.157 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.158 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三82(String), 10082(String)
+17:52:20.158 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.160 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.160 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三83(String), 10083(String)
+17:52:20.161 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.163 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.163 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三84(String), 10084(String)
+17:52:20.164 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.165 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.165 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三85(String), 10085(String)
+17:52:20.166 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.167 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.168 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三86(String), 10086(String)
+17:52:20.168 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.170 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.170 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三87(String), 10087(String)
+17:52:20.171 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.173 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.173 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三88(String), 10088(String)
+17:52:20.174 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.175 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.175 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三89(String), 10089(String)
+17:52:20.176 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.178 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.178 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三90(String), 10090(String)
+17:52:20.179 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.180 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.180 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三91(String), 10091(String)
+17:52:20.181 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.182 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.182 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三92(String), 10092(String)
+17:52:20.183 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.185 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.185 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三93(String), 10093(String)
+17:52:20.186 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.187 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.188 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三94(String), 10094(String)
+17:52:20.188 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.190 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.190 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三95(String), 10095(String)
+17:52:20.191 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.192 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.192 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三96(String), 10096(String)
+17:52:20.193 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.195 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.195 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三97(String), 10097(String)
+17:52:20.196 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.197 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.197 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三98(String), 10098(String)
+17:52:20.198 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:20.199 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==>  Preparing: INSERT INTO stu ( s_name, age ) VALUES ( ?, ? ) 
+17:52:20.199 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - ==> Parameters: 张三99(String), 10099(String)
+17:52:20.200 [http-nio-8082-exec-6] DEBUG c.b.d.S.insert - [debug,143] - <==    Updates: 1
+17:52:34.524 [http-nio-8082-exec-9] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu 
+17:52:34.524 [http-nio-8082-exec-9] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 
+17:52:34.538 [http-nio-8082-exec-9] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 114
+17:53:57.572 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 6440 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:53:57.574 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+17:53:57.575 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:53:58.675 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+17:53:59.087 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:53:59.144 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:54:00.577 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.4 seconds (JVM running for 4.048)
+17:56:03.887 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu 
+17:56:03.898 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 
+17:56:03.918 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 114
+17:56:34.492 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 11840 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:56:34.494 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+17:56:34.494 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:56:35.537 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+17:56:35.974 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:56:36.034 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:56:37.443 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.371 seconds (JVM running for 4.016)
+17:56:57.704 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu 
+17:56:57.718 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 
+17:56:57.740 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 114
+17:57:11.114 [http-nio-8082-exec-8] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM stu 
+17:57:11.114 [http-nio-8082-exec-8] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==> Parameters: 
+17:57:11.117 [http-nio-8082-exec-8] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - <==      Total: 1
+17:57:11.120 [http-nio-8082-exec-8] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu LIMIT ? 
+17:57:11.121 [http-nio-8082-exec-8] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 10(Integer)
+17:57:11.123 [http-nio-8082-exec-8] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 10
+18:00:54.308 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 9936 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:00:54.310 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+18:00:54.310 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:00:55.400 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+18:00:55.810 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:00:55.868 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:00:57.218 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.29 seconds (JVM running for 3.948)
+18:01:05.138 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM stu 
+18:01:05.150 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==> Parameters: 
+18:01:05.163 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - <==      Total: 1
+18:01:05.167 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu LIMIT ? 
+18:01:05.168 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 10(Integer)
+18:01:05.170 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 10
+18:01:19.936 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM stu 
+18:01:19.936 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==> Parameters: 
+18:01:19.937 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - <==      Total: 1
+18:01:19.938 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu LIMIT ? 
+18:01:19.938 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 10(Integer)
+18:01:19.941 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 10
+18:02:35.885 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 8388 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:02:35.887 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+18:02:35.887 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:02:36.892 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+18:02:37.315 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:02:37.372 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:02:38.745 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.211 seconds (JVM running for 3.864)
+18:02:42.526 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM stu 
+18:02:42.538 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==> Parameters: 
+18:02:42.550 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - <==      Total: 1
+18:02:42.554 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu LIMIT ? 
+18:02:42.555 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 10(Integer)
+18:02:42.557 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 10
+18:02:47.305 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM stu 
+18:02:47.306 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==> Parameters: 
+18:02:47.308 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - <==      Total: 1
+18:02:47.308 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu LIMIT ? 
+18:02:47.308 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 10(Integer)
+18:02:47.312 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 10
+18:03:46.243 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 7188 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:03:46.245 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+18:03:46.245 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:03:47.277 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+18:03:47.674 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:03:47.737 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:03:49.122 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.294 seconds (JVM running for 3.916)
+18:03:59.743 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM stu 
+18:03:59.754 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==> Parameters: 
+18:03:59.768 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - <==      Total: 1
+18:03:59.771 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu LIMIT ? 
+18:03:59.772 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 10(Integer)
+18:03:59.774 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 10
+18:04:03.168 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM stu 
+18:04:03.168 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==> Parameters: 
+18:04:03.171 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - <==      Total: 1
+18:04:03.172 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu LIMIT ? 
+18:04:03.172 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 10(Integer)
+18:04:03.175 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 10
+18:04:50.104 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM stu 
+18:04:50.105 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==> Parameters: 
+18:04:50.106 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - <==      Total: 1
+18:04:50.107 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu LIMIT ? 
+18:04:50.107 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 10(Integer)
+18:04:50.109 [http-nio-8082-exec-3] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 10
+18:05:19.453 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20312 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:05:19.455 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+18:05:19.455 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:05:20.502 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+18:05:20.905 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:05:20.967 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:05:22.311 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.242 seconds (JVM running for 3.887)
+18:05:25.631 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM stu 
+18:05:25.643 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==> Parameters: 
+18:05:25.656 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - <==      Total: 1
+18:05:25.660 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu LIMIT ? 
+18:05:25.660 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 10(Integer)
+18:05:25.662 [http-nio-8082-exec-1] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 10
+18:05:28.366 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM stu 
+18:05:28.366 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==> Parameters: 
+18:05:28.368 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - <==      Total: 1
+18:05:28.369 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu LIMIT ? 
+18:05:28.369 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 10(Integer)
+18:05:28.373 [http-nio-8082-exec-2] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 10
+18:15:06.465 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:15:06.472 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed

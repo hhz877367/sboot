@@ -1,0 +1,65 @@
+14:59:17.189 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 16420 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:59:17.204 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:59:17.205 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:59:18.450 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:59:18.911 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:59:18.995 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:59:20.554 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.803 seconds (JVM running for 4.521)
+15:11:44.569 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 14388 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:11:44.571 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:11:44.571 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:11:45.764 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:11:46.191 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:11:46.266 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:11:48.042 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.977 seconds (JVM running for 4.795)
+15:12:31.851 [http-nio-8082-exec-4] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==>  Preparing: SELECT count(0) FROM stu 
+15:12:31.864 [http-nio-8082-exec-4] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - ==> Parameters: 
+15:12:31.879 [http-nio-8082-exec-4] DEBUG c.b.d.S.selectAll_COUNT - [debug,143] - <==      Total: 1
+15:12:31.923 [http-nio-8082-exec-4] DEBUG c.b.d.S.selectAll - [debug,143] - ==>  Preparing: select s_name,age,score,birth from stu LIMIT ? 
+15:12:31.923 [http-nio-8082-exec-4] DEBUG c.b.d.S.selectAll - [debug,143] - ==> Parameters: 10(Integer)
+15:12:31.926 [http-nio-8082-exec-4] DEBUG c.b.d.S.selectAll - [debug,143] - <==      Total: 10
+15:12:46.960 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:12:46.964 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+19:57:24.390 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 7228 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:57:24.393 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+19:57:24.394 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:57:25.684 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+19:57:26.156 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:57:26.228 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+19:57:27.882 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.957 seconds (JVM running for 4.671)
+19:59:05.686 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+19:59:05.689 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+19:59:24.870 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20364 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:59:24.872 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+19:59:24.872 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:59:25.903 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+19:59:26.304 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:59:26.360 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+19:59:27.736 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.238 seconds (JVM running for 3.916)
+20:00:24.847 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 11348 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+20:00:24.849 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+20:00:24.850 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+20:00:25.888 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+20:00:26.282 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+20:00:26.342 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+20:00:27.725 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.266 seconds (JVM running for 3.887)
+20:00:30.799 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no exchange 'aaa' in vhost '/', class-id=60, method-id=40)
+20:00:43.525 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1566] - Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no exchange 'aaa' in vhost '/', class-id=60, method-id=40)
+20:01:35.249 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+20:01:35.254 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+22:23:35.709 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20268 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+22:23:35.715 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+22:23:35.717 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:23:36.839 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+22:23:37.324 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:23:37.385 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+22:23:38.920 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.734 seconds (JVM running for 4.809)
+22:23:55.039 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+22:23:55.045 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+22:35:44.201 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20592 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+22:35:44.203 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+22:35:44.204 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:35:45.323 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+22:35:45.757 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:35:45.821 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+22:35:47.300 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.496 seconds (JVM running for 4.15)

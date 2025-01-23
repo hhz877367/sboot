@@ -1,0 +1,22 @@
+
+‡
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Ò§”•ûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(û‚‘ç
+l
+java:S1858+"J"message" is already a string, there's no need to call "toString()" on it.(Ø‰Š«ûÿÿÿÿ8û«Ëº”0
+k	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş™æÇüÿÿÿÿ
+‡
+java:S1130="lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ıÈ’˜ıÿÿÿÿ
+
+java:S4165"fRemove this useless assignment; "username" already holds the assigned value along all execution paths.(ğ„ªıÿÿÿÿ
+X
+java:S1128"=Remove this unused import 'javax.websocket.server.PathParam'.(ÊÊş†ûÿÿÿÿ
+R
+java:S1128"<Remove this unused import 'com.alibaba.fastjson.JSONObject'.(äıµ
+V	java:S1255"<This block of commented-out lines of code should be removed.(‡ÙëÄşÿÿÿÿ
+
+java:S1130""lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(«œ©:
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¤’É
+‡
+java:S11304"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Ş™æÇüÿÿÿÿ

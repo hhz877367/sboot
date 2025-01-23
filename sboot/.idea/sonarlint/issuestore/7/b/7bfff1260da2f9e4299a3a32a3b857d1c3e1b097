@@ -1,0 +1,25 @@
+
+D
+java:S1481"'Remove this unused "aa" local variable.(ôŸš¿8·˜‚õ·1
+C
+java:S1481"&Remove this unused "s" local variable.(şüæÈ8·˜‚õ·1
+Q
+java:S3740"/Provide the parametrized type for this generic.(··ß‡ùÿÿÿÿ8¦å€õ·1
+_
+java:S1128"=Remove this unused import 'rx.internal.util.LinkedArrayList'.(ÔÉú¼ûÿÿÿÿ8¦Şö·1
+]	java:S125"<This block of commented-out lines of code should be removed.(ô±¿éÿÿÿÿÿ8³Ï„õ·1
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8àöâõ·1
+I
+java:S1602)",Remove useless curly braces around statement(Úéõ¸8àöâõ·1
+d
+java:S1128"BRemove this unused import 'sun.plugin.javascript.navig.LinkArray'.(ŞŠ‘•üÿÿÿÿ8›…öõ·1
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Şì™§úÿÿÿÿ
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(ŞŠ‘•üÿÿÿÿ8›…öõ·1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Î’ÛÚ8¾ö‚õ·1
+‡
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(··ß‡ùÿÿÿÿ8¦å€õ·1
+
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ8“€ö·1
+I
+java:S1612)",Replace this lambda with a method reference.(Úéõ¸8“€ö·1

@@ -1,0 +1,6 @@
+22:23:00.165 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 12500 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+22:23:00.172 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+22:23:00.172 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:23:09.356 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+22:23:12.243 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:23:12.336 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited

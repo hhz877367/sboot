@@ -1,0 +1,18 @@
+
+N
+java:S1128"1Remove this unused import 'com.spring.AppConfig'.(”Ùíþ8üˆ¢¿´1
+”
+java:S1130"yRemove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.(…ñáÀÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(•µñ¥ùÿÿÿÿ
+ 
+java:S1130"„Remove the declaration of thrown exception 'java.lang.reflect.InvocationTargetException', as it cannot be thrown from method's body.(…ñáÀÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Â ÿ§þÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Â ÿ§þÿÿÿÿ8Ðš©¿´1
+U
+java:S1128"3Remove this unused import 'com.spring.UserService'.(÷š‹Æüÿÿÿÿ8¹ä—¿´1
+V
+java:S1128"4Remove this unused import 'com.spring.OrderService'.(±–×›þÿÿÿÿ8Ùã¤¿´1
+[
+java:S1128"9Remove this unused import 'com.spring.TestConfiguration'.(ùÂ¦æøÿÿÿÿ8¹ä—¿´1
+V	java:S125"<This block of commented-out lines of code should be removed.(ÄÛšóÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(û€Þôýÿÿÿÿ

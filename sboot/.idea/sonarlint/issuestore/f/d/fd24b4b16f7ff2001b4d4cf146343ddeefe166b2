@@ -1,0 +1,19 @@
+
+U
+java:S3400"9Remove this method and declare a constant for this value.(ÛË§B8Íœ¼„·1
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ­ò¬ıÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Óèñ¦øÿÿÿÿ8È°¿„·1
+\
+java:S1128":Remove this unused import 'java.lang.reflect.Constructor'.(¿ã–şúÿÿÿÿ8ƒ®Ê„·1
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(Û‘¤8â¬±„·1
+a
+java:S21470"DCombine this catch with the one at line 46, which has the same body.(Å¡ß8ìŸÅ„·1
+Q
+java:S3740!"/Provide the parametrized type for this generic.(÷»Å¾üÿÿÿÿ8Õ€¡„·1
+Q
+java:S1128"4Remove this unused import 'java.lang.reflect.Field'.(„‡Áú8Õ€¡„·1
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(ò’Ò‹8ìŸÅ„·1
+a
+java:S2147<"DCombine this catch with the one at line 58, which has the same body.(åşáÿ8ËÏÜ„·1
+U	java:S1068"9Replace this use of System.out or System.err by a logger.(·è¡º8ËÏÜ„·1
+U	java:S106""9Replace this use of System.out or System.err by a logger.(çì¹§8â¬±„·1

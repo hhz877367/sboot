@@ -1,0 +1,8 @@
+
+T	java:S106
+"9Replace this use of System.out or System.err by a logger.(üûÍq8û©Œ˜0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ï½Ó¬øÿÿÿÿ
+€
+java:S1128"^Remove this unused import 'org.assertj.core.internal.bytebuddy.implementation.bytecode.Throw'.(Ëé§µüÿÿÿÿ8û©Œ˜0
+I
+java:S1602",Remove useless curly braces around statement(¥—ığ8û©Œ˜0

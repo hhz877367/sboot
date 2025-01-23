@@ -1,0 +1,12 @@
+
+a
+java:S3252 "EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(×À e8ôƒìš0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ôêï‚ÿÿÿÿÿ8ôƒìš0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(©¬èùÿÿÿÿ8ôƒìš0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÖĞ ÷8ôƒìš0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‡ëÈï8ôƒìš0
+b
+java:S3252"@Use static access with "com.alibaba.fastjson.JSON" for "toJSON".(¶¦½Óüÿÿÿÿ8ôƒìš0
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(Ã‚øš8ôƒìš0
+c
+java:S3252"FUse static access with "com.alibaba.fastjson.JSON" for "toJSONString".(²‘ß½8ôƒìš0

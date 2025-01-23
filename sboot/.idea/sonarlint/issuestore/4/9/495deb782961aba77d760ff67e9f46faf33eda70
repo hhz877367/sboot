@@ -1,0 +1,9 @@
+
+U
+java:S1118	":Add a private constructor to hide the implicit public one.(ßøÀŒÿÿÿÿÿ
+s
+java:S1104"XMake webSocketMap a static final constant or non-public and provide accessors if needed.(¤²Ûøÿÿÿÿ
+M
+java:S1444"2Make this "public static webSocketMap" field final(¤²Ûøÿÿÿÿ
+8
+java:S2386"Make this member "protected".(¤²Ûøÿÿÿÿ

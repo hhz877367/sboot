@@ -1,0 +1,9 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…¿ô‹˘ˇˇˇˇ
+>
+java:S1604#"(Make this anonymous inner class a lambda(…„√Æ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(‰†πÄ
+P
+java:S2274":Remove this call to "wait" or move it into a "while" loop.(‰õ“
+V	java:S125"<This block of commented-out lines of code should be removed.(ÎßÁ∂˚ˇˇˇˇ

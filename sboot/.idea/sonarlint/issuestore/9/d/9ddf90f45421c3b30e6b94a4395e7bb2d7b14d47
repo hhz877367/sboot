@@ -1,0 +1,14 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÌÀ”úÿÿÿÿ8şÜÌ–³1
+G
+java:S1481"*Remove this unused "count" local variable.(‡×‹”8¸‰œ³1
+e
+java:S1128"HRemove this unused import 'java.util.concurrent.atomic.AtomicReference'.(×‡µó8ú±Ÿœ³1
+D
+java:S1604"(Make this anonymous inner class a lambda(ô§ê8•ûÉ–³1
+Q
+java:S1128"5Remove this unused import 'org.apache.catalina.User'.(›ân8ú±Ÿœ³1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ñİÄÅ8şÜÌ–³1
+>
+java:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ8ñÂÑ–³1
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÛºÎ

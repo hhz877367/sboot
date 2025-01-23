@@ -1,0 +1,32 @@
+
+
+java:S11304"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(„½Ğæ
+T
+java:S4719E"9Replace charset name argument with StandardCharsets.UTF_8(Âò™£üÿÿÿÿ
+X
+java:S1874k"=Remove this use of "DefaultMQPullConsumer"; it is deprecated.(¥ÙÙõıÿÿÿÿ
+m
+java:S3457˜"Q%n should be used in place of \n to produce the platform-specific line separator.(›ë•–üÿÿÿÿ
+Z
+java:S1155”">Use isEmpty() to check whether the collection is empty or not.(±·˜üÿÿÿÿ
+T	java:S106˜"9Replace this use of System.out or System.err by a logger.(›ë•–üÿÿÿÿ
+X
+java:S1874k"=Remove this use of "DefaultMQPullConsumer"; it is deprecated.(¥ÙÙõıÿÿÿÿ
+E	java:S108M")Either remove or fill this block of code.(Úîø›8üš©Ò¶1
+S	java:S106w"9Replace this use of System.out or System.err by a logger.(¨ø‚Ëüÿÿÿÿ
+S	java:S106a"9Replace this use of System.out or System.err by a logger.(²¸¤Ÿúÿÿÿÿ
+S	java:S106g"9Replace this use of System.out or System.err by a logger.(•¿Êîşÿÿÿÿ
+N	java:S106q"9Replace this use of System.out or System.err by a logger.(ÿÄšê
+`
+java:S1192B"JDefine a constant instead of duplicating this literal "TopicTest" 3 times.( ğÇ›
+M	java:S106G"9Replace this use of System.out or System.err by a logger.(€£û)
+V
+java:S1119r";Refactor the code to remove this label and the need for it.(åˆùöùÿÿÿÿ
+o
+java:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(£éˆ
+>
+java:S1604]"(Make this anonymous inner class a lambda(šÚœ
+j
+java:S1192<"ODefine a constant instead of duplicating this literal "127.0.0.1:9876" 3 times.(«¤õ–úÿÿÿÿ
+H
+java:S1199A"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ

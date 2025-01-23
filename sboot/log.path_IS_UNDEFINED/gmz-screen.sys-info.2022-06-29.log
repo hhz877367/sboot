@@ -1,0 +1,26 @@
+10:18:57.840 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 10308 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+10:18:57.845 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+10:18:59.498 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+10:18:59.567 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+10:19:40.228 [main] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+10:19:40.235 [main] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+10:25:21.773 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 14588 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+10:25:21.776 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+10:25:23.316 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+10:25:23.376 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+10:25:39.782 [main] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+10:25:39.788 [main] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+10:26:28.309 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 14088 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+10:26:28.312 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+10:26:29.734 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+10:26:29.790 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+10:26:31.087 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.163 seconds (JVM running for 3.762)
+10:49:10.982 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+10:49:10.986 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+11:00:50.580 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 13912 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+11:00:50.582 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:00:52.012 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:00:52.069 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+11:00:53.374 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.169 seconds (JVM running for 3.816)
+11:18:54.504 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+11:18:54.509 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed

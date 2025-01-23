@@ -1,0 +1,54 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†Ñ¨°
+V	java:S125"<This block of commented-out lines of code should be removed.(à€šşúÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğ§›ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ãëğìÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¢œ‹ã
+N	java:S106"9Replace this use of System.out or System.err by a logger.(àŞ»…
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(áÊ“×
+N	java:S106""9Replace this use of System.out or System.err by a logger.(€ùÂÚ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(€ùÂÚ
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(€ùÂÚ
+o
+java:S2293+"YReplace the type specification in this constructor call with the diamond operator ("<>").(áÊ“×
+o
+java:S22933"YReplace the type specification in this constructor call with the diamond operator ("<>").(áÊ“×
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(ù ³»üÿÿÿÿ
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(¼ÇíÓ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(åë˜æ
+o
+java:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(Èšºİ
+T	java:S899>":Do something with the "boolean" value returned by "offer".(òºçÏùÿÿÿÿ
+T	java:S899?":Do something with the "boolean" value returned by "offer".(¢®øëùÿÿÿÿ
+T	java:S899@":Do something with the "boolean" value returned by "offer".(àÌíúÿÿÿÿ
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(ñ™Û‡
+N	java:S106B"9Replace this use of System.out or System.err by a logger.(ñ™Û‡
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(ñ™Û‡
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(ñ™Û‡
+o
+java:S2293K"YReplace the type specification in this constructor call with the diamond operator ("<>").(áÊ“×
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(ä¹šÀıÿÿÿÿ
+t
+java:S2293S"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğ§›ùÿÿÿÿ
+\
+java:S2142X"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+t
+java:S2293a"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğ§›ùÿÿÿÿ
+\
+java:S2142d"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+J
+java:S1144"/Remove this unused private "removeTest" method.(ÀÈ×úşÿÿÿÿ
+F
+java:S1144*"0Remove this unused private "elementTest" method.(Ëæ¯ï
+D
+java:S11442".Remove this unused private "offerTest" method.(İö·È
+C
+java:S1144<"-Remove this unused private "pollTest" method.(×ÊŒ 
+H
+java:S1144J"-Remove this unused private "peekTest" method.(ññ¬“ÿÿÿÿÿ
+G
+java:S1144R",Remove this unused private "putTest" method.(ÒÎíÌÿÿÿÿÿ
+H
+java:S1144`"-Remove this unused private "takeTest" method.(©‘Øûÿÿÿÿ

@@ -1,0 +1,7 @@
+
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(™ùÙ
+T
+java:S4719*"9Replace charset name argument with StandardCharsets.UTF_8(Âò™£üÿÿÿÿ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(¸ÎîÃ
+E	java:S108<")Either remove or fill this block of code.(Úîø›8¸ã§Ò¶1
+V	java:S125@"<This block of commented-out lines of code should be removed.(Š¼”şÿÿÿÿ

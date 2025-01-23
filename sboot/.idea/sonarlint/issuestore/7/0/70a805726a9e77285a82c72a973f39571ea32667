@@ -1,0 +1,23 @@
+
+J
+java:S2864B"4Iterate over the "entrySet" instead of the "keySet".(¹èÒ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(Šã…
+E
+java:S3740?"/Provide the parametrized type for this generic.(ŸáúĞ
+<
+java:S11682"&Return an empty array instead of null.(¥¹ï
+Z
+java:S2147N"DCombine this catch with the one at line 74, which has the same body.(¯áè
+t
+java:S2293>"YReplace the type specification in this constructor call with the diamond operator ("<>").(„¢Áòÿÿÿÿÿ
+m
+java:S3776="RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ü¢û¤ùÿÿÿÿ
+Z
+java:S2147L"DCombine this catch with the one at line 74, which has the same body.(åşáÿ
+J
+java:S3740="/Provide the parametrized type for this generic.(Ü¢û¤ùÿÿÿÿ
+~
+java:S1157D"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(»éõ°ıÿÿÿÿ
+<
+java:S1168""&Return an empty array instead of null.(¥¹ï

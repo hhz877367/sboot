@@ -1,0 +1,11 @@
+
+`
+java:S1128"ERemove this unused import 'java.util.concurrent.LinkedBlockingDeque'.(ÌÇœüÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒŠÂQ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(›Óğ°şÿÿÿÿ
+P
+java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş
+a
+java:S1128"KRemove this unused import 'com.baizhi.service.Impl.ExtGaSourceServiceImpl'.(ƒ‰«Ì
+Z
+java:S1128"DRemove this unused import 'java.util.concurrent.ThreadPoolExecutor'.(¦ÿöÊ

@@ -1,0 +1,12 @@
+
+P
+java:S1191"5Use classes from the Java API instead of Sun classes.(’ï÷¼ýÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ù×–ö
+>	java:S108")Either remove or fill this block of code.(”ý¾
+>	java:S108")Either remove or fill this block of code.(Úîø›
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(ª×˜‘
+N	java:S106P"9Replace this use of System.out or System.err by a logger.(Ú«Õ¡
+Q	java:S125("<This block of commented-out lines of code should be removed.(Ž˜ù
+Q	java:S1259"<This block of commented-out lines of code should be removed.(Ž˜ù
+>
+java:S1068"(Remove this unused "lock" private field.(Í’ï³

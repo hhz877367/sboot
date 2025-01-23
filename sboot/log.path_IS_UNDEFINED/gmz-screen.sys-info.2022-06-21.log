@@ -1,0 +1,739 @@
+11:10:11.749 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 8596 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+11:10:11.759 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:10:14.955 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:10:15.175 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+11:10:18.708 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 7.576 seconds (JVM running for 8.793)
+11:11:28.177 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+11:11:28.187 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+11:11:35.340 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 19592 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+11:11:35.340 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:11:37.762 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:11:37.847 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+11:11:39.911 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 5.27 seconds (JVM running for 6.391)
+11:24:45.058 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+11:24:45.058 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:23:12.066 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 18708 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:23:12.070 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:25:26.503 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 7360 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:25:26.506 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:25:28.017 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:25:28.078 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:25:29.442 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.348 seconds (JVM running for 4.041)
+14:31:00.051 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKey,34] - 开始调用----list集合放入redis中
+14:31:19.061 [http-nio-8082-exec-4] INFO  c.b.c.SourceOutPdf - [getRedisKey,34] - 开始调用----list集合放入redis中
+14:33:10.901 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:33:10.940 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:35:05.027 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 17828 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:35:05.030 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:35:06.610 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:35:06.673 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:35:08.169 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.485 seconds (JVM running for 4.449)
+14:35:12.935 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKey,34] - 开始调用----list集合放入redis中
+14:35:56.553 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:35:56.557 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:36:04.199 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 18616 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:36:04.202 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:36:05.704 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:36:05.759 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:36:07.158 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.342 seconds (JVM running for 3.948)
+14:36:45.163 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKey,34] - 开始调用----list集合放入redis中
+14:38:11.768 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:38:11.771 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:38:16.003 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 1984 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:38:16.005 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:38:17.466 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:38:17.525 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:38:18.907 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.326 seconds (JVM running for 3.963)
+14:38:27.996 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKey,34] - 开始调用----list集合放入redis中
+14:39:19.651 [http-nio-8082-exec-2] INFO  c.b.c.SourceOutPdf - [getRedisKey,34] - 开始调用----list集合放入redis中
+14:40:05.439 [http-nio-8082-exec-3] INFO  c.b.c.SourceOutPdf - [getRedisKey,34] - 开始调用----list集合放入redis中
+14:41:11.841 [http-nio-8082-exec-5] INFO  c.b.c.SourceOutPdf - [getRedisKey,34] - 开始调用----list集合放入redis中
+14:46:37.299 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:46:37.301 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:46:43.078 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 9100 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:46:43.082 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:46:44.607 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:46:44.664 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:46:46.019 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.355 seconds (JVM running for 4.042)
+14:46:55.105 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKey,34] - 开始调用----list集合放入redis中
+14:47:12.183 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:47:12.186 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:47:17.896 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 3412 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:47:17.900 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:47:19.507 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:47:19.567 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:47:20.912 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.582 seconds (JVM running for 4.311)
+14:47:23.986 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKey,34] - 开始调用----list集合放入redis中
+14:50:47.434 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:50:47.438 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:50:53.840 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 5144 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:50:53.842 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:50:55.279 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:50:55.336 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:50:57.030 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.543 seconds (JVM running for 4.166)
+14:51:01.086 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+14:51:16.846 [http-nio-8082-exec-2] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+14:51:18.086 [http-nio-8082-exec-3] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+14:51:19.201 [http-nio-8082-exec-4] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+14:51:20.332 [http-nio-8082-exec-5] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+14:51:28.123 [http-nio-8082-exec-6] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+14:51:39.374 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:51:39.377 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:52:56.039 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20732 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:52:56.041 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:52:57.456 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:52:57.514 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:52:58.946 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.217 seconds (JVM running for 3.769)
+14:53:17.042 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:53:17.045 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:53:22.281 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 7612 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:53:22.284 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:53:23.722 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:53:23.780 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:53:25.100 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.204 seconds (JVM running for 3.837)
+14:54:01.434 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:54:01.437 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:54:06.934 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 13420 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:54:06.936 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:54:08.420 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:54:08.480 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:54:09.835 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.285 seconds (JVM running for 3.868)
+14:54:40.759 [http-nio-8082-exec-9] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+14:58:00.380 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:58:00.383 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:58:08.506 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 1628 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:58:08.508 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:58:09.958 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:58:10.016 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:58:11.376 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.174 seconds (JVM running for 3.741)
+14:58:24.499 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:58:24.501 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:58:28.749 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 11072 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:58:28.752 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:58:30.286 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:58:30.344 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:58:31.768 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.399 seconds (JVM running for 4.012)
+14:58:52.912 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:58:52.915 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:58:56.810 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 12136 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:58:56.812 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:58:58.341 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:58:58.400 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:58:59.842 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.401 seconds (JVM running for 4.031)
+14:59:09.422 [http-nio-8082-exec-3] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+15:03:27.757 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:03:27.761 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:03:34.150 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 15856 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:03:34.152 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:03:35.641 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:03:35.706 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:03:37.061 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.208 seconds (JVM running for 3.772)
+15:03:48.420 [http-nio-8082-exec-9] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+15:06:12.621 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:06:12.625 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:07:06.325 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 19024 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:07:06.328 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:07:07.792 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:07:07.854 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:07:09.196 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.343 seconds (JVM running for 4.007)
+15:07:35.370 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:07:35.375 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:07:40.766 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 7488 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:07:40.768 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:07:42.259 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:07:42.317 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:07:43.735 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.346 seconds (JVM running for 4.014)
+15:08:03.892 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:08:03.895 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:10:45.111 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 17392 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:10:45.113 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:10:46.563 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:10:46.626 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:10:47.987 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.224 seconds (JVM running for 3.866)
+15:10:59.069 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:10:59.072 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:20:45.719 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 1616 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:20:45.721 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:20:47.219 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:20:47.279 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:20:48.609 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.248 seconds (JVM running for 3.847)
+15:20:51.870 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+15:21:45.007 [http-nio-8082-exec-2] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+15:23:35.147 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:23:35.151 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:23:40.592 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 8524 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:23:40.595 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:23:42.098 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:23:42.157 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:23:43.510 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.295 seconds (JVM running for 3.922)
+15:23:59.625 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:23:59.627 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:24:03.499 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 13460 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:24:03.502 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:24:04.996 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:24:05.052 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:24:06.403 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.333 seconds (JVM running for 3.926)
+15:24:25.102 [http-nio-8082-exec-7] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+15:24:50.844 [http-nio-8082-exec-8] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+15:25:34.444 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:25:34.448 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:26:46.064 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 19144 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:26:46.067 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:26:47.623 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:26:47.681 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:26:49.032 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.271 seconds (JVM running for 3.905)
+15:26:54.373 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+15:28:12.746 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:28:12.750 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:28:19.108 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20772 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:28:19.111 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:28:20.654 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:28:20.713 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:28:22.071 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.33 seconds (JVM running for 3.976)
+15:28:25.997 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+15:28:53.541 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:28:53.545 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:28:57.728 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 18032 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:28:57.731 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:28:59.197 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:28:59.254 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:29:00.624 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.267 seconds (JVM running for 3.895)
+15:29:06.949 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+15:30:31.478 [http-nio-8082-exec-3] INFO  c.b.c.SourceOutPdf - [getRedisKey,36] - 任务开始执行-------------
+15:31:49.557 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:31:49.560 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:40:23.992 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20548 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:40:23.995 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:40:25.610 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:40:25.671 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:40:27.042 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.364 seconds (JVM running for 3.929)
+16:40:42.195 [http-nio-8082-exec-7] INFO  c.b.c.SourceOutPdf - [getRedisKey,38] - 任务开始执行-------------
+16:41:34.346 [http-nio-8082-exec-10] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+16:42:49.129 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:42:49.132 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:42:55.622 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 19964 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:42:55.624 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:42:57.154 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:42:57.213 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:42:58.634 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.384 seconds (JVM running for 4.006)
+16:43:07.700 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+16:44:36.353 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:44:36.356 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:44:41.746 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 12916 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:44:41.749 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:44:43.237 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:44:43.298 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:44:44.638 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.274 seconds (JVM running for 3.877)
+16:44:47.660 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+16:45:09.567 [http-nio-8082-exec-4] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+16:45:30.982 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:45:30.985 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:45:35.072 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 14284 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:45:35.074 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:45:36.659 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:45:36.717 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:45:38.112 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.352 seconds (JVM running for 3.91)
+16:45:42.406 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+16:47:41.068 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:47:41.070 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:47:45.092 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 17008 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:47:45.094 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:47:46.560 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:47:46.621 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:47:47.954 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.229 seconds (JVM running for 3.815)
+16:47:53.884 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKey,38] - 任务开始执行-------------
+16:48:42.216 [http-nio-8082-exec-2] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+16:48:59.061 [http-nio-8082-exec-3] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+16:52:05.034 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:52:05.037 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:52:09.827 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20688 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:52:09.829 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:52:11.359 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:52:11.419 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:52:12.782 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.308 seconds (JVM running for 3.879)
+16:52:21.151 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+16:55:32.529 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:55:32.532 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:55:37.111 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 22368 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:55:37.113 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:55:38.656 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:55:38.717 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:55:40.049 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.302 seconds (JVM running for 3.917)
+16:55:52.155 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+16:57:44.796 [http-nio-8082-exec-2] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+16:58:09.657 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:58:09.661 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:58:53.739 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 9880 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:58:53.741 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:58:55.188 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:58:55.247 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:58:56.706 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.274 seconds (JVM running for 3.829)
+16:58:58.799 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:00:19.951 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:00:19.954 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:00:24.837 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 16832 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:00:24.840 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:00:26.301 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:00:26.359 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:00:27.725 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.241 seconds (JVM running for 3.851)
+17:00:30.654 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:01:47.375 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:01:47.378 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:01:51.680 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 12372 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:01:51.682 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:01:53.152 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:01:53.209 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:01:54.640 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.32 seconds (JVM running for 3.952)
+17:01:57.749 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:03:04.756 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:03:04.759 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:03:08.558 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 9452 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:03:08.561 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:03:10.032 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:03:10.090 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:03:11.440 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.24 seconds (JVM running for 3.849)
+17:03:14.247 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:03:52.714 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:03:52.717 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:03:58.146 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 5872 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:03:58.148 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:03:59.590 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:03:59.648 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:04:00.988 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.137 seconds (JVM running for 3.687)
+17:04:04.459 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:04:41.407 [http-nio-8082-exec-2] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:05:55.288 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:05:55.291 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:06:35.941 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 9544 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:06:35.944 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:06:37.382 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:06:37.443 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:06:38.767 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.202 seconds (JVM running for 3.815)
+17:06:43.083 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:06:55.541 [http-nio-8082-exec-2] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:07:30.516 [http-nio-8082-exec-3] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:09:18.469 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:09:18.472 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:09:23.163 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 13020 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:09:23.166 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:09:24.579 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:09:24.638 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:09:25.960 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.1 seconds (JVM running for 3.683)
+17:09:30.344 [http-nio-8082-exec-2] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:11:44.804 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:11:44.806 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:11:49.313 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20092 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:11:49.315 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:11:50.764 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:11:50.821 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:11:52.167 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.221 seconds (JVM running for 3.859)
+17:11:54.165 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:11:54.168 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:11:58.726 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 14144 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:11:58.729 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:12:00.242 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:12:00.300 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:12:01.652 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.295 seconds (JVM running for 3.892)
+17:12:48.664 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:14:51.890 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:14:51.894 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:14:58.419 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 11644 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:14:58.421 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:14:59.929 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:14:59.990 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:15:01.360 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.236 seconds (JVM running for 3.777)
+17:15:03.928 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:15:25.539 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:15:25.544 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:15:33.396 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 8156 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:15:33.399 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:15:34.879 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:15:34.936 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:15:36.266 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.227 seconds (JVM running for 3.813)
+17:15:39.751 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:16:03.650 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:16:03.652 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:16:17.379 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 21160 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:16:17.381 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:16:18.828 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:16:18.885 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:16:20.231 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.2 seconds (JVM running for 3.808)
+17:16:23.036 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:20:55.235 [http-nio-8082-exec-6] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:30:26.257 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:30:26.259 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:31:01.666 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 12120 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:31:01.669 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:31:03.226 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:31:03.285 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:31:04.699 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.415 seconds (JVM running for 4.076)
+17:31:08.361 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:31:53.114 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:31:53.120 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:31:58.271 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 17940 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:31:58.273 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:31:59.734 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:31:59.792 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:32:01.157 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.272 seconds (JVM running for 4.016)
+17:32:09.151 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:35:37.875 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:35:37.878 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:35:47.305 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 11604 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:35:47.307 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:35:48.847 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:35:48.906 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:35:50.251 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.308 seconds (JVM running for 3.953)
+17:35:53.189 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:36:35.599 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:36:35.605 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:36:44.466 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 16488 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:36:44.469 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:36:45.983 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:36:46.043 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:36:47.437 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.281 seconds (JVM running for 3.836)
+17:36:55.265 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:37:28.108 [http-nio-8082-exec-2] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:38:58.952 [http-nio-8082-exec-4] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:45:31.718 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:45:31.722 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:45:40.086 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 12944 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:45:40.088 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:45:41.614 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:45:41.672 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:45:43.027 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.26 seconds (JVM running for 3.824)
+17:45:46.133 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:47:26.680 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:47:26.683 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:47:31.237 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 22440 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:47:31.239 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:47:32.739 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:47:32.797 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:47:34.149 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.29 seconds (JVM running for 3.926)
+17:47:39.197 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:48:52.588 [http-nio-8082-exec-6] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:51:11.350 [http-nio-8082-exec-5] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:51:12.698 [http-nio-8082-exec-7] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:51:20.626 [http-nio-8082-exec-2] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:51:40.337 [http-nio-8082-exec-8] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:53:22.112 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:53:22.119 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:53:32.464 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 14548 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:53:32.466 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:53:33.952 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:53:34.009 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:53:35.369 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.411 seconds (JVM running for 4.105)
+17:53:40.448 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:55:11.034 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:55:11.037 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:55:16.976 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 6956 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:55:16.981 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:55:18.545 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:55:18.601 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:55:19.958 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.473 seconds (JVM running for 4.256)
+17:55:22.123 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:57:05.853 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:57:05.857 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:57:11.425 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 22176 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:57:11.428 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:57:12.932 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:57:12.990 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:57:14.304 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.469 seconds (JVM running for 4.277)
+17:57:19.377 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:58:22.908 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:58:22.912 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:58:58.919 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 15672 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:58:58.922 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:59:00.363 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:59:00.422 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:59:01.798 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.225 seconds (JVM running for 3.795)
+17:59:05.536 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:59:17.903 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:59:17.906 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:59:24.230 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 17176 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:59:24.232 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:59:25.655 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:59:25.718 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:59:27.073 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.142 seconds (JVM running for 3.696)
+17:59:30.658 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+17:59:50.265 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:59:50.269 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:59:54.070 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 15840 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:59:54.072 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:59:55.552 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:59:55.610 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:59:56.964 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.293 seconds (JVM running for 3.925)
+17:59:59.553 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+18:00:32.282 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:00:32.288 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:00:37.775 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 10400 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:00:37.779 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:00:39.312 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:00:39.376 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:00:40.767 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.593 seconds (JVM running for 4.327)
+18:00:45.188 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+18:02:54.571 [http-nio-8082-exec-3] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+18:04:04.751 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:04:04.755 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:04:09.667 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 13104 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:04:09.670 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:04:11.208 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:04:11.266 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:04:12.630 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.376 seconds (JVM running for 4.084)
+18:04:20.230 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+18:05:50.395 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:05:50.399 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:05:58.263 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 17988 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:05:58.265 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:05:59.701 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:05:59.757 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:06:01.086 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.126 seconds (JVM running for 3.673)
+18:06:03.894 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+18:07:03.703 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:07:03.711 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:07:09.095 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 14804 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:07:09.098 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:07:10.562 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:07:10.622 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:07:11.954 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.243 seconds (JVM running for 3.935)
+18:07:14.673 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+18:07:51.282 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:07:51.285 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:07:56.932 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 912 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:07:56.934 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:07:58.490 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:07:58.549 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:07:59.985 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.513 seconds (JVM running for 4.244)
+18:08:02.399 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+18:08:41.309 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:08:41.312 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:08:45.669 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 12728 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:08:45.671 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:08:47.118 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:08:47.177 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:08:48.506 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.196 seconds (JVM running for 3.799)
+18:08:54.575 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+18:09:23.809 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:09:23.813 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:09:28.809 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 17928 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:09:28.812 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:09:30.296 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:09:30.353 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:09:31.741 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.339 seconds (JVM running for 4.04)
+18:09:35.387 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,58] - 任务开始执行-------------
+18:12:35.176 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:12:35.179 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:12:49.430 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 8404 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:12:49.433 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:13:06.554 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 3216 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:13:06.556 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:14:56.865 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 8668 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:14:56.867 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:14:58.314 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:14:58.370 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:14:59.709 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.202 seconds (JVM running for 3.813)
+18:15:02.154 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,61] - 任务开始执行-------------
+18:18:04.135 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:18:04.139 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:18:15.682 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 11776 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:18:15.684 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:18:17.125 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:18:17.183 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:18:18.505 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.172 seconds (JVM running for 3.77)
+18:18:20.886 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,61] - 任务开始执行-------------
+18:20:56.742 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:20:56.745 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:21:54.043 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 3032 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:21:54.045 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:21:55.546 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:21:55.608 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:21:56.996 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.396 seconds (JVM running for 4.067)
+18:21:59.848 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,61] - 任务开始执行-------------
+18:22:43.401 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:22:43.406 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:22:48.836 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 11644 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:22:48.840 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:22:50.309 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:22:50.368 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:22:51.724 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.267 seconds (JVM running for 3.931)
+18:22:54.644 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,61] - 任务开始执行-------------
+18:23:55.237 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:23:55.240 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:24:03.610 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 22140 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:24:03.612 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:24:05.077 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:24:05.138 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:24:06.546 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.233 seconds (JVM running for 3.781)
+18:24:08.544 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:24:08.547 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:24:13.484 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 7904 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:24:13.487 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:24:14.998 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:24:15.060 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:24:16.423 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.327 seconds (JVM running for 4.028)
+18:24:19.163 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,61] - 任务开始执行-------------
+18:27:57.126 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:27:57.129 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:28:00.560 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20892 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:28:00.562 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:28:02.030 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:28:02.094 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:28:03.489 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.299 seconds (JVM running for 3.953)
+18:28:10.514 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,61] - 任务开始执行-------------
+18:31:04.876 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:31:04.879 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:31:11.340 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 13996 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:31:11.342 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:31:12.877 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:31:12.938 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:31:14.282 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.254 seconds (JVM running for 3.799)
+18:36:57.013 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:36:57.019 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:40:37.856 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 21252 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:40:37.860 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:40:39.421 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:40:39.478 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:40:40.903 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.43 seconds (JVM running for 4.109)
+18:41:01.896 [http-nio-8082-exec-7] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+18:41:11.163 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:41:11.166 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:42:17.831 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 12912 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:42:17.833 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:42:19.300 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:42:19.359 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:42:20.784 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.257 seconds (JVM running for 3.824)
+18:42:26.852 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+18:43:20.216 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:43:20.219 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:43:39.037 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20796 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:43:39.040 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:43:40.527 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:43:40.586 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:43:41.961 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.292 seconds (JVM running for 3.914)
+18:43:46.124 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+18:44:51.501 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:44:51.504 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:45:13.614 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20952 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:45:13.617 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:45:15.104 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:45:15.161 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:45:16.565 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.333 seconds (JVM running for 3.987)
+18:45:23.607 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:45:23.610 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:47:31.460 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 16444 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:47:31.463 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:47:32.972 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:47:33.038 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:47:34.559 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.41 seconds (JVM running for 4.005)
+18:47:41.108 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:10:13.882 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+19:10:13.887 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+19:10:19.638 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 18180 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:10:19.640 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:10:21.063 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:10:21.123 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+19:10:22.480 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.195 seconds (JVM running for 3.798)
+19:11:16.962 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+19:11:16.966 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+19:11:21.856 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 8420 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:11:21.859 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:11:23.361 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:11:23.422 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+19:11:24.813 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.308 seconds (JVM running for 3.916)
+19:12:02.760 [http-nio-8082-exec-8] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:13:26.223 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+19:13:26.227 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+19:13:30.838 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 9628 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:13:30.841 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:13:32.333 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:13:32.391 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+19:13:33.775 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.319 seconds (JVM running for 3.956)
+19:13:37.652 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:14:14.040 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+19:14:14.043 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+19:14:18.615 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 21648 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:14:18.619 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:14:20.148 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:14:20.208 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+19:14:21.634 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.405 seconds (JVM running for 4.048)
+19:14:30.524 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:15:17.222 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+19:15:17.225 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+19:15:21.903 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 16884 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:15:21.905 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:15:23.436 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:15:23.495 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+19:15:24.859 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.313 seconds (JVM running for 3.938)
+19:15:27.188 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:16:11.260 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+19:16:11.263 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+19:16:19.343 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 15612 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:16:19.346 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:16:20.762 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:16:20.827 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+19:16:22.209 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.168 seconds (JVM running for 3.716)
+19:16:35.301 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+19:16:35.305 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+19:16:39.687 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 20828 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:16:39.690 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:16:41.139 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:16:41.196 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+19:16:42.584 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.263 seconds (JVM running for 3.871)
+19:16:45.416 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:17:28.687 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+19:17:28.690 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+19:17:32.667 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 8092 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:17:32.669 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:17:34.130 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:17:34.190 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+19:17:35.623 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.356 seconds (JVM running for 3.974)
+19:17:44.604 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:18:50.294 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+19:18:50.297 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+19:18:55.198 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 11772 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:18:55.201 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:18:56.629 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:18:56.688 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+19:18:58.077 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.245 seconds (JVM running for 3.865)
+19:19:00.886 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:20:04.678 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+19:20:04.681 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+19:20:08.772 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 15180 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:20:08.774 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:20:10.197 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:20:10.254 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+19:20:11.619 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.211 seconds (JVM running for 3.821)
+19:20:15.172 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:20:28.773 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+19:20:28.792 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+19:20:37.345 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 7868 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:20:37.347 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:20:38.804 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:20:38.860 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+19:20:40.214 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.235 seconds (JVM running for 3.866)
+19:20:43.230 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:23:26.881 [http-nio-8082-exec-3] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:24:18.808 [http-nio-8082-exec-4] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:24:18.964 [http-nio-8082-exec-5] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:24:19.105 [http-nio-8082-exec-6] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:24:19.252 [http-nio-8082-exec-7] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:24:19.397 [http-nio-8082-exec-8] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:24:21.451 [http-nio-8082-exec-9] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:25:26.813 [http-nio-8082-exec-10] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:25:26.851 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:25:26.861 [http-nio-8082-exec-2] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:25:26.967 [http-nio-8082-exec-3] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:26:26.222 [http-nio-8082-exec-8] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:26:26.378 [http-nio-8082-exec-7] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:26:28.615 [http-nio-8082-exec-10] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:26:29.296 [http-nio-8082-exec-2] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:26:29.296 [http-nio-8082-exec-6] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:26:29.303 [http-nio-8082-exec-4] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:26:29.762 [http-nio-8082-exec-3] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:27:38.083 [http-nio-8082-exec-7] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:27:38.401 [http-nio-8082-exec-5] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:27:40.402 [http-nio-8082-exec-9] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:27:44.817 [http-nio-8082-exec-1] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:27:44.948 [http-nio-8082-exec-6] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:27:45.366 [http-nio-8082-exec-8] INFO  c.b.c.SourceOutPdf - [getRedisKeyThread,63] - 任务开始执行-------------
+19:28:21.309 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+19:28:21.314 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed

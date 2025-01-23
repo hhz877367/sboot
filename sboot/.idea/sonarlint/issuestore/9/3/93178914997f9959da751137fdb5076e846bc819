@@ -1,0 +1,25 @@
+
+K
+java:S1481"0Remove this unused "allocation3" local variable.(õ¸˜¹þÿÿÿÿ
+D
+java:S1659")Declare "allocation3" on a separate line.(õ¸˜¹þÿÿÿÿ
+D
+java:S1659")Declare "allocation6" on a separate line.(õ¸˜¹þÿÿÿÿ
+K
+java:S1481"0Remove this unused "allocation4" local variable.(õ¸˜¹þÿÿÿÿ
+D
+java:S1659")Declare "allocation4" on a separate line.(õ¸˜¹þÿÿÿÿ
+K
+java:S1481"0Remove this unused "allocation5" local variable.(õ¸˜¹þÿÿÿÿ
+N
+java:S1128"8Remove this unused import 'java.lang.ref.SoftReference'.(ïÇø½
+K
+java:S1481"0Remove this unused "allocation2" local variable.(õ¸˜¹þÿÿÿÿ
+D
+java:S1659")Declare "allocation5" on a separate line.(õ¸˜¹þÿÿÿÿ
+K
+java:S1481"0Remove this unused "allocation1" local variable.(õ¸˜¹þÿÿÿÿ
+D
+java:S1659")Declare "allocation2" on a separate line.(õ¸˜¹þÿÿÿÿ
+K
+java:S1481"0Remove this unused "allocation6" local variable.(õ¸˜¹þÿÿÿÿ

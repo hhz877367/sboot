@@ -1,0 +1,7 @@
+
+w
+java:S1128
+"ZRemove this unused import 'org.springframework.context.support.GenericApplicationContext'.(à‡“¥8ÜŽÊ€—0
+a
+java:S1481!"?Remove this unused "autowireCapableBeanFactory" local variable.(ÕÿªÀÿÿÿÿÿ8õÊ´€—0
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(Ì†×Ùÿÿÿÿÿ

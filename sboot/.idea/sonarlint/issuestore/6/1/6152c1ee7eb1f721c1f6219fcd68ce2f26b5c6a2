@@ -1,0 +1,18 @@
+
+U
+java:S1197!"8Move the array designator from the variable to the type.(‚ÿ×«8«×«®Ÿ0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ØŠ®öúÿÿÿÿ
+{
+java:S3012E"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(°ŠÎ ûÿÿÿÿ8«×«®Ÿ0
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ÄñÔÖŸ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(şæÃëûÿÿÿÿ8–òÕÖŸ0
+:
+java:S2119"Save and re-use this "Random".(¼İÅf8åƒÏÖŸ0
+U
+java:S1197"8Move the array designator from the variable to the type.(¾¦½ü8«×«®Ÿ0
+Z
+java:S1197+"8Move the array designator from the variable to the type.(Óö³ƒüÿÿÿÿ8«×«®Ÿ0
+U
+java:S1197,"8Move the array designator from the variable to the type.(¤ÉŞ¾8«×«®Ÿ0
+a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(êÙ÷

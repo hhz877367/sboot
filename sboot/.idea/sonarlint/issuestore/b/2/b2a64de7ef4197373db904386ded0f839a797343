@@ -1,0 +1,28 @@
+
+]	java:S1256"<This block of commented-out lines of code should be removed.(ƒ·˜Òÿÿÿÿÿ8£ûì­˜0
+{
+java:S2293v"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÚÄ¬Šşÿÿÿÿ8ÿŒ€«˜0
+Z	java:S106l"9Replace this use of System.out or System.err by a logger.(ÆŞıÿÿÿÿÿ8®êá®˜0
+T
+java:S2589V"7Remove this expression which always evaluates to "true"(„˜Ã8š­°ª˜0
+D
+java:S14812"(Remove this unused "map" local variable.(¡€ä#8¼Í“¨˜0
+[	java:S106´"9Replace this use of System.out or System.err by a logger.(ÆŞıÿÿÿÿÿ8í¥âò˜0
+X
+java:S1128";Remove this unused import 'org.aspectj.weaver.loadtime.Aj'.(“®°ÿ8”×Ğ®˜0
+F
+java:S1481r")Remove this unused "list" local variable.(§·­Ù8¹‚«˜0
+^
+java:S1075!"ARefactor your code to get this URI from a customizable parameter.(®¿Ü8öÛÎ®˜0
+S
+java:S1128"6Remove this unused import 'javax.annotation.Resource'.(î¾Ì—8àÖ…®˜0
+}
+java:S1192-"`Define a constant instead of duplicating this literal "ä»»åŠ¡å¼€å§‹æ‰§è¡Œ-------------" 3 times.(è‹¾í8í¥âò˜0
+N
+java:S14815",Remove this unused "endTime" local variable.(ŠâÖ¢ÿÿÿÿÿ8£ûì­˜0
+c
+java:S2142c"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Åüà®˜0
+_
+java:S1128"BRemove this unused import 'com.baizhi.service.ExtGaSourceService'.(ÇÓí¶8«¦‡®˜0
+:
+java:S2438ª""thread" is a "Thread".(ùµõ›ıÿÿÿÿ8í¥âò˜0

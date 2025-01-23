@@ -1,0 +1,19 @@
+
+l
+java:S1128"ORemove this unused import 'org.springframework.beans.factory.InitializingBean'.(åÑ¦œ8ÒŸ°Æž0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ñ·òÕ8ÒŸ°Æž0
+n
+java:S1128"LRemove this unused import 'org.springframework.context.event.EventListener'.(¦ñÛÐüÿÿÿÿ8ÒŸ°Æž0
+X	java:S1259"<This block of commented-out lines of code should be removed.(Äˆ€½8÷¦›Ü–0
+e
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Þ8ÒŸ°Æž0
+k
+java:S1128"IRemove this unused import 'org.springframework.context.annotation.Scope'.(þè®€ÿÿÿÿÿ8ÒŸ°Æž0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÿˆ°—8ÒŸ°Æž0
+]	java:S125%"<This block of commented-out lines of code should be removed.(Í¢‰…üÿÿÿÿ8—‡ÅÅž0
+X	java:S125"<This block of commented-out lines of code should be removed.(‰³äô8—‡ÅÅž0
+T
+java:S1068"2Remove this unused "resourceLoader" private field.(¹°€¢þÿÿÿÿ8ÒŸ°Æž0
+g
+java:S1128"JRemove this unused import 'org.springframework.beans.factory.FactoryBean'.(§ÙŸ‡8ÒŸ°Æž0
+]	java:S1253"<This block of commented-out lines of code should be removed.(Àø’ìúÿÿÿÿ8÷¦›Ü–0

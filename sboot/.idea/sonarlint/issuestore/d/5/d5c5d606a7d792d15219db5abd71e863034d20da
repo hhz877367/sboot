@@ -1,0 +1,8 @@
+
+`	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ
+m
+java:S37765"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(†âÀÕşÿÿÿÿ
+\
+java:S1192@"FDefine a constant instead of duplicating this literal "%s %s" 4 times.(ß’À
+[
+java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ

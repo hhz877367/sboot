@@ -1,0 +1,15 @@
+
+\
+java:S1192"FDefine a constant instead of duplicating this literal "UTF-8" 5 times.(¹„«
+g
+java:S1192"RDefine a constant instead of duplicating this literal "message sended : " 3 times.(×Î
+O
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(¹„«
+T
+java:S4719*"9Replace charset name argument with StandardCharsets.UTF_8(è³¾ııÿÿÿÿ
+T
+java:S47198"9Replace charset name argument with StandardCharsets.UTF_8(ŸÍ¢×üÿÿÿÿ
+T
+java:S4719H"9Replace charset name argument with StandardCharsets.UTF_8(Ş—Èïúÿÿÿÿ
+T
+java:S4719Z"9Replace charset name argument with StandardCharsets.UTF_8(¶ØŒøÿÿÿÿ

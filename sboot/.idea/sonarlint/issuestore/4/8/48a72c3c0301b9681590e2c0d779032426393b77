@@ -1,0 +1,13 @@
+
+_
+java:S2094"BRemove this empty class, write its code or make it an "interface".(Óé†Ä8ÔúıÈ›0
+h
+java:S1128"KRemove this unused import 'com.baomidou.mybatisplus.core.toolkit.Wrappers'.(å¦¨Ã8óÑ…›0
+X
+java:S1128"6Remove this unused import 'com.baizhi.entity.Student'.(­ÿüñÿÿÿÿÿ8„ì¬Ÿ›0
+k
+java:S1128"NRemove this unused import 'com.baomidou.mybatisplus.core.toolkit.ObjectUtils'.(ÔàªÅ8óÑ…›0
+M
+java:S1128"+Remove this unused import 'java.util.UUID'.(ÀãÄ£úÿÿÿÿ8óÑ…›0
+X	java:S125"<This block of commented-out lines of code should be removed.(‚Ø²8ØÒıÈ›0
+]	java:S125"<This block of commented-out lines of code should be removed.(½·Ä±ûÿÿÿÿ8íåıÈ›0

@@ -1,0 +1,79 @@
+
+m
+java:S1192Ã"JDefine a constant instead of duplicating this literal "åˆ†/  ç§’" 4 times.(¡ôİùÿÿÿÿ8ş‹×®˜0
+n	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ–¨8ş‹×®˜0
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(úí‘Èüÿÿÿÿ8ş‹×®˜0
+j
+java:S1192ß"LDefine a constant instead of duplicating this literal "${sitUpNum}" 3 times.(›øĞ¤8ş‹×®˜0
+z	java:S135%"YReduce the total number of break and continue statements in this loop to use at most one.(òÃÌÂûÿÿÿÿ8ş‹×®˜0
+O
+java:S1481Ö",Remove this unused "outPath" local variable.(Õ“Ëúÿÿÿÿ8ş‹×®˜0
+Q
+java:S1144Ã".Remove this unused private "sumSource" method.(ïÅÜ†ùÿÿÿÿ8Í¡×®˜0
+I
+java:S1075â"&Remove this hard-coded path-delimiter.(›“öòûÿÿÿÿ8ş‹×®˜0
+a
+java:S2259ø"CA "NullPointerException" could be thrown; "fopts" is nullable here.(ã²ßƒ8ş‹×®˜0
+o
+java:S1192®"LDefine a constant instead of duplicating this literal "ç‰¹1çº§â–¡
+" 7 times.(Ş±‚îüÿÿÿÿ8ş‹×®˜0
+n
+java:S1192£"KDefine a constant instead of duplicating this literal "${upScore}" 5 times.(Ú¥øıÿÿÿÿ8ş‹×®˜0
+o
+java:S1192®"LDefine a constant instead of duplicating this literal "ç‰¹2çº§â–¡
+" 7 times.(Ş±‚îüÿÿÿÿ8ş‹×®˜0
+s	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€“”Üıÿÿÿÿ8ş‹×®˜0
+m
+java:S1192£"JDefine a constant instead of duplicating this literal "åˆ†æ•°: 0" 4 times.(Ú¥øıÿÿÿÿ8ş‹×®˜0
+o
+java:S1192®"LDefine a constant instead of duplicating this literal "åŠ æ ¼â–¡
+" 7 times.(Ş±‚îüÿÿÿÿ8ş‹×®˜0
+g
+java:S1192|"JDefine a constant instead of duplicating this literal "${status}" 5 times.(Úö“Ú8ş‹×®˜0
+p
+java:S1871Ç"MThis branch's code block is the same as the block for the branch on line 581.(™Üøùÿÿÿÿ8ÅÂœ®˜0
+l
+java:S1192¨"IDefine a constant instead of duplicating this literal "${snake}" 3 times.(­öãàúÿÿÿÿ8ş‹×®˜0
+g
+java:S1192"JDefine a constant instead of duplicating this literal "${upNum}" 12 times.(òÃöM8ş‹×®˜0
+q
+java:S1192¾"NDefine a constant instead of duplicating this literal "${snakeScore}" 3 times.(À–âœøÿÿÿÿ8ş‹×®˜0
+q
+java:S1192 "NDefine a constant instead of duplicating this literal "${pushUpNum}" 12 times.(‰ä‘ùÿÿÿÿ8ş‹×®˜0
+n
+java:S1192‚"PDefine a constant instead of duplicating this literal "${threeKmScore}" 3 times.(áƒˆ8ş‹×®˜0
+n	java:S117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ–¨8ş‹×®˜0
+^
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(®¿Ü8Í¡×®˜0
+Q
+java:S3740"/Provide the parametrized type for this generic.(İØå«şÿÿÿÿ8ş‹×®˜0
+q
+java:S1192á"NDefine a constant instead of duplicating this literal "${sitUpScore}" 3 times.(Éñ˜†şÿÿÿÿ8ş‹×®˜0
+I
+java:S1075Ú"&Remove this hard-coded path-delimiter.(‘ÑÅ”şÿÿÿÿ8òØÖ®˜0
+r
+java:S1192"ODefine a constant instead of duplicating this literal "${threeKmTime}" 3 times.(¥±õüÿÿÿÿ8Ô½Õ®˜0
+o
+java:S1192®"LDefine a constant instead of duplicating this literal "ç‰¹3çº§â–¡
+" 7 times.(Ş±‚îüÿÿÿÿ8ş‹×®˜0
+o
+java:S1192®"LDefine a constant instead of duplicating this literal "è‰¯ å¥½â–¡
+" 7 times.(Ş±‚îüÿÿÿÿ8ş‹×®˜0
+j
+java:S1192‘"LDefine a constant instead of duplicating this literal "${userType}" 3 times.(Ìœ¨†8ş‹×®˜0
+[	java:S106è"9Replace this use of System.out or System.err by a logger.(¹Û¶Âûÿÿÿÿ8ş‹×®˜0
+g
+java:S1192­"IDefine a constant instead of duplicating this literal "${level}" 8 times.(Ë˜Îœ8¢‡Ö®˜0
+s
+java:S1192²"PDefine a constant instead of duplicating this literal "ä¸ åŠ æ ¼â–¡
+" 6 times.(³âçêúÿÿÿÿ8ş‹×®˜0
+W
+java:S2130¥"9Use "Integer.parseInt" for this string-to-int conversion.(ıÂ¡8ş‹×®˜0
+F
+java:S1128
+")Remove this unused import 'java.io.File'.(†Ğ¥Å8ä¶Ö®˜0
+o
+java:S1871}"MThis branch's code block is the same as the block for the branch on line 122.(˜õÖ™üÿÿÿÿ8Í¡×®˜0
+o
+java:S1192®"LDefine a constant instead of duplicating this literal "ä¼˜ ç§€â–¡
+" 7 times.(Ş±‚îüÿÿÿÿ8ş‹×®˜0

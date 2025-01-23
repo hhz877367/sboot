@@ -1,0 +1,26 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(¢›×±
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÄšçØ
+L
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8´®ÚÃ0
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(¥ÿÃÍÿÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(“Èáù
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(ÏÖÇ”ÿÿÿÿÿ
+H
+java:S14819"-Remove this unused "concrete" local variable.(·×Àşÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ÿş£9
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Œù¼Èúÿÿÿÿ
+K
+java:S1481<"0Remove this unused "independent" local variable.(í“‰ïùÿÿÿÿ
+a
+java:S1128	"DRemove this unused import 'javax.security.auth.login.Configuration'.(ÜÃ„ò8´®ÚÃ0
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ü§²¯ÿÿÿÿÿ
+W
+java:S1481":Remove this unused "stuAnnotationMetadata" local variable.(Ãˆ¯Ó8´®ÚÃ0
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(Ë‹‘®
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(»Í¥êúÿÿÿÿ
+Z
+java:S2259"DA "NullPointerException" could be thrown; "reader" is nullable here.(Ãˆ¯Ó
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(ÒÂ»Âùÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(í˜Œêıÿÿÿÿ

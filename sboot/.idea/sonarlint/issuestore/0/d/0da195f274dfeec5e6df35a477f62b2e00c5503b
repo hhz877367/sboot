@@ -1,0 +1,13 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(‘Éâ‘üÿÿÿÿ
+U	java:S1065"9Replace this use of System.out or System.err by a logger.(ÄĞ«í8®¦Ú0
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(Ñ£±Ôúÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ
+
+java:S1130:"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¬©€ÿÿÿÿÿ8®¦Ú0
+g	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(¬©€ÿÿÿÿÿ8®¦Ú0
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(³›š¨øÿÿÿÿ
+E
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ

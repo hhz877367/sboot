@@ -1,0 +1,11 @@
+
+E
+java:S1481"*Remove this unused "xxjob" local variable.(˜ÊÏ¿úÿÿÿÿ
+\
+java:S1128"FRemove this unused import 'org.checkerframework.checker.units.qual.C'.(ÏıÁÊ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(›Ó¨à
+>
+java:S1068
+"(Remove this unused "name" private field.(Ë¥¼
+C
+java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ

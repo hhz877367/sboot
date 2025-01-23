@@ -1,0 +1,28 @@
+
+U	java:S106F"9Replace this use of System.out or System.err by a logger.(²ó›°8“íÅ¦˜0
+k
+java:S5361¿"HReplace this call to "replaceAll()" by a call to the "replace()" method.(×¶¼Êúÿÿÿÿ8™°Ô¨˜0
+c
+java:S2259+"FA "NullPointerException" could be thrown; "sheetOne" is nullable here.(ÙÕÒó8Ñ©˜0
+e
+java:S5361d"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ú†ŒÆ8™°Ô¨˜0
+U	java:S106g"9Replace this use of System.out or System.err by a logger.(ÆÆ»Î8™°Ô¨˜0
+L
+java:S3740"/Provide the parametrized type for this generic.(Ç“ÖŠ8“íÅ¦˜0
+[	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(Ìâùîûÿÿÿÿ8™°Ô¨˜0
+V	java:S106¨"9Replace this use of System.out or System.err by a logger.(Ì¨èÕ8™°Ô¨˜0
+e
+java:S5361n"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ú†ŒÆ8™°Ô¨˜0
+[	java:S106Â"9Replace this use of System.out or System.err by a logger.(±Ö½øÿÿÿÿ8™°Ô¨˜0
+Z	java:S106q"9Replace this use of System.out or System.err by a logger.(Ø“º€ıÿÿÿÿ8™°Ô¨˜0
+T	java:S106&"9Replace this use of System.out or System.err by a logger.(¬Âì}8˜Õœ©˜0
+[	java:S106¸"9Replace this use of System.out or System.err by a logger.(Ò¸Šıÿÿÿÿ8™°Ô¨˜0
+V	java:S106"9Replace this use of System.out or System.err by a logger.(İÈÁ8™°Ô¨˜0
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(„Ç¹‚üÿÿÿÿ8“íÅ¦˜0
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿ8“íÅ¦˜0
+\
+java:S1118":Add a private constructor to hide the implicit public one.(„Ä‡Óûÿÿÿÿ8Êúì¨˜0
+L
+java:S1066v"/Merge this if statement with the enclosing one.(ºğŒ8™°Ô¨˜0
+c
+java:S2095 "FUse try-with-resources or close this "Workbook" in a "finally" clause.(ışëÙ8ıº©˜0

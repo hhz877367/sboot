@@ -1,0 +1,15 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(«ê…
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÀºÎóıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(·È‰Í
+G
+java:S2116"%Use "Arrays.toString(array)" instead.(‚Å±úÿÿÿÿ8ÕÃŠ¤À0
+]
+java:S1128";Remove this unused import 'com.alibaba.fastjson.JSONArray'.(ÿÀâ³ùÿÿÿÿ8ÕÃŠ¤À0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‚Å±úÿÿÿÿ8ÕÃŠ¤À0
+Y
+java:S1128"<Remove this unused import 'com.alibaba.fastjson.JSONObject'.(äıµ8ÕÃŠ¤À0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÂÄ À8Ü‹¤À0
+Q
+java:S1128"6Remove this unused import 'com.baizhi.entity.Student'.(­ÿüñÿÿÿÿÿ

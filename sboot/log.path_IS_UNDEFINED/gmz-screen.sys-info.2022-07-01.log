@@ -1,0 +1,227 @@
+11:55:41.491 [main] INFO  TestRediisTemplate - [logStarting,55] - Starting TestRediisTemplate on LAPTOP-S46RK93L with PID 102096 (started by hhz in D:\sboot\sboot)
+11:55:41.496 [main] INFO  TestRediisTemplate - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:55:43.982 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:55:44.199 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+11:55:47.796 [main] INFO  TestRediisTemplate - [logStarted,61] - Started TestRediisTemplate in 6.739 seconds (JVM running for 7.601)
+11:56:01.901 [main] INFO  TestRediisTemplate - [logStarting,55] - Starting TestRediisTemplate on LAPTOP-S46RK93L with PID 28660 (started by hhz in D:\sboot\sboot)
+11:56:01.904 [main] INFO  TestRediisTemplate - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:56:04.027 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:56:04.182 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+11:56:07.547 [main] INFO  TestRediisTemplate - [logStarted,61] - Started TestRediisTemplate in 6.095 seconds (JVM running for 6.777)
+11:57:29.603 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+11:57:29.613 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:26:28.208 [main] INFO  TestRediisTemplate - [logStarting,55] - Starting TestRediisTemplate on LAPTOP-S46RK93L with PID 60408 (started by hhz in D:\sboot\sboot)
+17:26:28.213 [main] INFO  TestRediisTemplate - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:26:31.985 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:26:32.218 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:26:36.937 [main] INFO  TestRediisTemplate - [logStarted,61] - Started TestRediisTemplate in 9.353 seconds (JVM running for 10.64)
+17:35:23.533 [main] INFO  TestRediisTemplate - [logStarting,55] - Starting TestRediisTemplate on LAPTOP-S46RK93L with PID 86492 (started by hhz in D:\sboot\sboot)
+17:35:23.536 [main] INFO  TestRediisTemplate - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:35:27.205 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:35:27.408 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:35:31.639 [main] INFO  TestRediisTemplate - [logStarted,61] - Started TestRediisTemplate in 8.721 seconds (JVM running for 9.953)
+17:35:33.647 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:35:33.656 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:36:04.981 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 107040 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:36:04.988 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:36:08.316 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:36:08.470 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:36:11.114 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 6.817 seconds (JVM running for 9.388)
+17:36:48.217 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:36:48.224 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:38:03.423 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 104212 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:38:03.427 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:38:06.354 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:38:06.456 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:38:08.699 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 5.885 seconds (JVM running for 7.11)
+17:38:32.140 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:38:32.146 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:39:11.667 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 104732 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:39:11.672 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:39:14.480 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:39:14.571 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:39:16.744 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 5.705 seconds (JVM running for 6.845)
+17:41:20.221 [main] INFO  TestRediisTemplate - [logStarting,55] - Starting TestRediisTemplate on LAPTOP-S46RK93L with PID 85780 (started by hhz in D:\sboot\sboot)
+17:41:20.223 [main] INFO  TestRediisTemplate - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:41:23.030 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:41:23.217 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:41:27.082 [main] INFO  TestRediisTemplate - [logStarted,61] - Started TestRediisTemplate in 7.432 seconds (JVM running for 8.555)
+17:41:29.320 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:41:29.334 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:42:29.794 [main] INFO  TestRediisTemplate - [logStarting,55] - Starting TestRediisTemplate on LAPTOP-S46RK93L with PID 116716 (started by hhz in D:\sboot\sboot)
+17:42:29.797 [main] INFO  TestRediisTemplate - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:42:32.695 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:42:32.888 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:42:36.746 [main] INFO  TestRediisTemplate - [logStarted,61] - Started TestRediisTemplate in 7.488 seconds (JVM running for 8.58)
+17:42:38.898 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:42:38.908 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:16:53.708 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:16:53.710 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:17:34.254 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 59456 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:17:34.261 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:17:38.227 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:17:38.363 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:17:41.789 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 8.259 seconds (JVM running for 9.727)
+18:17:44.873 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:17:44.881 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+18:18:10.996 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 69828 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+18:18:11.002 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:18:15.092 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:18:15.230 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+18:18:18.697 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 8.407 seconds (JVM running for 9.815)
+18:59:47.477 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+18:59:47.479 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+19:00:07.183 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 21908 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:00:07.187 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:01:42.607 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 21288 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:01:42.611 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:02:12.463 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 25012 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:02:12.468 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:02:16.461 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:02:16.610 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+19:02:19.784 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 8.006 seconds (JVM running for 9.396)
+19:02:24.421 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+19:02:24.430 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+19:02:32.496 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 120624 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+19:02:32.502 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:00:18.609 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 128472 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+22:00:18.612 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:00:41.337 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 103680 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+22:00:41.340 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:08:32.883 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 100192 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+22:08:32.887 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:08:34.816 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:08:34.896 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+22:08:35.693 [main] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+22:08:35.697 [main] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+22:08:47.751 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 99528 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+22:08:47.753 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:08:49.407 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:08:49.470 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+22:08:50.923 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.56 seconds (JVM running for 4.182)
+22:09:45.653 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+22:09:45.657 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+22:09:50.899 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 137532 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+22:09:50.902 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:09:52.533 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:09:52.595 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+22:09:53.927 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.419 seconds (JVM running for 4.045)
+22:10:50.715 [main] INFO  TestRediisTemplate - [logStarting,55] - Starting TestRediisTemplate on LAPTOP-S46RK93L with PID 62236 (started by hhz in D:\sboot\sboot)
+22:10:50.716 [main] INFO  TestRediisTemplate - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:10:52.528 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:10:52.673 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+22:10:55.489 [main] INFO  TestRediisTemplate - [logStarted,61] - Started TestRediisTemplate in 5.191 seconds (JVM running for 5.845)
+22:10:57.170 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+22:10:57.175 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+22:28:03.452 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+22:28:03.462 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+22:28:20.814 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 60440 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+22:28:20.820 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:28:25.047 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:28:25.168 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+22:28:28.194 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 8.184 seconds (JVM running for 9.557)
+22:28:29.937 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+22:28:29.949 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+22:28:41.796 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 132240 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+22:28:41.802 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:32:57.423 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 69452 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+22:32:57.426 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:32:59.822 [main] INFO  org.redisson.Version - [logVersion,41] - Redisson 3.6.5
+22:33:00.698 [redisson-netty-4-25] INFO  o.r.c.p.MasterPubSubConnectionPool - [operationComplete,145] - 1 connections initialized for localhost/127.0.0.1:6379
+22:33:00.702 [redisson-netty-4-3] INFO  o.r.c.p.MasterConnectionPool - [operationComplete,145] - 32 connections initialized for localhost/127.0.0.1:6379
+22:33:00.909 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:33:01.002 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+22:33:03.069 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 6.18 seconds (JVM running for 7.258)
+22:34:09.180 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 68128 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+22:34:09.184 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:34:11.929 [main] INFO  org.redisson.Version - [logVersion,41] - Redisson 3.6.5
+22:34:12.827 [redisson-netty-4-29] INFO  o.r.c.p.MasterPubSubConnectionPool - [operationComplete,145] - 1 connections initialized for localhost/127.0.0.1:6379
+22:34:12.829 [redisson-netty-4-4] INFO  o.r.c.p.MasterConnectionPool - [operationComplete,145] - 32 connections initialized for localhost/127.0.0.1:6379
+22:34:13.084 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:34:13.186 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+22:34:15.397 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 6.868 seconds (JVM running for 8.056)
+22:36:35.089 [main] INFO  TestRediisTemplate - [logStarting,55] - Starting TestRediisTemplate on LAPTOP-S46RK93L with PID 43940 (started by hhz in D:\sboot\sboot)
+22:36:35.091 [main] INFO  TestRediisTemplate - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:36:38.393 [main] INFO  org.redisson.Version - [logVersion,41] - Redisson 3.6.5
+22:36:44.391 [main] INFO  TestRediisTemplate - [logStarting,55] - Starting TestRediisTemplate on LAPTOP-S46RK93L with PID 55076 (started by hhz in D:\sboot\sboot)
+22:36:44.394 [main] INFO  TestRediisTemplate - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+22:36:47.512 [main] INFO  org.redisson.Version - [logVersion,41] - Redisson 3.6.5
+22:36:48.634 [redisson-netty-4-26] INFO  o.r.c.p.MasterPubSubConnectionPool - [operationComplete,145] - 1 connections initialized for localhost/127.0.0.1:6379
+22:36:48.635 [redisson-netty-4-32] INFO  o.r.c.p.MasterConnectionPool - [operationComplete,145] - 32 connections initialized for localhost/127.0.0.1:6379
+22:36:48.975 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:36:49.160 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+22:36:52.652 [main] INFO  TestRediisTemplate - [logStarted,61] - Started TestRediisTemplate in 8.804 seconds (JVM running for 9.878)
+22:36:54.089 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+22:36:54.099 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+23:11:24.214 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+23:11:24.218 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+23:12:21.636 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 44136 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+23:12:21.642 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+23:12:25.520 [main] INFO  org.redisson.Version - [logVersion,41] - Redisson 3.6.5
+23:12:26.907 [redisson-netty-4-28] INFO  o.r.c.p.MasterPubSubConnectionPool - [operationComplete,145] - 1 connections initialized for localhost/127.0.0.1:6379
+23:12:26.909 [redisson-netty-4-4] INFO  o.r.c.p.MasterConnectionPool - [operationComplete,145] - 32 connections initialized for localhost/127.0.0.1:6379
+23:12:27.285 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+23:12:27.487 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+23:12:30.900 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 10.053 seconds (JVM running for 11.475)
+23:12:48.102 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+23:12:48.110 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+23:13:34.377 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 57256 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+23:13:34.381 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+23:13:38.101 [main] INFO  org.redisson.Version - [logVersion,41] - Redisson 3.6.5
+23:13:39.258 [redisson-netty-4-26] INFO  o.r.c.p.MasterPubSubConnectionPool - [operationComplete,145] - 1 connections initialized for localhost/127.0.0.1:6379
+23:13:39.260 [redisson-netty-4-4] INFO  o.r.c.p.MasterConnectionPool - [operationComplete,145] - 32 connections initialized for localhost/127.0.0.1:6379
+23:13:39.527 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+23:13:39.691 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+23:13:42.165 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 8.508 seconds (JVM running for 9.817)
+23:16:05.713 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+23:16:05.727 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+23:16:18.170 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 55320 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+23:16:18.174 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+23:16:21.056 [main] INFO  org.redisson.Version - [logVersion,41] - Redisson 3.6.5
+23:16:21.994 [redisson-netty-4-29] INFO  o.r.c.p.MasterPubSubConnectionPool - [operationComplete,145] - 1 connections initialized for localhost/127.0.0.1:6379
+23:16:21.996 [redisson-netty-4-4] INFO  o.r.c.p.MasterConnectionPool - [operationComplete,145] - 32 connections initialized for localhost/127.0.0.1:6379
+23:16:22.263 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+23:16:22.408 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+23:16:24.761 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 7.236 seconds (JVM running for 8.422)
+23:30:46.719 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+23:30:46.730 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+23:31:32.676 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 61076 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+23:31:32.683 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+23:31:36.602 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+23:31:36.765 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+23:31:38.301 [main] INFO  org.redisson.Version - [logVersion,41] - Redisson 3.6.5
+23:31:39.749 [redisson-netty-4-27] INFO  o.r.c.p.MasterPubSubConnectionPool - [operationComplete,145] - 1 connections initialized for localhost/127.0.0.1:6379
+23:31:39.751 [redisson-netty-4-3] INFO  o.r.c.p.MasterConnectionPool - [operationComplete,145] - 32 connections initialized for localhost/127.0.0.1:6379
+23:31:42.194 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 10.232 seconds (JVM running for 11.658)
+23:32:14.131 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+23:32:14.137 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+23:32:22.714 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 69884 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+23:32:22.719 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+23:32:26.423 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+23:32:26.578 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+23:32:28.101 [main] INFO  org.redisson.Version - [logVersion,41] - Redisson 3.6.5
+23:32:29.370 [redisson-netty-4-27] INFO  o.r.c.p.MasterPubSubConnectionPool - [operationComplete,145] - 1 connections initialized for localhost/127.0.0.1:6379
+23:32:29.372 [redisson-netty-4-4] INFO  o.r.c.p.MasterConnectionPool - [operationComplete,145] - 32 connections initialized for localhost/127.0.0.1:6379
+23:32:31.729 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 9.676 seconds (JVM running for 10.952)
+23:33:55.725 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+23:33:55.737 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+23:34:03.443 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 6152 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+23:34:03.448 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+23:34:07.233 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+23:34:07.380 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+23:34:08.787 [main] INFO  org.redisson.Version - [logVersion,41] - Redisson 3.6.5
+23:34:10.034 [redisson-netty-4-28] INFO  o.r.c.p.MasterPubSubConnectionPool - [operationComplete,145] - 1 connections initialized for localhost/127.0.0.1:6379
+23:34:10.038 [redisson-netty-4-4] INFO  o.r.c.p.MasterConnectionPool - [operationComplete,145] - 32 connections initialized for localhost/127.0.0.1:6379
+23:34:12.317 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 9.575 seconds (JVM running for 10.999)
+23:38:25.170 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+23:38:25.179 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+23:40:49.630 [main] INFO  TestRediisTemplate - [logStarting,55] - Starting TestRediisTemplate on LAPTOP-S46RK93L with PID 58312 (started by hhz in D:\sboot\sboot)
+23:40:49.633 [main] INFO  TestRediisTemplate - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+23:40:53.528 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+23:40:53.805 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+23:40:55.776 [main] INFO  org.redisson.Version - [logVersion,41] - Redisson 3.6.5
+23:40:57.367 [redisson-netty-4-27] INFO  o.r.c.p.MasterPubSubConnectionPool - [operationComplete,145] - 1 connections initialized for localhost/127.0.0.1:6379
+23:40:57.369 [redisson-netty-4-4] INFO  o.r.c.p.MasterConnectionPool - [operationComplete,145] - 32 connections initialized for localhost/127.0.0.1:6379
+23:41:00.552 [main] INFO  TestRediisTemplate - [logStarted,61] - Started TestRediisTemplate in 11.546 seconds (JVM running for 12.825)
+23:41:02.236 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+23:41:02.251 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed

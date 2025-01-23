@@ -1,0 +1,8 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§ªèþþÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÿ‹î×øÿÿÿÿ
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ñ™öøùÿÿÿÿ8é¾³Ò¶1
+`
+java:S3518"CMake sure this expression can't be zero before doing this division.(¶ªèí8Ñ˜ÎÒ¶1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(®ýáëûÿÿÿÿ8ÊÒµÒ¶1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(…¤²á8ŽæÉÒ¶1

@@ -1,0 +1,31 @@
+
+g
+java:S1192"JDefine a constant instead of duplicating this literal "singleton" 4 times.(¤›¼­8ªÎõ«–0
+Q
+java:S3740#"/Provide the parametrized type for this generic.(®â­ˆşÿÿÿÿ8¡èö«–0
+k
+java:S1128"NRemove this unused import 'org.assertj.core.util.introspection.Introspection'.(Ø½’Î8ëÕ¥«–0
+S
+java:S1128
+"7Remove this unused import 'java.lang.reflect.Modifier'.(×£Ğ68æÁÎ¿–0
+ˆ
+java:S4165?"kRemove this useless assignment; "clazzPathList" already holds the assigned value along all execution paths.(–èÌç8•„Î¿–0
+W
+java:S1128	"5Remove this unused import 'java.lang.reflect.Method'.(Í“¯äüÿÿÿÿ8²â¾¬–0
+‡
+java:S1488s"eImmediately return this expression instead of assigning it to the temporary variable "prototypeBean".(çîÙÂûÿÿÿÿ8•„Î¿–0
+l
+java:S1128"ORemove this unused import 'org.springframework.beans.factory.InitializingBean'.(åÑ¦œ8¹ı«–0
+I
+java:S3011)",This accessibility update should be removed.(˜ÂÓ˜8Øş÷«–0
+{
+java:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(¿•ÔÇÿÿÿÿÿ8•„Î¿–0
+Z	java:S106z"9Replace this use of System.out or System.err by a logger.(¨ğ÷şÿÿÿÿ8•„Î¿–0
+Q
+java:S1172""/Remove this unused method parameter "beanName".(üµ”’ÿÿÿÿÿ8¹ı«–0
+N
+java:S3011*",This accessibility bypass should be removed.(û¨äĞıÿÿÿÿ8Øş÷«–0
+J
+java:S37406"/Provide the parametrized type for this generic.(øÕÿ×üÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(Šƒìû

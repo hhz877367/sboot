@@ -1,0 +1,1371 @@
+14:13:26.135 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 6044 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:13:26.141 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:13:26.142 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:13:27.399 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:13:27.899 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:13:27.981 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:13:29.955 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 4.27 seconds (JVM running for 5.556)
+14:13:45.442 [http-nio-8082-exec-9] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:13:45.454 [http-nio-8082-exec-9] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:13:45.469 [http-nio-8082-exec-9] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:13:55.160 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:13:55.161 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:13:55.162 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:13:55.320 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:13:55.321 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:13:55.322 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:13:55.458 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:13:55.458 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:13:55.459 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:13:55.625 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:13:55.626 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:13:55.626 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:13:55.781 [http-nio-8082-exec-8] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:13:55.781 [http-nio-8082-exec-8] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:13:55.782 [http-nio-8082-exec-8] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:13:55.929 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:13:55.930 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:13:55.931 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:13:56.088 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:13:56.088 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:13:56.090 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:13:56.229 [http-nio-8082-exec-10] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:13:56.230 [http-nio-8082-exec-10] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:13:56.230 [http-nio-8082-exec-10] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:13:56.392 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:13:56.393 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:13:56.394 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:15:00.433 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:15:00.443 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:15:04.513 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 23636 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:15:04.513 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:15:04.513 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:15:05.552 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:15:05.952 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:15:06.012 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:15:07.362 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.21 seconds (JVM running for 3.809)
+14:15:12.278 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:15:12.291 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:15:12.307 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:15:13.692 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:15:13.692 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:15:13.692 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:15:13.699 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:15:13.699 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:15:13.700 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:15:13.703 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:15:13.703 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:15:13.704 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:15:13.708 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:15:13.708 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:15:13.710 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:15:13.713 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:15:13.713 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:15:13.714 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:15:13.717 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:15:13.718 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:15:13.719 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:15:13.722 [http-nio-8082-exec-8] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:15:13.723 [http-nio-8082-exec-8] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:15:13.725 [http-nio-8082-exec-8] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:15:13.728 [http-nio-8082-exec-9] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:15:13.729 [http-nio-8082-exec-9] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:15:13.729 [http-nio-8082-exec-9] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:15:13.733 [http-nio-8082-exec-10] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:15:13.734 [http-nio-8082-exec-10] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:15:13.734 [http-nio-8082-exec-10] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:15:13.738 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:15:13.739 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:15:13.741 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:15:13.861 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:15:13.861 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:15:13.862 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:15:14.021 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:15:14.022 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:15:14.022 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:15:14.170 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:15:14.170 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:15:14.171 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:15:14.321 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:15:14.321 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:15:14.323 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:15:14.470 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:15:14.471 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:15:14.473 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:16:23.722 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:16:23.732 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:18:36.806 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 7824 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:18:36.809 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:18:36.809 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:18:38.061 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:18:38.527 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:18:38.593 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:18:40.206 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.851 seconds (JVM running for 4.566)
+14:18:50.219 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:18:50.227 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:18:50.237 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:19:02.354 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:19:02.357 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:20:03.309 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 10752 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:20:03.311 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:20:03.311 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:20:04.471 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:20:04.930 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:20:04.995 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:20:06.587 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.677 seconds (JVM running for 4.424)
+14:20:09.866 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:20:09.878 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:20:09.893 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:20:50.132 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:20:50.135 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:20:56.530 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 21464 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:20:56.539 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:20:56.539 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:20:57.571 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:20:57.990 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:20:58.040 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:20:59.401 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.242 seconds (JVM running for 3.885)
+14:21:02.666 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:21:02.677 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:21:02.691 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:21:14.635 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:21:14.647 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:22:02.713 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 13752 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:22:02.723 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:22:02.723 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:22:03.728 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:22:04.128 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:22:04.188 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:22:05.528 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.18 seconds (JVM running for 3.794)
+14:22:08.648 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:22:08.662 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:22:08.669 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:22:21.681 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:22:21.693 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:22:26.607 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 11812 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:22:26.607 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:22:26.607 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:22:27.641 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:22:28.041 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:22:28.099 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:22:29.432 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.188 seconds (JVM running for 3.834)
+14:22:36.454 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:22:36.454 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:22:41.217 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 1320 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:22:41.227 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:22:41.227 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:22:42.237 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:22:42.656 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:22:42.716 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:22:44.102 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.231 seconds (JVM running for 3.825)
+14:22:46.132 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:22:46.146 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:22:46.160 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:23:09.239 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:23:09.251 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:23:13.541 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 12516 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:23:13.551 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:23:13.551 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:23:14.581 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:23:14.971 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:23:15.031 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:23:16.352 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.165 seconds (JVM running for 3.785)
+14:23:19.298 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:23:19.304 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:23:19.314 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:23:42.461 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:23:42.471 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:23:46.931 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 25532 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:23:46.931 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:23:46.931 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:23:47.927 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:23:48.317 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:23:48.377 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:23:49.718 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.149 seconds (JVM running for 3.795)
+14:23:53.763 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:23:53.776 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:23:53.790 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:24:26.927 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:24:26.937 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:24:43.662 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 9584 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:24:43.665 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:24:43.666 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:24:44.989 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:24:45.463 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:24:45.531 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:24:47.167 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.989 seconds (JVM running for 4.796)
+14:24:54.128 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:24:54.143 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:24:54.154 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:29:55.016 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:29:55.020 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:29:59.043 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 15384 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:29:59.046 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:29:59.046 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:30:00.331 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:30:00.816 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:30:00.886 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:30:02.551 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 4.007 seconds (JVM running for 4.751)
+14:30:10.125 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:10.138 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:10.152 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:23.366 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:23.367 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:23.368 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:25.383 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:25.383 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:25.384 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:27.408 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:27.409 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:27.410 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:29.415 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:29.418 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:29.419 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:31.425 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:31.425 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:31.428 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:33.434 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:33.437 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:33.438 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:35.448 [http-nio-8082-exec-9] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:35.448 [http-nio-8082-exec-9] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:35.449 [http-nio-8082-exec-9] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:37.458 [http-nio-8082-exec-8] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:37.458 [http-nio-8082-exec-8] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:37.459 [http-nio-8082-exec-8] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:39.468 [http-nio-8082-exec-10] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:39.468 [http-nio-8082-exec-10] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:39.469 [http-nio-8082-exec-10] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:41.488 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:41.488 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:41.489 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:43.497 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:43.497 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:43.498 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:45.085 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:45.085 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:45.085 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:45.235 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:45.235 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:45.235 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:45.395 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:45.395 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:45.395 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:45.507 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:45.508 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:45.510 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:45.764 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:30:45.764 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:30:45.764 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:30:46.834 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:30:46.844 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:31:55.612 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 15092 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:31:55.615 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:31:55.615 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:31:56.762 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:31:57.203 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:31:57.268 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:31:58.793 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.59 seconds (JVM running for 4.251)
+14:32:02.201 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:32:02.215 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:32:02.229 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:32:05.637 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:32:05.637 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:32:05.637 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:32:07.642 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:32:07.646 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:32:07.646 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:32:09.655 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:32:09.655 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:32:09.656 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:32:11.665 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:32:11.665 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:32:11.666 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:32:13.676 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:32:13.676 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:32:13.677 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:32:15.688 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:32:15.688 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:32:15.689 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:32:17.693 [http-nio-8082-exec-8] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:32:17.693 [http-nio-8082-exec-8] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:32:17.694 [http-nio-8082-exec-8] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:32:19.702 [http-nio-8082-exec-9] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:32:19.705 [http-nio-8082-exec-9] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:32:19.706 [http-nio-8082-exec-9] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:32:19.920 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:32:19.924 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:32:53.610 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 11248 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:32:53.620 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:32:53.620 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:32:54.700 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:32:55.102 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:32:55.160 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:32:56.540 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.305 seconds (JVM running for 3.93)
+14:33:35.889 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:33:35.901 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:33:35.911 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:33:45.595 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:33:45.595 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:33:45.596 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:33:47.598 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:33:47.598 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:33:47.598 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:33:49.611 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:33:49.611 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:33:49.612 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:33:51.621 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:33:51.621 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:33:51.626 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:33:53.635 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:33:53.635 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:33:53.636 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:34:13.000 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:34:13.003 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:34:17.217 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 5848 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:34:17.227 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:34:17.227 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:34:18.249 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:34:18.637 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:34:18.697 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:34:20.027 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.16 seconds (JVM running for 3.784)
+14:35:19.299 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:35:19.299 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:35:23.402 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 16956 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:35:23.402 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:35:23.402 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:35:24.467 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:35:24.877 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:35:24.937 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:35:26.257 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.22 seconds (JVM running for 3.861)
+14:35:29.496 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:35:29.509 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:35:29.521 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:35:39.760 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:35:39.760 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:35:39.761 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:35:44.779 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:35:44.779 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:35:44.780 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:35:49.783 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:35:49.783 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:35:49.783 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:35:54.792 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:35:54.792 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:35:54.792 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:35:59.800 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:35:59.800 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:35:59.800 [http-nio-8082-exec-6] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:36:02.696 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:36:02.696 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:36:02.696 [http-nio-8082-exec-7] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:38:06.171 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:38:06.181 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:38:10.483 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 12368 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:38:10.483 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:38:10.483 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:38:11.487 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:38:11.898 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:38:11.948 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:38:13.302 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.2 seconds (JVM running for 3.815)
+14:38:17.327 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:38:17.351 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:38:17.364 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:38:23.872 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:38:23.872 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:38:23.873 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:38:28.889 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:38:28.889 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:38:28.890 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:38:33.897 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:38:33.897 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:38:33.902 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:38:38.919 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:38:38.920 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:38:38.920 [http-nio-8082-exec-5] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:38:47.455 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:38:47.465 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:38:52.210 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 13328 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:38:52.212 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:38:52.212 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:38:53.249 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:38:53.655 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:38:53.715 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:38:55.061 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.272 seconds (JVM running for 3.878)
+14:39:12.680 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:39:12.698 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:39:12.711 [http-nio-8082-exec-1] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:39:19.230 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:39:19.230 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:39:19.231 [http-nio-8082-exec-2] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:39:24.244 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:39:24.244 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:39:24.245 [http-nio-8082-exec-3] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:39:29.264 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==>  Preparing: select train_id,start_time from gt_train where train_id = ? 
+14:39:29.264 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - ==> Parameters: 93(String)
+14:39:29.265 [http-nio-8082-exec-4] DEBUG c.b.d.T.getTrainById - [debug,143] - <==      Total: 1
+14:39:32.261 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:39:32.271 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:39:51.885 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 16880 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:39:51.885 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:39:51.885 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:39:52.892 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:39:53.283 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:39:53.343 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:39:54.679 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.158 seconds (JVM running for 3.753)
+14:40:46.958 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:40:46.968 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:40:51.161 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 25964 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:40:51.161 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:40:51.161 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:40:52.191 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:41:11.718 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 9188 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:41:11.718 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:41:11.718 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:41:12.718 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:41:13.138 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:41:13.198 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:41:14.582 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.221 seconds (JVM running for 3.833)
+14:41:19.592 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:41:19.592 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:41:24.307 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 3928 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:41:24.307 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:41:24.317 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:41:25.308 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:41:25.698 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:41:25.757 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:41:27.087 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.13 seconds (JVM running for 3.769)
+14:43:00.588 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:43:00.598 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:43:05.472 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 26428 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:43:05.472 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:43:05.472 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:43:06.525 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:43:06.926 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:43:06.984 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:43:08.383 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.286 seconds (JVM running for 3.923)
+14:47:18.569 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:47:18.579 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:47:25.320 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 9404 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:47:25.320 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:47:25.320 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:47:26.320 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:47:26.719 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:47:26.779 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:47:28.121 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.16 seconds (JVM running for 3.774)
+14:51:16.205 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:51:16.214 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:51:58.340 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 10312 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:51:58.340 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:51:58.340 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:51:59.359 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:51:59.749 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:51:59.809 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:52:01.219 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.245 seconds (JVM running for 3.849)
+14:52:26.448 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:52:26.451 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:52:30.840 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 12700 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:52:30.848 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:52:30.850 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:52:31.858 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:52:32.256 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:52:32.326 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:52:33.666 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.211 seconds (JVM running for 3.818)
+14:54:44.698 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:54:44.701 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:57:04.807 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 8828 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:57:04.807 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:57:04.807 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:57:05.808 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:57:06.198 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:57:06.258 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:57:07.593 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.19 seconds (JVM running for 3.788)
+14:57:22.657 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+14:57:22.657 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+14:57:28.801 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 13088 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+14:57:28.801 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+14:57:28.811 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:57:29.797 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+14:57:30.208 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:57:30.268 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+14:57:31.640 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.193 seconds (JVM running for 3.853)
+15:01:23.950 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:01:23.950 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:01:28.981 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 11072 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:01:28.981 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:01:28.981 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:01:30.011 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:01:30.411 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:01:30.471 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:01:31.860 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.227 seconds (JVM running for 3.872)
+15:02:29.190 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:02:29.200 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:02:33.122 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 10820 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:02:33.122 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:02:33.122 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:02:34.154 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:02:34.564 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:02:34.614 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:02:35.947 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.178 seconds (JVM running for 3.789)
+15:05:26.182 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:05:26.185 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:15:00.665 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 14904 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:15:00.665 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:15:00.665 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:15:01.715 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:15:02.125 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:15:02.185 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:15:03.530 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.219 seconds (JVM running for 3.83)
+15:16:45.245 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:16:45.250 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:16:49.550 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 23232 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:16:49.550 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:16:49.550 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:16:50.566 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:16:50.956 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:16:51.016 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:16:52.361 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.181 seconds (JVM running for 3.767)
+15:17:29.553 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:17:29.563 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:26:10.544 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 9948 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:26:10.554 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:26:10.554 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:26:11.656 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:26:12.081 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:26:12.141 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:26:13.542 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.405 seconds (JVM running for 4.032)
+15:27:17.972 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:27:17.975 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:27:21.618 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 24228 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:27:21.618 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:27:21.618 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:27:22.669 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:27:23.065 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:27:23.121 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:27:24.502 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.254 seconds (JVM running for 3.848)
+15:27:36.550 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:27:36.560 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:31:51.022 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 19136 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:31:51.022 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:31:51.022 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:31:52.017 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:31:52.417 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:31:52.477 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:31:53.825 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.18 seconds (JVM running for 3.819)
+15:32:52.237 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:32:52.237 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:33:10.137 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 6024 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:33:10.137 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:33:10.137 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:33:11.147 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:33:11.541 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:33:11.597 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:33:12.926 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.136 seconds (JVM running for 3.736)
+15:35:02.700 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:35:02.704 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:35:09.441 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 14184 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:35:09.441 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:35:09.441 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:35:10.458 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:35:10.854 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:35:10.909 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:35:12.238 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.167 seconds (JVM running for 3.783)
+15:35:54.521 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:35:54.521 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:36:08.439 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 7668 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:36:08.441 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:36:08.442 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:36:09.452 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:36:09.857 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:36:09.914 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:36:11.252 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.174 seconds (JVM running for 3.769)
+15:36:47.482 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:36:47.485 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:40:40.770 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 15508 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:40:40.770 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:40:40.780 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:40:41.793 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:40:42.180 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:40:42.239 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:40:43.570 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.171 seconds (JVM running for 3.773)
+15:41:20.848 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:41:20.851 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:48:44.805 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 4452 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:48:44.807 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:48:44.808 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:48:45.862 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:48:46.257 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:48:46.317 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:48:47.715 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.276 seconds (JVM running for 3.886)
+15:48:51.720 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:48:51.720 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:48:57.962 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 19040 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:48:57.962 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:48:57.962 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:48:58.972 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:48:59.365 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:48:59.420 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:49:00.780 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.186 seconds (JVM running for 3.816)
+15:49:42.037 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:49:42.038 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:50:54.037 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 15496 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:50:54.047 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:50:54.047 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:50:55.084 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:50:55.532 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:50:55.592 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:50:56.970 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.312 seconds (JVM running for 4.085)
+15:51:05.110 [http-nio-8082-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: No Scope registered for scope name 'prototype '] with root cause
+java.lang.IllegalStateException: No Scope registered for scope name 'prototype '
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.web.method.HandlerMethod.createWithResolvedBean(HandlerMethod.java:336)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:368)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+15:51:05.184 [http-nio-8082-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: No Scope registered for scope name 'prototype '] with root cause
+java.lang.IllegalStateException: No Scope registered for scope name 'prototype '
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.web.method.HandlerMethod.createWithResolvedBean(HandlerMethod.java:336)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:368)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+15:51:05.336 [http-nio-8082-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: No Scope registered for scope name 'prototype '] with root cause
+java.lang.IllegalStateException: No Scope registered for scope name 'prototype '
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.web.method.HandlerMethod.createWithResolvedBean(HandlerMethod.java:336)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:368)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+15:51:05.476 [http-nio-8082-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: No Scope registered for scope name 'prototype '] with root cause
+java.lang.IllegalStateException: No Scope registered for scope name 'prototype '
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.web.method.HandlerMethod.createWithResolvedBean(HandlerMethod.java:336)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:368)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+15:51:05.653 [http-nio-8082-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: No Scope registered for scope name 'prototype '] with root cause
+java.lang.IllegalStateException: No Scope registered for scope name 'prototype '
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.web.method.HandlerMethod.createWithResolvedBean(HandlerMethod.java:336)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:368)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+15:51:05.840 [http-nio-8082-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: No Scope registered for scope name 'prototype '] with root cause
+java.lang.IllegalStateException: No Scope registered for scope name 'prototype '
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.web.method.HandlerMethod.createWithResolvedBean(HandlerMethod.java:336)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:368)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+15:51:18.659 [http-nio-8082-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: No Scope registered for scope name 'prototype '] with root cause
+java.lang.IllegalStateException: No Scope registered for scope name 'prototype '
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.web.method.HandlerMethod.createWithResolvedBean(HandlerMethod.java:336)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:368)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+15:51:54.271 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:51:54.281 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:52:07.150 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 24396 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:52:07.150 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:52:07.150 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:52:08.180 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:52:08.580 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:52:08.640 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:52:09.998 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.218 seconds (JVM running for 3.826)
+15:52:12.539 [http-nio-8082-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: No Scope registered for scope name 'prototype '] with root cause
+java.lang.IllegalStateException: No Scope registered for scope name 'prototype '
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.web.method.HandlerMethod.createWithResolvedBean(HandlerMethod.java:336)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:368)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+15:52:41.212 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:52:41.216 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:52:44.507 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 21672 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:52:44.509 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:52:44.509 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:52:45.551 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:52:45.977 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:52:46.038 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:52:47.574 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.44 seconds (JVM running for 4.046)
+15:52:51.617 [http-nio-8082-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'trainController': Injection of resource dependencies failed; nested exception is java.lang.IllegalStateException: No Scope registered for scope name 'prototype '] with root cause
+java.lang.IllegalStateException: No Scope registered for scope name 'prototype '
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:537)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:513)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:653)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:224)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:341)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.web.method.HandlerMethod.createWithResolvedBean(HandlerMethod.java:336)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:368)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+15:53:06.684 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:53:06.694 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:53:12.072 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 25684 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:53:12.072 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:53:12.072 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:53:13.102 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:53:13.502 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:53:13.562 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:53:14.912 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.225 seconds (JVM running for 3.829)
+15:54:54.532 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:54:54.532 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:54:59.851 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 14888 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:54:59.851 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:54:59.851 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:55:00.851 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:55:01.241 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:55:01.301 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:55:02.640 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.154 seconds (JVM running for 3.761)
+15:55:35.831 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:55:35.843 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:55:39.388 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 4112 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:55:39.388 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:55:39.388 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:55:40.414 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:55:40.832 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:55:40.894 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:55:42.319 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.287 seconds (JVM running for 3.955)
+15:56:42.656 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:56:42.656 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:56:54.048 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 22244 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:56:54.058 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:56:54.058 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:56:55.048 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:56:55.438 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:56:55.498 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:56:56.836 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.138 seconds (JVM running for 3.741)
+15:59:36.026 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:59:36.026 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:59:40.168 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 12836 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:59:40.170 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:59:40.171 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:59:41.183 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+15:59:41.579 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:59:41.634 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+15:59:42.964 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.175 seconds (JVM running for 3.798)
+15:59:54.024 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+15:59:54.024 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+15:59:58.984 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 14916 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+15:59:58.986 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+15:59:58.986 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:00:00.038 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:00:00.458 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:00:00.508 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:00:01.856 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.244 seconds (JVM running for 3.867)
+16:01:32.415 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:01:32.418 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:01:39.250 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 12452 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:01:39.250 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:01:39.250 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:01:40.290 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:01:40.680 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:01:40.740 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:01:42.081 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.195 seconds (JVM running for 3.825)
+16:04:16.154 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:04:16.166 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:04:23.009 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 12560 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:04:23.011 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:04:23.012 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:04:24.031 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:04:24.421 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:04:24.481 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:04:25.891 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.255 seconds (JVM running for 3.925)
+16:05:03.151 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:05:03.151 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:09:22.277 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 23840 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:09:22.277 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:09:22.277 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:09:23.381 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:09:23.782 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:09:23.842 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:09:25.202 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.287 seconds (JVM running for 3.911)
+16:10:06.412 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:10:06.412 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:35:22.994 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 15188 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:35:22.996 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:35:22.996 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:35:24.012 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:35:24.463 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:35:24.523 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:35:25.985 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.351 seconds (JVM running for 3.985)
+16:35:34.065 [http-nio-8082-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/sboot] threw exception [Request processing failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'trainController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.baizhi.util.HHzTest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}] with root cause
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.baizhi.util.HHzTest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:537)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:513)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:653)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:224)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:341)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.web.method.HandlerMethod.createWithResolvedBean(HandlerMethod.java:336)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:368)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+16:37:09.481 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:37:09.491 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:37:12.771 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 6548 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:37:12.781 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:37:12.781 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:37:13.830 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:37:14.241 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:37:14.301 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:37:15.631 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.215 seconds (JVM running for 3.874)
+16:37:45.812 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:37:45.822 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:37:49.598 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 22868 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:37:49.598 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:37:49.598 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:37:50.608 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:37:50.998 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:37:51.058 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:37:52.378 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.148 seconds (JVM running for 3.752)
+16:38:18.532 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:38:18.542 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:38:26.277 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 19488 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:38:26.286 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:38:26.286 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:38:27.327 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:38:27.727 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:38:27.787 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:38:29.157 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.227 seconds (JVM running for 3.848)
+16:38:58.265 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:38:58.265 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:39:02.516 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 19996 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:39:02.516 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:39:02.516 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:39:03.550 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:39:03.940 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:39:04.000 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:39:05.338 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.2 seconds (JVM running for 3.836)
+16:39:58.668 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:39:58.668 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:40:39.662 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 17472 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:40:39.672 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:40:39.672 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:40:40.672 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:40:41.074 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:40:41.134 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:40:42.512 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.215 seconds (JVM running for 3.819)
+16:42:08.942 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:42:08.952 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:42:12.900 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 21252 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:42:12.902 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:42:12.902 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:42:13.907 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:42:14.297 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:42:14.357 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:42:15.719 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.181 seconds (JVM running for 3.835)
+16:43:09.933 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 19756 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:43:09.933 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:43:09.933 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:43:10.942 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:43:11.332 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:43:11.392 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:43:12.709 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.133 seconds (JVM running for 3.733)
+16:43:58.982 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:43:58.992 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+16:45:14.335 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 24556 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+16:45:14.335 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+16:45:14.335 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:45:15.394 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+16:45:15.807 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:45:15.862 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+16:45:17.296 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.356 seconds (JVM running for 3.973)
+16:45:54.491 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+16:45:54.501 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:11:52.592 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 19904 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:11:52.592 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+17:11:52.592 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:11:53.701 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+17:11:54.133 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:11:54.183 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:11:55.541 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.337 seconds (JVM running for 3.976)
+17:12:59.881 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:12:59.895 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:13:04.762 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 17708 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:13:04.772 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+17:13:04.772 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:13:05.792 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+17:13:06.182 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:13:06.242 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:13:07.597 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.193 seconds (JVM running for 3.803)
+17:13:37.767 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:13:37.777 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:13:42.628 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 9452 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:13:42.628 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+17:13:42.628 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:13:43.663 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+17:13:44.071 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:13:44.127 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:13:45.471 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.234 seconds (JVM running for 3.827)
+17:14:00.532 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:14:00.532 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:14:04.299 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 19268 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:14:04.299 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+17:14:04.299 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:14:05.319 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+17:14:05.719 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:14:05.779 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:14:07.088 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.149 seconds (JVM running for 3.769)
+17:14:33.286 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:14:33.296 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed
+17:14:41.411 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 14292 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:14:41.411 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+17:14:41.411 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:14:46.210 [main] INFO  c.baizhi.Application - [logStarting,55] - Starting Application on LAPTOP-S46RK93L with PID 6956 (D:\sboot\sboot\target\classes started by hhz in D:\sboot\sboot)
+17:14:46.210 [main] DEBUG c.baizhi.Application - [logStarting,56] - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+17:14:46.210 [main] INFO  c.baizhi.Application - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:14:47.270 [main] DEBUG r.u.Loggers$LoggerFactory - [debug,249] - Using Slf4j logging framework
+17:14:47.680 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:14:47.730 [main] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+17:14:49.070 [main] INFO  c.baizhi.Application - [logStarted,61] - Started Application in 3.231 seconds (JVM running for 3.86)
+17:15:22.251 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2003] - {dataSource-1} closing ...
+17:15:22.251 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2075] - {dataSource-1} closed

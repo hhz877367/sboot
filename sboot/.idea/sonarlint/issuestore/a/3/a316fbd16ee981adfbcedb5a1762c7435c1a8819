@@ -1,0 +1,84 @@
+
+Q
+java:S1144û".Remove this unused private "sumSource" method.(ïÅÜ†ùÿÿÿÿ8Í±à­˜0
+I
+java:S1075ø"&Remove this hard-coded path-delimiter.(‘ÑÅ”şÿÿÿÿ8Í±à­˜0
+n
+java:S1192Á"KDefine a constant instead of duplicating this literal "${upScore}" 5 times.(Ú¥øıÿÿÿÿ8Í±à­˜0
+s
+java:S1192Ğ"PDefine a constant instead of duplicating this literal "ä¸ åŠ æ ¼â–¡
+" 6 times.(³âçêúÿÿÿÿ8Í±à­˜0
+^
+java:S10754"ARefactor your code to get this URI from a customizable parameter.(®¿Ü8š³¸­˜0
+j
+java:S1192¯"LDefine a constant instead of duplicating this literal "${userType}" 3 times.(Ìœ¨†8Í±à­˜0
+q
+java:S1192Ü"NDefine a constant instead of duplicating this literal "${snakeScore}" 3 times.(À–âœøÿÿÿÿ8Í±à­˜0
+h
+java:S1192š"JDefine a constant instead of duplicating this literal "${status}" 5 times.(Úö“Ú8Í±à­˜0
+T	java:S106F"9Replace this use of System.out or System.err by a logger.(¶Íı38Àëë®˜0
+m
+java:S1192á"JDefine a constant instead of duplicating this literal "åˆ†/  ç§’" 4 times.(¡ôİùÿÿÿÿ8Í±à­˜0
+o
+java:S1192Ì"LDefine a constant instead of duplicating this literal "è‰¯ å¥½â–¡
+" 7 times.(Ş±‚îüÿÿÿÿ8Í±à­˜0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ü¦ß¸üÿÿÿÿ
+a
+java:S2259•"CA "NullPointerException" could be thrown; "fopts" is nullable here.(ã²ßƒ8ß®ê®˜0
+p
+java:S1871›"MThis branch's code block is the same as the block for the branch on line 152.(˜õÖ™üÿÿÿÿ8Í±à­˜0
+o
+java:S1192Ì"LDefine a constant instead of duplicating this literal "åŠ æ ¼â–¡
+" 7 times.(Ş±‚îüÿÿÿÿ8Í±à­˜0
+o
+java:S1192Ì"LDefine a constant instead of duplicating this literal "ç‰¹2çº§â–¡
+" 7 times.(Ş±‚îüÿÿÿÿ8Í±à­˜0
+q
+java:S1192¾"NDefine a constant instead of duplicating this literal "${pushUpNum}" 12 times.(‰ä‘ùÿÿÿÿ8Í±à­˜0
+I
+java:S1075€"&Remove this hard-coded path-delimiter.(›“öòûÿÿÿÿ8Í±à­˜0
+m
+java:S1192Á"JDefine a constant instead of duplicating this literal "åˆ†æ•°: 0" 4 times.(Ú¥øıÿÿÿÿ8Í±à­˜0
+n
+java:S1192 "PDefine a constant instead of duplicating this literal "${threeKmScore}" 3 times.(áƒˆ8Í±à­˜0
+n	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ–¨8Í±à­˜0
+s	java:S117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€“”Üıÿÿÿÿ8Í±à­˜0
+W
+java:S2130Ş"9Use "Integer.parseInt" for this string-to-int conversion.(ıÂ¡8Í±à­˜0
+o
+java:S1192Ì"LDefine a constant instead of duplicating this literal "ç‰¹1çº§â–¡
+" 7 times.(Ş±‚îüÿÿÿÿ8š³¸­˜0
+o
+java:S1192Ì"LDefine a constant instead of duplicating this literal "ä¼˜ ç§€â–¡
+" 7 times.(Ş±‚îüÿÿÿÿ8Í±à­˜0
+p
+java:S1871ÿ"MThis branch's code block is the same as the block for the branch on line 637.(™Üøùÿÿÿÿ8Í±à­˜0
+l
+java:S1192Æ"IDefine a constant instead of duplicating this literal "${snake}" 3 times.(­öãàúÿÿÿÿ8Í±à­˜0
+`
+java:S1128"CRemove this unused import 'org.springframework.stereotype.Service'.(¼º¡Ú8”·ÿ­˜0
+o
+java:S1192Ì"LDefine a constant instead of duplicating this literal "ç‰¹3çº§â–¡
+" 7 times.(Ş±‚îüÿÿÿÿ8Í±à­˜0
+j
+java:S1192ı"LDefine a constant instead of duplicating this literal "${sitUpNum}" 3 times.(›øĞ¤8Í±à­˜0
+z	java:S135C"YReduce the total number of break and continue statements in this loop to use at most one.(òÃÌÂûÿÿÿÿ8Í±à­˜0
+V
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8Åùû¦˜0
+l
+java:S1128"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›8Ãå½§˜0
+S
+java:S1128"6Remove this unused import 'lombok.extern.slf4j.Slf4j'.(ûúÄ®8°Ÿ®˜0
+K
+java:S1144"-Remove this unused private "getIndex" method.(ÔÙ”´8Í±à­˜0
+O
+java:S1481ô",Remove this unused "outPath" local variable.(Õ“Ëúÿÿÿÿ8Í±à­˜0
+q
+java:S1192ÿ"NDefine a constant instead of duplicating this literal "${sitUpScore}" 3 times.(Éñ˜†şÿÿÿÿ8Í±à­˜0
+g
+java:S1192¼"JDefine a constant instead of duplicating this literal "${upNum}" 12 times.(òÃöM8Í±à­˜0
+r
+java:S1192Ÿ"ODefine a constant instead of duplicating this literal "${threeKmTime}" 3 times.(¥±õüÿÿÿÿ8Í±à­˜0
+g
+java:S1192Ë"IDefine a constant instead of duplicating this literal "${level}" 8 times.(Ë˜Îœ8Í±à­˜0
+n	java:S117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ–¨8Í±à­˜0
