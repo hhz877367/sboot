@@ -1,6 +1,8 @@
 package com.baizhi.entity;
 
 import java.io.Serializable;
+import java.util.List;
+
 import lombok.Data;
 import org.springframework.stereotype.Component;
 
@@ -10,6 +12,8 @@ public class Person implements Serializable {
   private String name;
   private String id;
   private Integer age;
+  private List<Person> list;
+  private Integer listZize;
 
   public Person(String name, String id, Integer age) {
     this.name = name;

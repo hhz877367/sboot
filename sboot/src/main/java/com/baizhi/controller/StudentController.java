@@ -1,73 +1,143 @@
 package com.baizhi.controller;
 
 import com.baizhi.constant.AjaxResult;
+import com.baizhi.entity.GtCollect;
 import com.baizhi.entity.Person;
 import com.baizhi.entity.Student;
+import com.baizhi.entity.Train;
 import com.baizhi.service.StudentService;
-import com.baizhi.util.Utils;
-import java.util.Date;
+
 import javax.annotation.Resource;
 
+import com.baizhi.springLisiter.HHZLisiterObject;
+import com.baizhi.xxjob.TestComponentScan;
+import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
+import org.springframework.context.ApplicationEvent;
+import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.context.request.RequestAttributes;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
 
-import java.util.List;
+import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 @RestController
-public class StudentController {
-  @Resource
-  private StudentService studentService;
+@EnableScheduling
+public class StudentController extends BaseController implements ApplicationContextAware {
+  private int j=0;
 
+  private ApplicationContext applicationContext;
+
+  @Resource
+  private TestComponentScan testComponentScan;
+
+  @Autowired
+  private  List<StudentService> StudentService2;
+
+  @Autowired
+  private Map<String,StudentService> StudentService3;
+
+
+  @Resource
+  private  StudentService studentService;
   @Resource
   RedisTemplate redisTemplate;
 
+  private HashMap<String,String> map=new HashMap<String,String>();
 
+  @Autowired
+  private  ApplicationEventPublisher applicationEventPublisher;
 
   @GetMapping("/selectStudnrtAll")
   //http://localhost:8082/sboot/selectStudnrtAll user 123
-  public AjaxResult selectStudnrtAll(){
+  @Page
+  public AjaxResult selectStudnrtAll(Integer pageNum,Integer pageSize){
     List<Student> students = studentService.selectAll();
-    int sum=1;
-    int sumIndex=0;
-    Long date1 = new Date().getTime();
-    int x=0;
-    for(int i=1;i<1000;i++){
-      for(int j=1;j<1000;j++){
-        x++;
-        if(x%10000==0){
-          System.out.println("执行了"+x/10000+"万次");
-          System.out.println(Utils.getStringDateByForm(new Date()));
-        }
-        if(sum>323232112){
-          sum=1;
-          sumIndex++;
-          List<Student> students2 = studentService.selectAll();
-        }else if(sum<323232112){
-          List<Student> students2 = studentService.selectAll();
-          sum=sum+j;
-        }
-      }
-    }
-    Long date2 = new Date().getTime();
-    System.out.println("循环了"+x+"次");
-    System.out.println(sumIndex);
-    System.out.println(sum);
-    long time=date2-date1;
-    System.out.println("消耗了"+time+"毫秒");
-
-    return AjaxResult.success(students);
+    return  AjaxResult.success(students);
   }
+
+
+  @GetMapping("/insertStu")
+  public AjaxResult insertStu(){
+      Student student = new Student();
+      student.setSname("张三"+1);
+      student.setAge("100"+1);
+      studentService.insert(student);
+    return AjaxResult.success("插入成功");
+  }
+
 
   @GetMapping("/addRedis")
   public  AjaxResult addRedis(){
-    Person person = new Person();
-    person.setAge(11);
-    person.setName("zs");
-    person.setId("11");
-    redisTemplate.opsForValue().set("gmz-screen:2",person);
+    for( j=0;j<1000;j++){
+      new Thread(()->{
+        try {
+          Thread.sleep(10);
+        } catch (InterruptedException e) {
+          e.printStackTrace();
+        }
+        int threadname=j;
+        for(int i=0;i<1000;i++){
+          try {
+            Thread.sleep(10);
+          } catch (InterruptedException e) {
+            e.printStackTrace();
+          }
+          Object o = redisTemplate.opsForValue().get("trainusering:"+Thread.currentThread().getName());
+          if(o==null){
+            GtCollect person = new GtCollect();
+            person.setHeartbeat(11);
+            person.setImei("zs");
+            person.setType(11);
+            List<GtCollect> list = new ArrayList<>();
+            person.setList(list);
+            System.out.println("这里需要在查依次数据库");
+            redisTemplate.opsForValue().setIfAbsent("trainusering:"+Thread.currentThread().getName(),person,1000, TimeUnit.SECONDS);
+          }else {
+            GtCollect person = (GtCollect)o;
+            person.setType(i);
+            List<GtCollect> list = person.getList();
+            GtCollect personing = new GtCollect();
+            personing.setHeartbeat(new Random().nextInt(100));
+            list.add(personing);
+            person.setListsize(list.size());
+            redisTemplate.opsForValue().set("trainusering:"+Thread.currentThread().getName(),person);
+          }
+        }
+
+      }).start();
+    }
 
 
     return AjaxResult.success("操作成功");
+  }
+
+  @GetMapping("/getRedisByPerson")
+  public AjaxResult getRedisByPerson(){
+    long l = System.currentTimeMillis();
+    Map<String,String> map=new HashMap<>();
+      Set keys = redisTemplate.keys("trainusering*");
+      for (Object key : keys) {
+        Person person =(Person) redisTemplate.opsForValue().get(key);
+        List<Person> list = person.getList();
+        int sum=0;
+        for (Person person1 : list) {
+          sum=sum+person1.getAge();
+        }
+        String result=sum+"";
+        map.put(key.toString(),result);
+      }
+    long l1 = System.currentTimeMillis();
+    System.out.println("進入方法"+(l1-l));
+    return AjaxResult.success(map);
   }
 
   @GetMapping("/getRedis/{id}")
@@ -80,6 +150,24 @@ public class StudentController {
     System.out.println("進入方法");
     return AjaxResult.success(result);
   }
+  @GetMapping("/selectGtCollect")
+  public  AjaxResult selectAll(int curPage,int pageSize ){
+    List<GtCollect> gtCollects = studentService.selectGtCollect(curPage, pageSize);
+    return AjaxResult.success(gtCollects);
+  }
+
+
+  @GetMapping("/setCountThread")
+  public  AjaxResult setCountThread(){
+    studentService.setCountThread();
+    return AjaxResult.success("修改成功");
+  }
+
+  @Override
+  public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+    this.applicationContext=applicationContext;
+  }
+
 
 
     /* @GetMapping("/user")

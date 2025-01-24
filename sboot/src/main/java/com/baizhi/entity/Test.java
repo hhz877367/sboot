@@ -34,17 +34,18 @@ public class Test {
     //不带声调
     format.setToneType(HanyuPinyinToneType.WITHOUT_TONE);
     //要转换的中文，格式，转换之后的拼音的分隔符，遇到不能转换的是否保留   wo,shi,zhong,guo,ren,，hello
-    String string = null;
+    String string ;
       string = PinyinHelper.toHanYuPinyinString(name, format, "", true);
-      int a=1/0;
+
 
     return string;
   }
 
   public static List<String> addList(){
     List<String> nameList=new ArrayList();
-    nameList.add("爱贝 母婴店 莉莉15037125967");
-    nameList.add("阿里巴巴");
+
+    nameList.add("张三a");
+    nameList.add("张三A");
     nameList.add("A_");
     nameList.add("A!");
     nameList.add("AAAAA");
@@ -56,8 +57,7 @@ public class Test {
     nameList.add("阿彪");
     nameList.add("A抖音商家服务中心");
     nameList.add("Angel@李甜甜");
-    nameList.add("安硕信息（金融）16到18  周二");
-    nameList.add("傲娇的奥特曼");
+
     nameList.add("A王帅|知舟|抖音 | 京东天猫服务商");
     nameList.add("A_ 『小妍』");
     nameList.add("a智轩水行18739953939");
@@ -83,7 +83,7 @@ public class Test {
    *        (三) 字符串为特殊字符  特殊字符
    *             (1) 则直接按照hashcode排序即可  当出现不同时，返回，相同则回到2继续比
    *     3 当出现不同的英文字目时，按照英文字母的Hash值进行排序
-   *  二 外层调用 一，返回结果为 1  2, 1 代表位置交换 ， 2 代表不交互位置
+   *  二 外层调用 一，返回结果为 , true 代表位置交换 ， false 代表不交互位置
    * */
   public static boolean comperNamebyHashCode(String firstName,String  secondName)
       throws BadHanyuPinyinOutputFormatCombination {
@@ -97,22 +97,41 @@ public class Test {
     }
 
     //取其中长度最小的用于做比较的循环下标，避免数组比较越界
-    Integer mixIndex=(firstName.length()>=secondName.length())?secondName.length():firstName.length();
+    Integer mixIndex=(SName1.length()>=SName2.length())?SName2.length():SName1.length();
     for(int i=0;i<mixIndex;i++){
       String s1 = SName1.substring(i, i + 1);
       String s2 = SName2.substring(i, i + 1);
       Integer hashCode1=s1.hashCode();
       Integer hashCode2=s2.hashCode();
+      //用于标识 hashCode1和hashCode2是否进行hashCode+32标识
+      boolean hashCode1Flag=false;
+      boolean hashCode2Flag=false;
       //s1 s2 全为 字母情况
       if(((hashCode1>=65 && hashCode1<=90) || (hashCode1>=97&& hashCode1<=122)) &&
           ((hashCode2>=65 && hashCode2<=90) || (hashCode2>=97&& hashCode2<=122))){
         //把 A-Z 的hashCode 扩大32 ，为了避免出现 B 和 a比出现B排上面的情况。
-        hashCode1=(hashCode1<=90)?hashCode1+32:hashCode1;
-        hashCode2=(hashCode2<=90)?hashCode2+32:hashCode2;
+        if(hashCode1<=90){
+          hashCode1=hashCode1+32;
+          hashCode1Flag=true;
+        }
+        if(hashCode2<=90){
+          hashCode2=hashCode2+32;
+          hashCode2Flag=true;
+        }
         if(hashCode1>hashCode2){
           return true;
         }else if(hashCode1<hashCode2){
           return false;
+        }else {
+          //hashCode 相等的情况，为张三A 和张三a 这种情况,需要把张三A放在上面
+          //还原hashCode的值
+          hashCode1=hashCode1Flag?hashCode1-32:hashCode1;
+          hashCode2=hashCode2Flag?hashCode2-32:hashCode2;
+          if(hashCode1>hashCode2){
+            return true;
+          }else if(hashCode1<hashCode2){
+            return false;
+          }
         }
       }else if((hashCode1<65||hashCode1>122 ||(hashCode1>90 && hashCode1<97))&&
           (hashCode2<65||hashCode2>122 ||(hashCode2>90 && hashCode2<97))) {

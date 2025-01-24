@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!-- namespace的属性:指实现接口的全限定性名 -->
+<mapper namespace="com.baizhi.dao.TrainDao">
+	<resultMap id="train" type="com.baizhi.entity.Train">
+			<result column="train_id"	property="trainId" />
+			<result column="start_time"	property="localDate"/>
+	</resultMap>
+
+
+	<select id="getTrainById"  resultMap="train">
+		select train_id,start_time  from gt_train where train_id = #{id}
+	</select>
+
+
+		<insert id="insertTrain" parameterType="com.baizhi.entity.Train" useGeneratedKeys="true" keyProperty="trainId">
+			 INSERT INTO gt_train (train_id, project,start_time,end_time) VALUES(#{trainId}, #{project},#{startTime},#{endTime})
+		 </insert>
+
+</mapper>
