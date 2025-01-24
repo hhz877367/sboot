@@ -90,15 +90,15 @@ spring:
   jackson:
     date-format: yyyy-MM-dd
     time-zone: GMT+8
-  redis:
-    host: 127.0.0.1
-    port: 6379
-    timeout: 20000
-    database: 5
-    expireTime: 129600
-    jedis:
-      pool:
-        max-active: 8
+    # redis:
+    # host: 127.0.0.1
+    #port: 6379
+    #timeout: 20000
+    #database: 5
+    #expireTime: 129600
+      #jedis:
+      #pool:
+    # max-active: 8
 
 
 
