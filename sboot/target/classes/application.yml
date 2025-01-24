@@ -22,7 +22,7 @@ server:
 #配置数据库的连接信息
 spring:
 #  kafka:
-#    bootstrap-servers: 127.0.0.1:9092
+#    bootstrap-servers: 192.168.10.33:9092
 #    producer: # 生产者
 #      retries: 3 # 设置大于0的值，则客户端会将发送失败的记录重新发送
 #      batch-size: 16384
@@ -55,34 +55,35 @@ spring:
 #      ack-mode: MANUAL_IMMEDIATE
 
 
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
-    virtual-host: /
-    publisher-returns: true
-    publisher-confirm-type: correlated
-    template:
-      mandatory: true
-    listener:
-      simple:
-        acknowledge-mode: manual
-        prefetch: 1
-        retry:
-          max-attempts: 3
-          enabled: true
-          initial-interval: 2000
-      direct:
-        acknowledge-mode: manual
 
-  cache:
-    redis:
-      time-to-live: 3000
-      cache-null-values: true
+  # rabbitmq:
+  # host: localhost
+  # port: 5672
+  # username: guest
+  # password: guest
+  # virtual-host: /
+  # publisher-returns: true
+  # publisher-confirm-type: correlated
+  # template:
+  #   mandatory: true
+  # listener:
+  #   simple:
+  #     acknowledge-mode: manual
+  #     prefetch: 1
+  #     retry:
+  #       max-attempts: 3
+  #       enabled: true
+  #       initial-interval: 2000
+  #   direct:
+  #     acknowledge-mode: manual
+
+  #cache:
+  # redis:
+  #   time-to-live: 3000
+  ##   cache-null-values: true
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://127.0.0.1:3306/stu?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    url: jdbc:mysql://127.0.0.1:3306/mhxy?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
     username: root
     password: 123456
     driverClassName: com.mysql.cj.jdbc.Driver
@@ -105,6 +106,4 @@ spring:
 mybatis-plus:
   type-aliases-package: com.baizhi.entity
   mapper-locations: classpath*:com/baizhi/dao/*.xml
-#logging:
-#  level:
-#    org.apache.kafka.clients.consumer.internals.ConsumerCoordinator: ERROR
+

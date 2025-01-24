@@ -3,8 +3,7 @@
 <!-- namespace的属性:指实现接口的全限定性名 -->
 <mapper namespace="com.baizhi.dao.StudentDao">
     <resultMap id="Student" type="com.baizhi.entity.Student">
-        <result column="id" property="id"/>
-        <result column="sname" property="sname"/>
+        <result column="s_name" property="sname"/>
         <result column="age" property="age"/>
         <result column="score" property="score"/>
         <result column="birth" javaType="java.util.Date" property="birth"/>
@@ -20,7 +19,7 @@
 
 
     <select id="selectAll" resultMap="Student">
-		select id,sname,age,score,birth from student
+		select sname,age,score,birth from student
 	</select>
     <insert id="inserCopy">
 		INSERT INTO gt_action_propose ( action_propose ) SELECT
